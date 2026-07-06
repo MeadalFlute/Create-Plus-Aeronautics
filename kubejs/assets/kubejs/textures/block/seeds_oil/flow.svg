@@ -1,0 +1,287 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="480" viewBox="0 0 32 480">
+  <!-- 帧1（y=0-31） -->
+  <rect x="0" y="0" width="32" height="32" fill="#5A4A1F"/>
+  <rect x="4" y="2" width="4" height="1" fill="#F2E5B0"/>
+  <rect x="19" y="2" width="3" height="1" fill="#E8D5A0"/>
+  <rect x="11" y="5" width="5" height="1" fill="#F2E5B0"/>
+  <rect x="1" y="8" width="3" height="1" fill="#E8D5A0"/>
+  <rect x="17" y="8" width="4" height="1" fill="#F2E5B0"/>
+  <rect x="9" y="11" width="6" height="1" fill="#E8D5A0"/>
+  <rect x="24" y="11" width="3" height="1" fill="#F2E5B0"/>
+  <rect x="6" y="14" width="4" height="1" fill="#F2E5B0"/>
+  <rect x="14" y="17" width="5" height="1" fill="#E8D5A0"/>
+  <rect x="25" y="17" width="3" height="1" fill="#F2E5B0"/>
+  <rect x="2" y="20" width="3" height="1" fill="#F2E5B0"/>
+  <rect x="18" y="20" width="4" height="1" fill="#E8D5A0"/>
+  <rect x="10" y="23" width="6" height="1" fill="#F2E5B0"/>
+  <rect x="7" y="26" width="4" height="1" fill="#E8D5A0"/>
+  <rect x="21" y="26" width="3" height="1" fill="#F2E5B0"/>
+  <rect x="13" y="29" width="5" height="1" fill="#F2E5B0"/>
+  
+  <!-- 帧2（y=32-63）：条纹整体右移1px -->
+  <rect x="0" y="32" width="32" height="32" fill="#5A4A1F"/>
+  <rect x="5" y="34" width="4" height="1" fill="#F2E5B0"/>
+  <rect x="20" y="34" width="3" height="1" fill="#E8D5A0"/>
+  <rect x="12" y="37" width="5" height="1" fill="#F2E5B0"/>
+  <rect x="2" y="40" width="3" height="1" fill="#E8D5A0"/>
+  <rect x="18" y="40" width="4" height="1" fill="#F2E5B0"/>
+  <rect x="10" y="43" width="6" height="1" fill="#E8D5A0"/>
+  <rect x="25" y="43" width="3" height="1" fill="#F2E5B0"/>
+  <rect x="7" y="46" width="4" height="1" fill="#F2E5B0"/>
+  <rect x="15" y="49" width="5" height="1" fill="#E8D5A0"/>
+  <rect x="26" y="49" width="3" height="1" fill="#F2E5B0"/>
+  <rect x="3" y="52" width="3" height="1" fill="#F2E5B0"/>
+  <rect x="19" y="52" width="4" height="1" fill="#E8D5A0"/>
+  <rect x="11" y="55" width="6" height="1" fill="#F2E5B0"/>
+  <rect x="8" y="58" width="4" height="1" fill="#E8D5A0"/>
+  <rect x="22" y="58" width="3" height="1" fill="#F2E5B0"/>
+  <rect x="14" y="61" width="5" height="1" fill="#F2E5B0"/>
+  
+  <!-- 帧3（y=64-95）：条纹整体右移1px -->
+  <rect x="0" y="64" width="32" height="32" fill="#5A4A1F"/>
+  <rect x="6" y="66" width="4" height="1" fill="#F2E5B0"/>
+  <rect x="21" y="66" width="3" height="1" fill="#E8D5A0"/>
+  <rect x="13" y="69" width="5" height="1" fill="#F2E5B0"/>
+  <rect x="3" y="72" width="3" height="1" fill="#E8D5A0"/>
+  <rect x="19" y="72" width="4" height="1" fill="#F2E5B0"/>
+  <rect x="11" y="75" width="6" height="1" fill="#E8D5A0"/>
+  <rect x="26" y="75" width="3" height="1" fill="#F2E5B0"/>
+  <rect x="8" y="78" width="4" height="1" fill="#F2E5B0"/>
+  <rect x="16" y="81" width="5" height="1" fill="#E8D5A0"/>
+  <rect x="27" y="81" width="3" height="1" fill="#F2E5B0"/>
+  <rect x="4" y="84" width="3" height="1" fill="#F2E5B0"/>
+  <rect x="20" y="84" width="4" height="1" fill="#E8D5A0"/>
+  <rect x="12" y="87" width="6" height="1" fill="#F2E5B0"/>
+  <rect x="9" y="90" width="4" height="1" fill="#E8D5A0"/>
+  <rect x="23" y="90" width="3" height="1" fill="#F2E5B0"/>
+  <rect x="15" y="93" width="5" height="1" fill="#F2E5B0"/>
+  
+  <!-- 帧4（y=96-127）：条纹整体右移1px -->
+  <rect x="0" y="96" width="32" height="32" fill="#5A4A1F"/>
+  <rect x="7" y="98" width="4" height="1" fill="#F2E5B0"/>
+  <rect x="22" y="98" width="3" height="1" fill="#E8D5A0"/>
+  <rect x="14" y="101" width="5" height="1" fill="#F2E5B0"/>
+  <rect x="4" y="104" width="3" height="1" fill="#E8D5A0"/>
+  <rect x="20" y="104" width="4" height="1" fill="#F2E5B0"/>
+  <rect x="12" y="107" width="6" height="1" fill="#E8D5A0"/>
+  <rect x="27" y="107" width="3" height="1" fill="#F2E5B0"/>
+  <rect x="9" y="110" width="4" height="1" fill="#F2E5B0"/>
+  <rect x="17" y="113" width="5" height="1" fill="#E8D5A0"/>
+  <rect x="28" y="113" width="3" height="1" fill="#F2E5B0"/>
+  <rect x="5" y="116" width="3" height="1" fill="#F2E5B0"/>
+  <rect x="21" y="116" width="4" height="1" fill="#E8D5A0"/>
+  <rect x="13" y="119" width="6" height="1" fill="#F2E5B0"/>
+  <rect x="10" y="122" width="4" height="1" fill="#E8D5A0"/>
+  <rect x="24" y="122" width="3" height="1" fill="#F2E5B0"/>
+  <rect x="16" y="125" width="5" height="1" fill="#F2E5B0"/>
+  
+  <!-- 帧5（y=128-159）：条纹整体右移1px -->
+  <rect x="0" y="128" width="32" height="32" fill="#5A4A1F"/>
+  <rect x="8" y="130" width="4" height="1" fill="#F2E5B0"/>
+  <rect x="23" y="130" width="3" height="1" fill="#E8D5A0"/>
+  <rect x="15" y="133" width="5" height="1" fill="#F2E5B0"/>
+  <rect x="5" y="136" width="3" height="1" fill="#E8D5A0"/>
+  <rect x="21" y="136" width="4" height="1" fill="#F2E5B0"/>
+  <rect x="13" y="139" width="6" height="1" fill="#E8D5A0"/>
+  <rect x="28" y="139" width="3" height="1" fill="#F2E5B0"/>
+  <rect x="10" y="142" width="4" height="1" fill="#F2E5B0"/>
+  <rect x="18" y="145" width="5" height="1" fill="#E8D5A0"/>
+  <rect x="29" y="145" width="3" height="1" fill="#F2E5B0"/>
+  <rect x="6" y="148" width="3" height="1" fill="#F2E5B0"/>
+  <rect x="22" y="148" width="4" height="1" fill="#E8D5A0"/>
+  <rect x="14" y="151" width="6" height="1" fill="#F2E5B0"/>
+  <rect x="11" y="154" width="4" height="1" fill="#E8D5A0"/>
+  <rect x="25" y="154" width="3" height="1" fill="#F2E5B0"/>
+  <rect x="17" y="157" width="5" height="1" fill="#F2E5B0"/>
+  
+  <!-- 帧6（y=160-191）：条纹整体右移1px -->
+  <rect x="0" y="160" width="32" height="32" fill="#5A4A1F"/>
+  <rect x="9" y="162" width="4" height="1" fill="#F2E5B0"/>
+  <rect x="24" y="162" width="3" height="1" fill="#E8D5A0"/>
+  <rect x="16" y="165" width="5" height="1" fill="#F2E5B0"/>
+  <rect x="6" y="168" width="3" height="1" fill="#E8D5A0"/>
+  <rect x="22" y="168" width="4" height="1" fill="#F2E5B0"/>
+  <rect x="14" y="171" width="6" height="1" fill="#E8D5A0"/>
+  <rect x="29" y="171" width="3" height="1" fill="#F2E5B0"/>
+  <rect x="11" y="174" width="4" height="1" fill="#F2E5B0"/>
+  <rect x="19" y="177" width="5" height="1" fill="#E8D5A0"/>
+  <rect x="30" y="177" width="2" height="1" fill="#F2E5B0"/>
+  <rect x="7" y="180" width="3" height="1" fill="#F2E5B0"/>
+  <rect x="23" y="180" width="4" height="1" fill="#E8D5A0"/>
+  <rect x="15" y="183" width="6" height="1" fill="#F2E5B0"/>
+  <rect x="12" y="186" width="4" height="1" fill="#E8D5A0"/>
+  <rect x="26" y="186" width="3" height="1" fill="#F2E5B0"/>
+  <rect x="18" y="189" width="5" height="1" fill="#F2E5B0"/>
+  
+  <!-- 帧7（y=192-223）：条纹整体右移1px -->
+  <rect x="0" y="192" width="32" height="32" fill="#5A4A1F"/>
+  <rect x="10" y="194" width="4" height="1" fill="#F2E5B0"/>
+  <rect x="25" y="194" width="3" height="1" fill="#E8D5A0"/>
+  <rect x="17" y="197" width="5" height="1" fill="#F2E5B0"/>
+  <rect x="7" y="200" width="3" height="1" fill="#E8D5A0"/>
+  <rect x="23" y="200" width="4" height="1" fill="#F2E5B0"/>
+  <rect x="15" y="203" width="6" height="1" fill="#E8D5A0"/>
+  <rect x="0" y="203" width="2" height="1" fill="#F2E5B0"/> <!-- 左边缘循环 -->
+  <rect x="12" y="206" width="4" height="1" fill="#F2E5B0"/>
+  <rect x="20" y="209" width="5" height="1" fill="#E8D5A0"/>
+  <rect x="0" y="209" width="2" height="1" fill="#F2E5B0"/> <!-- 左边缘循环 -->
+  <rect x="8" y="212" width="3" height="1" fill="#F2E5B0"/>
+  <rect x="24" y="212" width="4" height="1" fill="#E8D5A0"/>
+  <rect x="16" y="215" width="6" height="1" fill="#F2E5B0"/>
+  <rect x="13" y="218" width="4" height="1" fill="#E8D5A0"/>
+  <rect x="27" y="218" width="3" height="1" fill="#F2E5B0"/>
+  <rect x="19" y="221" width="5" height="1" fill="#F2E5B0"/>
+  
+  <!-- 帧8（y=224-255）：条纹整体右移极限，开始左移趋势 -->
+  <rect x="0" y="224" width="32" height="32" fill="#5A4A1F"/>
+  <rect x="11" y="226" width="4" height="1" fill="#F2E5B0"/>
+  <rect x="26" y="226" width="3" height="1" fill="#E8D5A0"/>
+  <rect x="18" y="229" width="5" height="1" fill="#F2E5B0"/>
+  <rect x="8" y="232" width="3" height="1" fill="#E8D5A0"/>
+  <rect x="24" y="232" width="4" height="1" fill="#F2E5B0"/>
+  <rect x="16" y="235" width="6" height="1" fill="#E8D5A0"/>
+  <rect x="0" y="235" width="2" height="1" fill="#F2E5B0"/> <!-- 左边缘循环 -->
+  <rect x="13" y="238" width="4" height="1" fill="#F2E5B0"/>
+  <rect x="21" y="241" width="5" height="1" fill="#E8D5A0"/>
+  <rect x="0" y="241" width="2" height="1" fill="#F2E5B0"/> <!-- 左边缘循环 -->
+  <rect x="9" y="244" width="3" height="1" fill="#F2E5B0"/>
+  <rect x="25" y="244" width="4" height="1" fill="#E8D5A0"/>
+  <rect x="17" y="247" width="6" height="1" fill="#F2E5B0"/>
+  <rect x="14" y="250" width="4" height="1" fill="#E8D5A0"/>
+  <rect x="28" y="250" width="2" height="1" fill="#F2E5B0"/>
+  <rect x="20" y="253" width="5" height="1" fill="#F2E5B0"/>
+  
+  <!-- 帧9（y=256-287）：开始左移1px -->
+  <rect x="0" y="256" width="32" height="32" fill="#5A4A1F"/>
+  <rect x="10" y="258" width="4" height="1" fill="#F2E5B0"/>
+  <rect x="25" y="258" width="3" height="1" fill="#E8D5A0"/>
+  <rect x="17" y="261" width="5" height="1" fill="#F2E5B0"/>
+  <rect x="7" y="264" width="3" height="1" fill="#E8D5A0"/>
+  <rect x="23" y="264" width="4" height="1" fill="#F2E5B0"/>
+  <rect x="15" y="267" width="6" height="1" fill="#E8D5A0"/>
+  <rect x="0" y="267" width="2" height="1" fill="#F2E5B0"/> <!-- 左边缘循环 -->
+  <rect x="12" y="270" width="4" height="1" fill="#F2E5B0"/>
+  <rect x="20" y="273" width="5" height="1" fill="#E8D5A0"/>
+  <rect x="0" y="273" width="2" height="1" fill="#F2E5B0"/> <!-- 左边缘循环 -->
+  <rect x="8" y="276" width="3" height="1" fill="#F2E5B0"/>
+  <rect x="24" y="276" width="4" height="1" fill="#E8D5A0"/>
+  <rect x="16" y="279" width="6" height="1" fill="#F2E5B0"/>
+  <rect x="13" y="282" width="4" height="1" fill="#E8D5A0"/>
+  <rect x="27" y="282" width="3" height="1" fill="#F2E5B0"/>
+  <rect x="19" y="285" width="5" height="1" fill="#F2E5B0"/>
+  
+  <!-- 帧10（y=288-319）：左移1px -->
+  <rect x="0" y="288" width="32" height="32" fill="#5A4A1F"/>
+  <rect x="9" y="290" width="4" height="1" fill="#F2E5B0"/>
+  <rect x="24" y="290" width="3" height="1" fill="#E8D5A0"/>
+  <rect x="16" y="293" width="5" height="1" fill="#F2E5B0"/>
+  <rect x="6" y="296" width="3" height="1" fill="#E8D5A0"/>
+  <rect x="22" y="296" width="4" height="1" fill="#F2E5B0"/>
+  <rect x="14" y="299" width="6" height="1" fill="#E8D5A0"/>
+  <rect x="28" y="299" width="3" height="1" fill="#F2E5B0"/>
+  <rect x="11" y="302" width="4" height="1" fill="#F2E5B0"/>
+  <rect x="19" y="305" width="5" height="1" fill="#E8D5A0"/>
+  <rect x="29" y="305" width="2" height="1" fill="#F2E5B0"/>
+  <rect x="7" y="308" width="3" height="1" fill="#F2E5B0"/>
+  <rect x="23" y="308" width="4" height="1" fill="#E8D5A0"/>
+  <rect x="15" y="311" width="6" height="1" fill="#F2E5B0"/>
+  <rect x="12" y="314" width="4" height="1" fill="#E8D5A0"/>
+  <rect x="26" y="314" width="3" height="1" fill="#F2E5B0"/>
+  <rect x="18" y="317" width="5" height="1" fill="#F2E5B0"/>
+  
+  <!-- 帧11（y=320-351）：左移1px -->
+  <rect x="0" y="320" width="32" height="32" fill="#5A4A1F"/>
+  <rect x="8" y="322" width="4" height="1" fill="#F2E5B0"/>
+  <rect x="23" y="322" width="3" height="1" fill="#E8D5A0"/>
+  <rect x="15" y="325" width="5" height="1" fill="#F2E5B0"/>
+  <rect x="5" y="328" width="3" height="1" fill="#E8D5A0"/>
+  <rect x="21" y="328" width="4" height="1" fill="#F2E5B0"/>
+  <rect x="13" y="331" width="6" height="1" fill="#E8D5A0"/>
+  <rect x="27" y="331" width="3" height="1" fill="#F2E5B0"/>
+  <rect x="10" y="334" width="4" height="1" fill="#F2E5B0"/>
+  <rect x="18" y="337" width="5" height="1" fill="#E8D5A0"/>
+  <rect x="28" y="337" width="3" height="1" fill="#F2E5B0"/>
+  <rect x="6" y="340" width="3" height="1" fill="#F2E5B0"/>
+  <rect x="22" y="340" width="4" height="1" fill="#E8D5A0"/>
+  <rect x="14" y="343" width="6" height="1" fill="#F2E5B0"/>
+  <rect x="11" y="346" width="4" height="1" fill="#E8D5A0"/>
+  <rect x="25" y="346" width="3" height="1" fill="#F2E5B0"/>
+  <rect x="17" y="349" width="5" height="1" fill="#F2E5B0"/>
+  
+  <!-- 帧12（y=352-383）：左移1px -->
+  <rect x="0" y="352" width="32" height="32" fill="#5A4A1F"/>
+  <rect x="7" y="354" width="4" height="1" fill="#F2E5B0"/>
+  <rect x="22" y="354" width="3" height="1" fill="#E8D5A0"/>
+  <rect x="14" y="357" width="5" height="1" fill="#F2E5B0"/>
+  <rect x="4" y="360" width="3" height="1" fill="#E8D5A0"/>
+  <rect x="20" y="360" width="4" height="1" fill="#F2E5B0"/>
+  <rect x="12" y="363" width="6" height="1" fill="#E8D5A0"/>
+  <rect x="26" y="363" width="3" height="1" fill="#F2E5B0"/>
+  <rect x="9" y="366" width="4" height="1" fill="#F2E5B0"/>
+  <rect x="17" y="369" width="5" height="1" fill="#E8D5A0"/>
+  <rect x="27" y="369" width="3" height="1" fill="#F2E5B0"/>
+  <rect x="5" y="372" width="3" height="1" fill="#F2E5B0"/>
+  <rect x="21" y="372" width="4" height="1" fill="#E8D5A0"/>
+  <rect x="13" y="375" width="6" height="1" fill="#F2E5B0"/>
+  <rect x="10" y="378" width="4" height="1" fill="#E8D5A0"/>
+  <rect x="24" y="378" width="3" height="1" fill="#F2E5B0"/>
+  <rect x="16" y="381" width="5" height="1" fill="#F2E5B0"/>
+  
+  <!-- 帧13（y=384-415）：左移1px -->
+  <rect x="0" y="384" width="32" height="32" fill="#5A4A1F"/>
+  <rect x="6" y="386" width="4" height="1" fill="#F2E5B0"/>
+  <rect x="21" y="386" width="3" height="1" fill="#E8D5A0"/>
+  <rect x="13" y="389" width="5" height="1" fill="#F2E5B0"/>
+  <rect x="3" y="392" width="3" height="1" fill="#E8D5A0"/>
+  <rect x="19" y="392" width="4" height="1" fill="#F2E5B0"/>
+  <rect x="11" y="395" width="6" height="1" fill="#E8D5A0"/>
+  <rect x="25" y="395" width="3" height="1" fill="#F2E5B0"/>
+  <rect x="8" y="398" width="4" height="1" fill="#F2E5B0"/>
+  <rect x="16" y="401" width="5" height="1" fill="#E8D5A0"/>
+  <rect x="26" y="401" width="3" height="1" fill="#F2E5B0"/>
+  <rect x="4" y="404" width="3" height="1" fill="#F2E5B0"/>
+  <rect x="20" y="404" width="4" height="1" fill="#E8D5A0"/>
+  <rect x="12" y="407" width="6" height="1" fill="#F2E5B0"/>
+  <rect x="9" y="410" width="4" height="1" fill="#E8D5A0"/>
+  <rect x="23" y="410" width="3" height="1" fill="#F2E5B0"/>
+  <rect x="15" y="413" width="5" height="1" fill="#F2E5B0"/>
+  
+  <!-- 帧14（y=416-447）：左移1px -->
+  <rect x="0" y="416" width="32" height="32" fill="#5A4A1F"/>
+  <rect x="5" y="418" width="4" height="1" fill="#F2E5B0"/>
+  <rect x="20" y="418" width="3" height="1" fill="#E8D5A0"/>
+  <rect x="12" y="421" width="5" height="1" fill="#F2E5B0"/>
+  <rect x="2" y="424" width="3" height="1" fill="#E8D5A0"/>
+  <rect x="18" y="424" width="4" height="1" fill="#F2E5B0"/>
+  <rect x="10" y="427" width="6" height="1" fill="#E8D5A0"/>
+  <rect x="24" y="427" width="3" height="1" fill="#F2E5B0"/>
+  <rect x="7" y="430" width="4" height="1" fill="#F2E5B0"/>
+  <rect x="15" y="433" width="5" height="1" fill="#E8D5A0"/>
+  <rect x="25" y="433" width="3" height="1" fill="#F2E5B0"/>
+  <rect x="3" y="436" width="3" height="1" fill="#F2E5B0"/>
+  <rect x="19" y="436" width="4" height="1" fill="#E8D5A0"/>
+  <rect x="11" y="439" width="6" height="1" fill="#F2E5B0"/>
+  <rect x="8" y="442" width="4" height="1" fill="#E8D5A0"/>
+  <rect x="22" y="442" width="3" height="1" fill="#F2E5B0"/>
+  <rect x="14" y="445" width="5" height="1" fill="#F2E5B0"/>
+  
+  <!-- 帧15（y=448-479）：左移1px，回到接近初始位置 -->
+  <rect x="0" y="448" width="32" height="32" fill="#5A4A1F"/>
+  <rect x="4" y="450" width="4" height="1" fill="#F2E5B0"/>
+  <rect x="19" y="450" width="3" height="1" fill="#E8D5A0"/>
+  <rect x="11" y="453" width="5" height="1" fill="#F2E5B0"/>
+  <rect x="1" y="456" width="3" height="1" fill="#E8D5A0"/>
+  <rect x="17" y="456" width="4" height="1" fill="#F2E5B0"/>
+  <rect x="9" y="459" width="6" height="1" fill="#E8D5A0"/>
+  <rect x="23" y="459" width="3" height="1" fill="#F2E5B0"/>
+  <rect x="6" y="462" width="4" height="1" fill="#F2E5B0"/>
+  <rect x="14" y="465" width="5" height="1" fill="#E8D5A0"/>
+  <rect x="24" y="465" width="3" height="1" fill="#F2E5B0"/>
+  <rect x="2" y="468" width="3" height="1" fill="#F2E5B0"/>
+  <rect x="18" y="468" width="4" height="1" fill="#E8D5A0"/>
+  <rect x="10" y="471" width="6" height="1" fill="#F2E5B0"/>
+  <rect x="7" y="474" width="4" height="1" fill="#E8D5A0"/>
+  <rect x="21" y="474" width="3" height="1" fill="#F2E5B0"/>
+  <rect x="13" y="477" width="5" height="1" fill="#F2E5B0"/>
+</svg>
+    

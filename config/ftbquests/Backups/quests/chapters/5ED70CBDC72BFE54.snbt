@@ -1,0 +1,70 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5ED70CBDC72BFE54"
+	group: "7B2C131BAF0BE966"
+	icon: {
+		id: "create:steam_whistle"
+	}
+	id: "5ED70CBDC72BFE54"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["61FB3C6EFAE19AC0"]
+			hide_until_deps_complete: true
+			id: "38125FD8AFAC7F0F"
+			optional: true
+			shape: "rsquare"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1883C483A0439E77"]
+			hide_until_deps_complete: true
+			id: "61FB3C6EFAE19AC0"
+			optional: true
+			shape: "rsquare"
+			tasks: [{
+				id: "6782D328A4432154"
+				item: { count: 1, id: "minecraft:bedrock" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["61FB3C6EFAE19AC0"]
+			hide_until_deps_complete: true
+			id: "109E591D4B9C2714"
+			optional: true
+			shape: "rsquare"
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["61FB3C6EFAE19AC0"]
+			hide_until_deps_complete: true
+			id: "2D0531837356746C"
+			optional: true
+			shape: "rsquare"
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			id: "1883C483A0439E77"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7AE315AD5E6F7CC4"
+				table_id: 5138471824333335709L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4E37F8A51638B9BF"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+	]
+}

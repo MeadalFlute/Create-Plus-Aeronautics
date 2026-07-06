@@ -1,0 +1,280 @@
+{
+	autofocus_id: "4F849B5CCEA84C30"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "063210AF660B83CD"
+	group: "48DD03AE33686FDC"
+	icon: {
+		id: "minecraft:gold_ingot"
+	}
+	id: "063210AF660B83CD"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4F849B5CCEA84C30"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0ECEA30D70739D25"
+				table_id: 5138471824333335709L
+				type: "random"
+			}]
+			size: 2.0d
+			tasks: [{
+				count: 2048L
+				id: "6702EA9F44B87240"
+				item: { count: 1, id: "minecraft:cobblestone" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F849B5CCEA84C30"]
+			id: "2E7B2277B916B1B9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "00CBB373C08B92E5"
+				table_id: 5138471824333335709L
+				type: "random"
+			}]
+			tasks: [{
+				count: 64L
+				id: "7D20334722CC7DD0"
+				item: { count: 1, id: "minecraft:sand" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2E7B2277B916B1B9"]
+			icon: {
+				id: "minecraft:soul_sand"
+			}
+			id: "5C64A338D885958B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E6913962C13612C"
+				table_id: 5138471824333335709L
+				type: "random"
+			}]
+			tasks: [
+				{
+					count: 64L
+					id: "09F0D010792E33BF"
+					item: { count: 1, id: "minecraft:soul_sand" }
+					type: "item"
+				}
+				{
+					id: "6533D8B69C83899A"
+					item: { count: 1, id: "minecraft:soul_campfire" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2E1A5D104F1CDD40"
+				"4F849B5CCEA84C30"
+			]
+			icon: {
+				id: "minecraft:diorite"
+			}
+			id: "615941A4754A7287"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "10DF4DA37E9427E1"
+					table_id: 5138471824333335709L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6948CF7D2645D2AF"
+					table_id: 6556492525391098210L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "0656B8F713AC956E"
+					item: { count: 1, id: "minecraft:quartz" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "20A2259433D8A708"
+					item: { count: 1, id: "minecraft:cobblestone" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5C64A338D885958B"]
+			id: "2E1A5D104F1CDD40"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A5EAE3E2AF4181E"
+				table_id: 5138471824333335709L
+				type: "random"
+			}]
+			tasks: [{
+				count: 64L
+				id: "2AFD04D47B7F1F7E"
+				item: { count: 1, id: "minecraft:quartz" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22847E52B5242373"]
+			id: "7D1FB9AC8C967828"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5188479BEC2BEF3A"
+				table_id: 5138471824333335709L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7B939D05025AA4B0"
+				item: { count: 1, id: "minecraft:red_sand" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["615941A4754A7287"]
+			hide_until_deps_complete: true
+			id: "7F45495C1C98D740"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4584A9C77E961B41"
+				table_id: 5138471824333335709L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "785373A8366FEFE8"
+				item: { count: 1, id: "toms_storage:basic_inventory_hopper" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7D1FB9AC8C967828"]
+			id: "469208ED7DC7B90E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "486F11731B774B52"
+					table_id: 6686590560981224948L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "775327477B6B5151"
+					table_id: 6556492525391098210L
+					type: "random"
+				}
+				{
+					id: "445B2454E7943801"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "0CA96537DB1C5915"
+				item: { count: 1, id: "minecraft:gold_nugget" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"615941A4754A7287"
+				"1F9AD531D28B402C"
+			]
+			dependency_requirement: "one_completed"
+			id: "22847E52B5242373"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "12C5CCFB61677359"
+				table_id: 5138471824333335709L
+				type: "random"
+			}]
+			tasks: [{
+				count: 64L
+				id: "40B5673A1D00D150"
+				item: { count: 1, id: "minecraft:granite" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["615941A4754A7287"]
+			hide_until_deps_complete: true
+			id: "11B9BB3FA707DA1D"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "05D4C818530A3421"
+				table_id: 5138471824333335709L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "425A5E4EC0B6B15F"
+				item: { count: 1, id: "minecraft:crafter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["615941A4754A7287"]
+			hide_until_deps_complete: true
+			id: "7A7FAEAFA2CF05EE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "17F47CE0A6B1B0C2"
+				table_id: 5138471824333335709L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1433334FE0ADE29D"
+				item: { count: 1, id: "create:factory_gauge" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			id: "1F9AD531D28B402C"
+			optional: true
+			tasks: [{
+				id: "2DA691A87E5B7B11"
+				item: { count: 1, id: "anvilcraft:melt_gem_bucket" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+	]
+}

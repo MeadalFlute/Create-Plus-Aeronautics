@@ -1,0 +1,19 @@
+﻿# KubeJS
+.probe/
+
+# IDE
+.vscode/
+.idea/
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# 缓存和临时文件
+*.下载
+*.module.css
+*·*Wiki*
+
+# 敏感信息（如果有的话）
+*.log
+!CHANGELOG.md

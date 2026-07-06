@@ -1,0 +1,2 @@
+summon minecraft:falling_block 39.50 -20.33 -219.50 {Motion: [0.0d, 0.0d, 0.0d], FallHurtMax: 40, Invulnerable: 0b, Time: 132, Air: 300s, OnGround: 0b, PortalCooldown: 0, Rotation: [0.0f, 0.0f], DropItem: 1b, FallDistance: 0.0f, HurtEntities: 1b, BlockState: {Properties: {facing: "east"}, Name: "minecraft:anvil"}, CancelDrop: 0b, Fire: -1s, FallHurtAmount: 2.0f, NeoForgeData: {}}
+minecraft:falling_block{BlockState: {Name: "minecraft:anvil"}}

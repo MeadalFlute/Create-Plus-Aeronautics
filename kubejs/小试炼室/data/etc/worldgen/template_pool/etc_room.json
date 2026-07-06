@@ -1,0 +1,54 @@
+{
+    "name": "etc:room",
+    "fallback": "minecraft:empty",
+    "elements": [{
+      "weight": 2,
+      "element": {
+        "location": "etc:etc/room_dinning_hall",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },{
+      "weight": 25,
+      "element": {
+        "location": "etc:etc/room_wallbattle_1",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },{
+      "weight": 50,
+      "element": {
+        "location": "etc:etc/hall_dead_water_well",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },{
+      "weight": 50,
+      "element": {
+        "location": "etc:etc/room_tumbo",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },{
+      "weight": 10,
+      "element": {
+        "location": "etc:etc/room_agriculture_1",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },{
+      "weight": 5,
+      "element": {
+        "location": "etc:etc/room_battle_ice_1",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

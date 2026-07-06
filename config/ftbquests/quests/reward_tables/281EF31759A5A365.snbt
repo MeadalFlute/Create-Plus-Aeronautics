@@ -1,0 +1,151 @@
+{
+	id: "281EF31759A5A365"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{
+			count: 64
+			id: "1B68BD59BEAA7F4B"
+			item: {
+				count: 1
+				id: "minecraft:oak_log"
+			}
+		}
+		{
+			count: 64
+			id: "75D0ACA92C91EE6A"
+			item: {
+				count: 1
+				id: "minecraft:andesite"
+			}
+		}
+		{
+			count: 64
+			id: "3E9701D4DECF64BA"
+			item: {
+				count: 1
+				id: "minecraft:dirt"
+			}
+		}
+		{
+			count: 64
+			id: "59A1C8959B6C8E1E"
+			item: {
+				count: 1
+				id: "minecraft:sand"
+			}
+		}
+		{
+			count: 64
+			id: "667F4738E1392E90"
+			item: {
+				count: 1
+				id: "minecraft:clay_ball"
+			}
+		}
+		{
+			count: 64
+			id: "74FAA9CBC8959566"
+			item: {
+				count: 1
+				id: "minecraft:quartz"
+			}
+		}
+		{
+			count: 64
+			id: "1872A7103FFF71B9"
+			item: {
+				count: 1
+				id: "minecraft:glowstone_dust"
+			}
+		}
+		{
+			count: 64
+			id: "6D3CBDCD1795254E"
+			item: {
+				count: 1
+				id: "minecraft:gunpowder"
+			}
+		}
+		{
+			count: 64
+			id: "129BB1A8832DCCA9"
+			item: {
+				count: 1
+				id: "minecraft:coal"
+			}
+		}
+		{
+			count: 64
+			id: "3742626F55AD7B7E"
+			item: {
+				count: 1
+				id: "minecraft:raw_iron"
+			}
+		}
+		{
+			count: 64
+			id: "113EFAD80100BB72"
+			item: {
+				count: 1
+				id: "minecraft:raw_copper"
+			}
+		}
+		{
+			count: 64
+			id: "17F571B26619706F"
+			item: {
+				count: 1
+				id: "minecraft:raw_gold"
+			}
+		}
+		{
+			count: 64
+			id: "708E36703AB02085"
+			item: {
+				count: 1
+				id: "create:raw_zinc"
+			}
+		}
+		{
+			count: 64
+			id: "673C0B6DE0B05F05"
+			item: {
+				count: 1
+				id: "minecraft:lapis_lazuli"
+			}
+		}
+		{
+			count: 64
+			id: "3370DF7F7A49F1B9"
+			item: {
+				count: 1
+				id: "minecraft:amethyst_shard"
+			}
+		}
+		{
+			count: 64
+			id: "52B8DA5A92C1FA29"
+			item: {
+				count: 1
+				id: "minecraft:redstone"
+			}
+		}
+		{
+			count: 64
+			id: "1DEF2D51465D1D5B"
+			item: {
+				count: 1
+				id: "minecraft:bone"
+			}
+		}
+		{
+			count: 64
+			id: "1EFCFBE182600623"
+			item: {
+				count: 1
+				id: "minecraft:wheat"
+			}
+		}
+	]
+}

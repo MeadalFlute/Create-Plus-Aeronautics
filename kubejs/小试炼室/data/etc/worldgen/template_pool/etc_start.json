@@ -1,0 +1,23 @@
+{
+  "name": "etc:start",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 5,
+        "element": {
+        "location": "etc:etc/start_above",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },{
+      "weight": 5,
+      "element": {
+        "location": "etc:etc/individual_trial_room",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

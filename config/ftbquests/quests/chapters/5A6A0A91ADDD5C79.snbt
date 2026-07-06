@@ -1,0 +1,155 @@
+{
+	autofocus_id: "5288F7E78271279C"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5A6A0A91ADDD5C79"
+	group: "48DD03AE33686FDC"
+	icon: {
+		id: "create:blaze_cake"
+	}
+	id: "5A6A0A91ADDD5C79"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5288F7E78271279C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "680CEA61A9A91924"
+				table_id: 5138471824333335709L
+				type: "random"
+			}]
+			size: 2.0d
+			tasks: [{
+				count: 64L
+				id: "35BE0FD6731D9149"
+				item: { count: 1, id: "minecraft:netherrack" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5288F7E78271279C"]
+			id: "6FA194138A172530"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "522B03E5C39B85D3"
+				table_id: 5138471824333335709L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1E0D4862D4A5B230"
+				item: { count: 1, id: "create:cinder_flour" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6FA194138A172530"]
+			id: "64200D4C8EAFC1F4"
+			tasks: [{
+				id: "50426101569054AA"
+				item: { count: 1, id: "create:blaze_cake_base" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["64200D4C8EAFC1F4"]
+			id: "5A05710292F49280"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "27251D4DF5A99D28"
+				table_id: 6556492525391098210L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0D2A63BEE02F6041"
+				item: { count: 1, id: "create:blaze_cake" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5288F7E78271279C"]
+			hide_until_deps_complete: true
+			id: "750CB599AAC54B5C"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1CB4ABAE13F1F0BE"
+				table_id: 6556492525391098210L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "665CFE355949D69C"
+				item: { count: 1, id: "create:factory_gauge" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6FA194138A172530"]
+			icon: {
+				id: "minecraft:sugar"
+			}
+			id: "083DA2FEC30E56A3"
+			tasks: [
+				{
+					id: "21390DE0E0CB6CC3"
+					item: { count: 1, id: "minecraft:sugar_cane" }
+					type: "item"
+				}
+				{
+					id: "2D8B0309282AB62E"
+					item: { count: 1, id: "minecraft:sugar" }
+					type: "item"
+				}
+				{
+					id: "6F9767898124CA0B"
+					item: { count: 1, id: "minecraft:egg" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["083DA2FEC30E56A3"]
+			hide_until_deps_complete: true
+			id: "7E272446BF72E20D"
+			optional: true
+			rewards: [
+				{
+					id: "292E3155055CF6E9"
+					item: {
+						count: 1
+						id: "create_integrated_farming:chicken_roost"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3807890802674DA5"
+					table_id: 5138471824333335709L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 16L
+				id: "5207433810FD9D1C"
+				item: { count: 1, id: "minecraft:egg" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.5d
+		}
+	]
+}

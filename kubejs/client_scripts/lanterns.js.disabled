@@ -1,0 +1,31 @@
+// 每 5tick 检查一次（性能好）
+ClientEvents.tick(event => {
+    if (event.world.getTime() % 5 !== 0) return;
+
+    // 遍历所有玩家
+    event.players.forEach(player => {
+        // 获取 Curios 能力（NeoForge 正确路径）
+        const curios = player.getCapability(net.neoforged.neoforge.capabilities.Capabilities.ITEM);
+        if (!curios) return;
+
+        // 检查腰带槽（curios:belt）
+        const beltStack = curios.getStackInSlot("belt");
+        if (beltStack.isEmpty()) return;
+
+        const itemId = beltStack.getId().toString();
+
+        // 原版灯笼 + Lamb Lantern 腰带灯笼
+        const lanternIds = [
+            "minecraft:lantern",
+            "minecraft:soul_lantern",
+            "lamb_lantern:belt_lantern",
+            "lamb_lantern:belt_soul_lantern"
+        ];
+
+        if (lanternIds.includes(itemId)) {
+            // 调用 Sodium Dynamic Lights API 添加光源
+            // 亮度 15，范围 8
+            global.sodiumDynamicLights.addLight(player.position(), 15, 8);
+        }
+    });
+});

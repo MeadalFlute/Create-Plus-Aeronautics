@@ -1,0 +1,6 @@
+{
+    "selector": "supplementaries:flint_block",
+    "properties": {
+        "sable:mass": 16.0
+    }
+}

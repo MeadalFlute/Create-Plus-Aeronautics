@@ -1,0 +1,103 @@
+{
+  "name": "etc:all_goods",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+        "weight": 5,
+      "element": {
+        "location": "etc:etc/treasure_blue",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },{
+        "weight": 5,
+      "element": {
+        "location": "etc:etc/treasure_green",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },{
+        "weight": 5,
+      "element": {
+        "location": "etc:etc/treasure_red",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },{
+        "weight": 5,
+      "element": {
+        "location": "etc:etc/treasure_yellow",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },{
+        "weight": 5,
+      "element": {
+        "location": "etc:etc/vault_anvilcraft_normal",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },{
+        "weight": 5,
+      "element": {
+        "location": "etc:etc/vault_anvilcraft",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },{
+        "weight": 5,
+      "element": {
+        "location": "etc:etc/vault_create_normal",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },{
+        "weight": 5,
+      "element": {
+        "location": "etc:etc/vault_create",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },{
+        "weight": 5,
+      "element": {
+        "location": "etc:etc/vault_equipment_normal",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },{
+        "weight": 5,
+      "element": {
+        "location": "etc:etc/vault_equipment",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },{
+        "weight": 5,
+      "element": {
+        "location": "etc:etc/vault_food_normal",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },{
+        "weight": 5,
+      "element": {
+        "location": "etc:etc/vault_food",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

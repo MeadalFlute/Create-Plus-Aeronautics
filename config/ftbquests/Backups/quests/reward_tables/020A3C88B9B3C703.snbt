@@ -1,0 +1,17 @@
+{
+	id: "020A3C88B9B3C703"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ id: "08E4CECC379C48C8", item: { count: 1, id: "minecraft:wheat_seeds" } }
+		{ id: "429BC42BF6CBF5FD", item: { count: 1, id: "minecraft:pumpkin_seeds" } }
+		{ id: "6C992CDC2AEB4C37", item: { count: 1, id: "minecraft:melon_seeds" } }
+		{ id: "581EE453884170AB", item: { count: 1, id: "minecraft:beetroot_seeds" } }
+		{ id: "61B950489F05CAC7", item: { count: 1, id: "minecraft:potato" } }
+		{ id: "6FE0FE8690BB7C70", item: { count: 1, id: "minecraft:carrot" } }
+		{ id: "3BF55B145D5A70CE", item: { count: 1, id: "minecraft:cocoa_beans" } }
+		{ id: "07472CC4941CA39D", item: { count: 1, id: "minecraft:sugar_cane" } }
+		{ id: "37588987F29F7099", item: { count: 1, id: "minecraft:kelp" } }
+		{ id: "4D6AE7296F0316A1", item: { count: 1, id: "minecraft:bamboo" } }
+	]
+}

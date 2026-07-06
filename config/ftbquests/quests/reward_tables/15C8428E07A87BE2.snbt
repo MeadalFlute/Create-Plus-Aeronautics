@@ -1,0 +1,252 @@
+{
+	icon: {
+		id: "simulated:contraption_diagram"
+	}
+	id: "15C8428E07A87BE2"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{ id: "713E3E92BCC9B2DB", item: { count: 1, id: "simulated:altitude_sensor" } }
+		{ id: "5EA3E57FBBA4A6DE", item: { count: 1, id: "simulated:gimbal_sensor" } }
+		{ id: "48431AF3AD5C976B", item: { count: 1, id: "simulated:navigation_table" } }
+		{
+			count: 2
+			id: "7171B32DB06D4B79"
+			item: {
+				count: 1
+				id: "simulated:docking_connector"
+			}
+		}
+		{
+			count: 2
+			id: "3F01D31C937283C3"
+			item: {
+				count: 1
+				id: "simulated:analog_transmission"
+			}
+		}
+		{ id: "29C79B4B6F906A8D", item: { count: 1, id: "simulated:steering_wheel" } }
+		{ id: "6118977F12DFEED3", item: { count: 1, id: "simulated:throttle_lever" } }
+		{ id: "4DC4A97A9AA3864C", item: { count: 1, id: "simulated:linked_typewriter" } }
+		{
+			count: 16
+			id: "76B503C73385AD69"
+			item: {
+				count: 1
+				id: "simulated:white_symmetric_sail"
+			}
+		}
+		{
+			count: 4
+			id: "5D05D1E0784C6819"
+			item: {
+				count: 1
+				id: "simulated:directional_gearshift"
+			}
+		}
+		{
+			count: 4
+			id: "283328419704C10C"
+			item: {
+				count: 1
+				id: "simulated:torsion_spring"
+			}
+		}
+		{
+			count: 4
+			id: "44400DEE29D73201"
+			item: {
+				count: 1
+				id: "simulated:auger_shaft"
+			}
+		}
+		{
+			count: 4
+			id: "5ADDB189F0E52C95"
+			item: {
+				count: 1
+				id: "simulated:auger_cog"
+			}
+		}
+		{
+			count: 4
+			id: "1D33216DC62FB591"
+			item: {
+				count: 1
+				id: "simulated:red_portable_engine"
+			}
+		}
+		{
+			count: 4
+			id: "55D8FC140CB4BDAD"
+			item: {
+				count: 1
+				id: "simulated:black_handle"
+			}
+		}
+		{ id: "1FC7EA0C35DE8DD1", item: { count: 1, id: "simulated:physics_assembler" } }
+		{
+			count: 4
+			id: "1D6B3079329428FF"
+			item: {
+				count: 1
+				id: "simulated:swivel_bearing"
+			}
+		}
+		{
+			count: 4
+			id: "6C269643F9D5E767"
+			item: {
+				count: 1
+				id: "simulated:rope_winch"
+			}
+		}
+		{
+			count: 2
+			id: "58969FEDE49E4363"
+			item: {
+				count: 1
+				id: "aeronautics:gyroscopic_propeller_bearing"
+			}
+		}
+		{
+			count: 2
+			id: "1140231818E74DD4"
+			item: {
+				count: 1
+				id: "aeronautics:smart_propeller"
+			}
+		}
+		{
+			count: 2
+			id: "526F0F4538A0E6C8"
+			item: {
+				count: 1
+				id: "aeronautics:andesite_propeller"
+			}
+		}
+		{
+			count: 2
+			id: "1FE56ABB5FD9B88A"
+			item: {
+				count: 1
+				id: "aeronautics:wooden_propeller"
+			}
+		}
+		{
+			count: 2
+			id: "73FA3A16C7C18C24"
+			item: {
+				count: 1
+				id: "aeronautics:adjustable_burner"
+			}
+		}
+		{
+			count: 2
+			id: "3B172ED7F6974D21"
+			item: {
+				count: 1
+				id: "aeronautics:propeller_bearing"
+			}
+		}
+		{ id: "2CA8B147AC349800", item: { count: 1, id: "aeronautics:aviators_goggles" } }
+		{
+			count: 2
+			id: "66D6972EC725C29E"
+			item: {
+				count: 1
+				id: "offroad:rockcutting_wheel"
+			}
+		}
+		{
+			count: 4
+			id: "38E9F7EF9CAEEAD5"
+			item: {
+				count: 1
+				id: "offroad:wheel_mount"
+			}
+		}
+		{
+			count: 4
+			id: "6A9485487D2D1F4B"
+			item: {
+				count: 1
+				id: "offroad:tire"
+			}
+		}
+		{
+			count: 16
+			id: "4897F6C4983141E0"
+			item: {
+				count: 1
+				id: "createfood:apple_cheesecake"
+			}
+		}
+		{
+			count: 16
+			id: "44420BBEEC4143E3"
+			item: {
+				count: 1
+				id: "create:redstone_link"
+			}
+		}
+		{
+			count: 4
+			id: "69C9291FBA220EC8"
+			item: {
+				count: 1
+				id: "create:white_seat"
+			}
+		}
+		{
+			count: 64
+			id: "7B91CD9E1545A2AF"
+			item: {
+				count: 1
+				id: "create:copycat_panel"
+			}
+		}
+		{
+			count: 64
+			id: "600D75AE780CF471"
+			item: {
+				count: 1
+				id: "create:white_sail"
+			}
+		}
+		{
+			count: 16
+			id: "55E8A892335A209B"
+			item: {
+				count: 1
+				id: "create:blaze_cake"
+			}
+		}
+		{
+			count: 64
+			id: "556CE597E3D11949"
+			item: {
+				count: 1
+				id: "minecraft:oak_log"
+			}
+		}
+		{ id: "577829E473B1CAE0", item: { count: 1, id: "simulated:honey_glue" } }
+		{ id: "524D822999DEB942", item: { count: 1, id: "simulated:contraption_diagram" } }
+		{
+			count: 64
+			id: "34F8CF2046AC9C11"
+			item: {
+				count: 1
+				id: "simulated:rope_coupling"
+			}
+		}
+		{
+			count: 16
+			id: "20BC8B7F4A3A822F"
+			item: {
+				count: 1
+				id: "minecraft:redstone_block"
+			}
+		}
+	]
+}

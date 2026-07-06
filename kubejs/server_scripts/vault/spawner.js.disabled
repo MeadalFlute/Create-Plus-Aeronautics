@@ -1,0 +1,73 @@
+//setblock 22 113 1160 minecraft:vault[facing=north,ominous=false,vault_state=active]
+{
+    components:{
+        "minecraft:block_entity_data":{
+            config:{
+                key_item:{
+                    count:1,
+                    id:"minecraft:trial_key"
+                }
+            },
+            id:"minecraft:vault",
+            server_data:{
+                state_updating_resumes_at:1241873L
+            },
+            shared_data:{
+                connected_players:[
+                    [I;-1989922504,1073693139,-1679371957,-1539241964]
+                ],
+                display_item:{
+                    components:{
+                        "minecraft:potion_contents":{potion:"minecraft:poison"}
+                    },
+                    count:4,id:"minecraft:tipped_arrow"
+                }
+            }
+        },
+        "minecraft:lore":['"(+NBT)"']
+    }
+    config:{
+        key_item:{count:1,id:"minecraft:trial_key"}
+    },
+    server_data:{
+        state_updating_resumes_at:1544561L
+    },
+    shared_data:{
+        connected_players:[[I;-1989922504,1073693139,-1679371957,-1539241964]],
+        display_item:{count:1,id:"minecraft:guster_banner_pattern"}
+    }
+}
+//setblock -205 -3 -301 minecraft:trial_spawner[ominous=false,trial_spawner_state=waiting_for_players]
+{
+normal_config:{
+    // 未指定loot_tables_to_eject时，默认调用原版普通掉落表
+    simultaneous_mobs:1.0f, // 基础同时生成物数量
+    simultaneous_mobs_added_per_player:0.5f, // 每个玩家额外增加的同时生成物数量
+    spawn_potentials:[  // 常规生成物池子
+        {data:{entity:{id:"minecraft:breeze"}},weight:1}
+    ],
+    ticks_between_spawn:20, // 生成间隔
+    total_mobs:2.0f,    // 基础生成物总量
+    total_mobs_added_per_player:1.0f    // 每个玩家额外增加的生成物总量
+    },
+ominous_config:{
+    loot_tables_to_eject:[  // 不祥掉落表
+        {data:"minecraft:spawners/ominous/trial_chamber/key",weight:3},
+        {data:"minecraft:spawners/ominous/trial_chamber/consumables",weight:7}
+    ],
+    simultaneous_mobs_added_per_player:0.5f,    // 每个玩家额外增加的同时生成物数量
+    spawn_potentials:[  // 不祥生成物池子
+        {data:{entity:{id:"minecraft:breeze"}},weight:1}
+    ],
+    ticks_between_spawn:20, // 生成间隔
+    total_mobs:4.0f,        // 基础生成物总量
+    total_mobs_added_per_player:1.0f    // 每个玩家额外增加的生成物总量
+},
+spawn_data:{    // 生成物缓存
+    entity:{id:"minecraft:breeze"}
+}
+}
+
+
+// custom
+{normal_config:{spawn_range: 8,loot_tables_to_eject:[{data:"minecraft:spawners/trial_chamber/key",weight:3},{data:"minecraft:spawners/trial_chamber/consumables",weight:7}],simultaneous_mobs:4.0f,simultaneous_mobs_added_per_player:2.0f,spawn_potentials:[{data:{entity:{id:"minecraft:zombie"}},weight:1}],ticks_between_spawn:20,total_mobs:16.0f,total_mobs_added_per_player:8.0f},ominous_config:{spawn_range: 8,loot_tables_to_eject:[{data:"etc:food",weight:7}],simultaneous_mobs:4.0f,simultaneous_mobs_added_per_player:2f,spawn_potentials:[{data:{entity:{id:"minecraft:piglin_brute"}},weight:1}],ticks_between_spawn:60,total_mobs:16.0f,total_mobs_added_per_player:8.0f}}

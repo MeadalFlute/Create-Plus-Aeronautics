@@ -1,0 +1,96 @@
+BlockEvents.rightClicked('minecraft:vault', event => {
+    const { block, player, hand, level } = event;
+    const heldItem = player.getItemInHand(hand);
+    
+    // 检查玩家是否手持不祥钥匙
+    if (heldItem.id === 'minecraft:ominous_trial_key') {
+        // 获取方块实体（官方方块实体ID为vault）
+        const blockEntity = block.getEntity();
+        if (!blockEntity) return; // 确保方块实体存在
+        
+        // 获取实体的NBT数据
+        const nbt = blockEntity.getPersistentData();
+        
+        // 初始化rewarded_players列表（如果不存在）
+        if (!nbt.rewarded_players) {
+            nbt.rewarded_players = [];
+        }
+        
+        // 获取玩家UUID（用于唯一标识玩家）
+        const playerUuid = player.uuid.toString();
+        
+        // 检查玩家是否已领取过奖励
+        if (nbt.rewarded_players.includes(playerUuid)) {
+            event.cancel();
+            // 播放"拒绝已奖励玩家"音效
+            level.playSound(
+                null,
+                block.x, block.y, block.z,
+                'block.vault.reject_rewarded_player',
+                'blocks',
+                1.0, 1.0, false
+            );
+            player.sendSystemMessage(Text.of('这个宝库的奖励你已经领取过了！'));
+            return;
+        }
+        
+        // 执行正常打开流程
+        event.cancel(); // 取消默认交互
+        
+        // 消耗钥匙（创造模式不消耗）
+        if (!player.abilities.instabuild) {
+            heldItem.shrink(1);
+        }
+        
+        // 播放官方解锁音效（使用正确的音效ID）
+        level.playSound(
+            null,
+            block.x, block.y, block.z,
+            'block.vault.insert_item', // 官方解锁音效ID
+            'blocks', // 正确的分类
+            1.0, 1.0, false
+        );
+        
+        // 播放闸门开启音效
+        level.playSound(
+            null,
+            block.x, block.y, block.z,
+            'block.vault.open_shutter', // 闸门开启音效
+            'blocks',
+            1.0, 1.0, false
+        );
+        
+        // 标记宝库为已打开
+        const newState = block.state.setValue('unlocked', true);
+        level.setBlock(block.pos, newState, 3);
+        
+        // 生成不祥宝库战利品（根据实际 loot table 路径调整）
+        const lootManager = level.getServer().getLootTables();
+        const ominousLootTable = lootManager.get('minecraft:trial_chamber/ominous_treasure_vault');
+        
+        const lootContext = LootContext.Builder.create(level)
+            .withRandom(level.random)
+            .withParameter(LootContextParams.ORIGIN, block.center)
+            .withParameter(LootContextParams.THIS_ENTITY, player)
+            .build(LootContextParamSets.CHEST);
+        
+        // 播放物品喷出音效
+        level.playSound(
+            null,
+            block.x, block.y, block.z,
+            'block.vault.eject_item', // 物品喷出音效
+            'blocks',
+            1.0, 1.0, false
+        );
+        
+        LootUtils.spawnLoot(block.center, level, ominousLootTable, lootContext);
+        
+        // 记录玩家已领取奖励
+        nbt.rewarded_players.push(playerUuid);
+        blockEntity.setChanged(); // 保存NBT数据
+        
+        // 发送提示消息
+        player.sendSystemMessage(Text.of('你使用不祥钥匙打开了宝库，获得了特殊战利品！'));
+    }
+});
+    

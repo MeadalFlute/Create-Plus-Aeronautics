@@ -1,0 +1,6 @@
+{
+  "fluid": "kubejs:seeds_oil",
+  "burnTime": 2,
+  "superHeat": true,
+  "amountConsumedPerTick" : 1
+}

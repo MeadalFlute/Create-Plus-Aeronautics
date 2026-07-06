@@ -1,0 +1,366 @@
+{
+	autofocus_id: "30DA2989D5BB1C21"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ex"
+	group: "091834D10C22ADA3"
+	icon: {
+		id: "create_enchantment_industry:experience_cake"
+	}
+	id: "3CD8C4662D3BAC4F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:enchanting_table"
+			}
+			id: "30DA2989D5BB1C21"
+			rewards: [{
+				id: "3B903BAAB3B7EDB8"
+				type: "xp"
+				xp: 1000
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "58F528A9C4D202C7"
+				item: { count: 1, id: "minecraft:enchanting_table" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30DA2989D5BB1C21"]
+			icon: {
+				id: "create_enchantment_industry:mechanical_grindstone"
+			}
+			id: "77F7BC95F15429A6"
+			rewards: [
+				{
+					count: 64
+					id: "4F6136D3F3F8EA4D"
+					item: {
+						count: 1
+						id: "create:experience_block"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "33886E2E01EF1509"
+					item: {
+						count: 1
+						id: "create:experience_nugget"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "79A27B9F5F735F5C"
+					item: { count: 1, id: "create_enchantment_industry:mechanical_grindstone" }
+					type: "item"
+				}
+				{
+					id: "6DD6D631043A4C6C"
+					item: { count: 1, id: "create:item_drain" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30DA2989D5BB1C21"]
+			icon: {
+				id: "create_enchantment_industry:experience_hatch"
+			}
+			id: "4E369AF79E286E91"
+			rewards: [{
+				id: "5C430AB65CDF115F"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [
+				{
+					id: "2BF82125AA52FE89"
+					item: { count: 1, id: "create_enchantment_industry:experience_hatch" }
+					type: "item"
+				}
+				{
+					id: "32646F456D9046C3"
+					item: { count: 1, id: "create:fluid_tank" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4E369AF79E286E91"]
+			id: "5738B98A06AA37B3"
+			rewards: [{
+				id: "4E1978D56BF324B5"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "18ED2D51EAEE153C"
+				item: { count: 1, id: "create_enchantment_industry:experience_lantern" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["30DA2989D5BB1C21"]
+			id: "0C04B457C2D670B9"
+			rewards: [{
+				id: "3E93880D4716376F"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "360C92AABF7D310E"
+				item: { count: 1, id: "create_enchantment_industry:printer" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0C04B457C2D670B9"]
+			id: "2EA20C058E731DB4"
+			rewards: [{
+				id: "72FA9C76E8EBD06C"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "7986345A27498DCA"
+				item: { count: 1, id: "create_dragons_plus:blaze_upgrade_smithing_template" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2EA20C058E731DB4"]
+			id: "63090FCD74572D61"
+			rewards: [{
+				id: "0CAA6540FC596F18"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "69EB3FFC7EF50BC6"
+				item: { count: 1, id: "create_enchantment_industry:blaze_enchanter" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["54B68217423D0972"]
+			id: "3D7E9E4911A60BF0"
+			rewards: [{
+				id: "6531F154F33E3BEE"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "0107EB4199AEDA64"
+				item: { count: 1, id: "create_enchantment_industry:blaze_forger" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["63090FCD74572D61"]
+			id: "54B68217423D0972"
+			rewards: [
+				{
+					count: 16
+					id: "4D383CD5C62485B0"
+					item: {
+						count: 1
+						id: "create:experience_block"
+					}
+					type: "item"
+				}
+				{
+					id: "69C4EB4F77F32105"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			tasks: [{
+				id: "722587B512E41883"
+				item: { count: 1, id: "create_enchantment_industry:enchanting_template" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2EA20C058E731DB4"]
+			id: "190F08AFB913637A"
+			rewards: [
+				{
+					id: "15C50FA2F8C8C6A4"
+					item: {
+						count: 1
+						id: "minecraft:lightning_rod"
+					}
+					type: "item"
+				}
+				{
+					id: "1CB2D2AEA8B850A9"
+					type: "xp"
+					xp: 5000
+				}
+			]
+			tasks: [{
+				id: "23A181F0D047B20B"
+				item: { count: 1, id: "create_enchantment_industry:experience_cake" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["190F08AFB913637A"]
+			id: "7A5EDF15A6FFCA13"
+			rewards: [
+				{
+					count: 8
+					id: "4EE5A900BC9E6534"
+					item: {
+						count: 1
+						id: "minecraft:ender_eye"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "047A999BAE346DBD"
+					item: {
+						count: 1
+						id: "create_enchantment_industry:super_experience_block"
+					}
+					type: "item"
+				}
+				{
+					id: "5EB5F53B6D784B71"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			tasks: [{
+				id: "3D6657594D8B35F6"
+				item: { count: 1, id: "create_enchantment_industry:super_enchanting_template" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A5EDF15A6FFCA13"]
+			id: "355F3C687746614C"
+			rewards: [
+				{
+					id: "2BC542775E2DA49B"
+					item: {
+						count: 1
+						id: "create_dragons_plus:dragon_breath_bucket"
+					}
+					type: "item"
+				}
+				{
+					id: "0F19CCA7680CD0A1"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "6AEC7BA504484302"
+				type: "kill"
+				value: 1L
+			}]
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["77F7BC95F15429A6"]
+			icon: {
+				id: "create:deployer"
+			}
+			id: "6A945F2BC97B33DE"
+			rewards: [{
+				id: "24FCF295679E8125"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [
+				{
+					id: "7EA8806D032D449B"
+					item: { count: 1, id: "create:deployer" }
+					type: "item"
+				}
+				{
+					id: "0A0E5392210CCE90"
+					item: { count: 1, id: "create:brass_funnel" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6A945F2BC97B33DE"]
+			icon: {
+				id: "minecraft:infested_stone"
+			}
+			id: "5BA98A1B2E5358F3"
+			rewards: [
+				{
+					count: 64
+					id: "77609808A50BBCE9"
+					item: {
+						count: 1
+						id: "minecraft:infested_stone"
+					}
+					type: "item"
+				}
+				{
+					id: "07E54097E2E1F000"
+					type: "xp"
+					xp: 5000
+				}
+			]
+			tasks: [
+				{
+					id: "5AB9F8BDADEE3FE7"
+					item: { count: 1, id: "minecraft:stone" }
+					type: "item"
+				}
+				{
+					id: "1458EDB67AF7409C"
+					item: { count: 1, id: "minecraft:soul_campfire" }
+					type: "item"
+				}
+				{
+					id: "2E3D9F4A747FF2A5"
+					item: { count: 1, id: "create:mechanical_drill" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+	]
+}

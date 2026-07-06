@@ -1,0 +1,18 @@
+ItemEvents.modifyTooltips(tooltip => {
+    tooltip.add('anvilcraft:anvil_amulet', ["§7让你被铁砧砸时不会受伤", '§7手持或装备至[项链]以生效'])
+    tooltip.add('anvilcraft:cat_amulet', ["§7苦力怕会主动远离你——就像见了猫一样", '§7手持或装备至[项链]以生效'])
+    tooltip.add('anvilcraft:dog_amulet', ["§7让骷髅不会主动攻击你", '§7手持或装备至[项链]以生效'])
+    tooltip.add("anvilcraft:emerald_amulet", ["§7和村民交易时，村民会给你些折扣", '§7手持或装备至[项链]以生效'])
+    tooltip.add("anvilcraft:cogwheel_amulet", ["§7不知道有什么用…", '§7手持或装备至[项链]以生效'])
+    tooltip.add('anvilcraft:comrade_amulet', ["§7装备者不会受到签名人的攻击", '§7手持右键签名','§7手持或装备至[项链]以生效'])
+    tooltip.add('anvilcraft:feather_amulet', ["§7让你免疫摔落伤害", '§7手持或装备至[项链]以生效'])
+    tooltip.add('anvilcraft:ruby_amulet', ["§7持续给予你抗火效果", '§7手持或装备至[项链]以生效'])
+    tooltip.add('anvilcraft:sapphire_amulet', ["§7持续给予你海洋眷顾", '§7手持或装备至[项链]以生效'])
+    tooltip.add('anvilcraft:silence_amulet', ["§7让你难以被监守者和幽匿感测体听到", '§7手持或装备至[项链]以生效'])
+    tooltip.add('anvilcraft:topaz_amulet', ["§7让你免疫雷电伤害", '§7手持或装备至[项链]以生效'])
+    tooltip.add('anvilcraft:abnormal_amulet', ["§7让你携带诅咒金、漂浮粉和铀时不会受到debuff", '§7手持或装备至[项链]以生效'])
+    tooltip.add('anvilcraft:gem_amulet', ["§7融合了四种宝石的力量", '§7手持或装备至[项链]以生效'])
+    tooltip.add('anvilcraft:nature_amulet', ["§7融合了四种动物朋友(?)的力量", '§7手持或装备至[项链]以生效'])
+    tooltip.add('kubejs:mixed_iron_and_gold_ingot',["§7贴图来自模组Blaze Gear","§7如果这条tooltip还在，说明我忘记把占位的贴图换掉了"])
+// 新版本铁砧工艺已经加入描述
+})

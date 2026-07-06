@@ -1,0 +1,118 @@
+{
+	id: "474F84E641BDEC9D"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{
+			count: 4
+			id: "5FCC6BA5D2AD98CD"
+			item: {
+				count: 1
+				id: "farmersdelight:cake_slice"
+			}
+		}
+		{
+			count: 4
+			id: "602FDD4350AACE6E"
+			item: {
+				count: 1
+				id: "farmersdelight:apple_pie_slice"
+			}
+		}
+		{
+			count: 4
+			id: "757597F33841755F"
+			item: {
+				count: 1
+				id: "farmersdelight:sweet_berry_cheesecake_slice"
+			}
+		}
+		{
+			count: 8
+			id: "7049600BFF1CD44C"
+			item: {
+				count: 1
+				id: "farmersdelight:sweet_berry_cookie"
+			}
+		}
+		{
+			count: 4
+			id: "66C365D1AC719FF7"
+			item: {
+				count: 1
+				id: "farmersdelight:chocolate_pie_slice"
+			}
+		}
+		{
+			count: 8
+			id: "503EAA0E28D3E6AA"
+			item: {
+				count: 1
+				id: "farmersdelight:honey_cookie"
+			}
+		}
+		{
+			count: 4
+			id: "6E12CD11B6A7E449"
+			item: {
+				count: 1
+				id: "farmersdelight:melon_popsicle"
+			}
+		}
+		{
+			count: 4
+			id: "64BA8B5E33670FC9"
+			item: {
+				count: 1
+				id: "farmersdelight:glow_berry_custard"
+			}
+		}
+		{ id: "6BA5FAA503121E46", item: { count: 1, id: "farmersdelight:fruit_salad" } }
+		{ id: "6FECAB43BEE00DBF", item: { count: 1, id: "farmersdelight:mixed_salad" } }
+		{ id: "335D78C880849870", item: { count: 1, id: "farmersdelight:egg_sandwich" } }
+		{ id: "686E7949C8634382", item: { count: 1, id: "farmersdelight:barbecue_stick" } }
+		{ id: "3274A2C1690CA0B1", item: { count: 1, id: "farmersdelight:chicken_sandwich" } }
+		{ id: "4E6A920068F2EA04", item: { count: 1, id: "farmersdelight:hamburger" } }
+		{ id: "7784E6F385E33CE2", item: { count: 1, id: "farmersdelight:hamburger" } }
+		{ id: "27C9BD96D1242073", item: { count: 1, id: "farmersdelight:bacon_sandwich" } }
+		{ id: "6A83930F10B68D80", item: { count: 1, id: "farmersdelight:mutton_wrap" } }
+		{ id: "5560183FBC72C3BA", item: { count: 1, id: "farmersdelight:dumplings" } }
+		{ id: "5DB5684D784B2A61", item: { count: 1, id: "farmersdelight:stuffed_potato" } }
+		{
+			count: 2
+			id: "68BE6BBE301503E7"
+			item: {
+				count: 1
+				id: "farmersdelight:cabbage_rolls"
+			}
+		}
+		{ id: "245BE824B0C1931E", item: { count: 1, id: "farmersdelight:salmon_roll" } }
+		{ id: "1CC29DDCA47A29FD", item: { count: 1, id: "farmersdelight:cod_roll" } }
+		{ id: "1B9303E80DFE6A1B", item: { count: 1, id: "farmersdelight:kelp_roll" } }
+		{
+			count: 2
+			id: "25BB88E1FC213960"
+			item: {
+				count: 1
+				id: "farmersdelight:kelp_roll_slice"
+			}
+		}
+		{
+			count: 2
+			id: "4904E451F1FA48A9"
+			item: {
+				count: 1
+				id: "farmersdelight:cooked_rice"
+			}
+		}
+		{ id: "34FCDFF0D43FAC0A", item: { count: 1, id: "farmersdelight:bone_broth" } }
+		{ id: "47658E45BBBD8040", item: { count: 1, id: "farmersdelight:beef_stew" } }
+		{ id: "31954E2BCC4C0A1C", item: { count: 1, id: "farmersdelight:chicken_soup" } }
+		{ id: "291A0EF2767BC274", item: { count: 1, id: "farmersdelight:vegetable_soup" } }
+		{ id: "5DB5BCE5F6149E81", item: { count: 1, id: "farmersdelight:fish_stew" } }
+		{ id: "29C026EBE5509B96", item: { count: 1, id: "farmersdelight:fried_rice" } }
+		{ id: "5CFFFA9264D91F6E", item: { count: 1, id: "farmersdelight:pumpkin_soup" } }
+		{ id: "0A4C607ECF767479", item: { count: 1, id: "farmersdelight:baked_cod_stew" } }
+		{ id: "09AB312EC8A73E59", item: { count: 1, id: "farmersdelight:noodle_soup" } }
+	]
+}

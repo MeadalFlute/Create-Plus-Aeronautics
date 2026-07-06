@@ -1,0 +1,27 @@
+{
+  "item.kubejs.crushed_raw_tungsten": "粉碎钨矿石",
+  "item.kubejs.crushed_raw_titanium": "粉碎钛矿石",
+  "item.kubejs.incomplete_anvil_amulet": "未完成的铁砧护符",
+  "item.kubejs.incomplete_cat_amulet": "未完成的猫护符",
+  "item.kubejs.incomplete_dog_amulet": "未完成的狗护符",
+  "item.kubejs.incomplete_cogwheel_amulet": "未完成的齿轮护符",
+  "item.kubejs.incomplete_comrade_amulet": "未完成的战友护符",
+  "item.kubejs.incomplete_emerald_amulet": "未完成的绿宝石护符",
+  "item.kubejs.incomplete_feather_amulet": "未完成的羽毛护符",
+  "item.kubejs.incomplete_ruby_amulet": "未完成的红宝石护符",
+  "item.kubejs.incomplete_sapphire_amulet": "未完成的蓝宝石护符",
+  "item.kubejs.incomplete_silence_amulet": "未完成的寂静护符",
+  "item.kubejs.incomplete_topaz_amulet": "未完成的黄玉护符",
+  "item.kubejs.incomplete_transcendium_ingot":"超限合金（半成品）",
+  "item.kubejs.raw_earth_core_shard":"仿制地核碎片",
+  "item.kubejs.mixed_iron_and_gold_ingot":"不明金属锭",
+  "item.kubejs.coal_dust":"煤粉",
+  "item.kubejs.pass": "占位",
+  "item.kubejs.seeds_oil_residue": "种子油渣",
+  "fuild.kubejs.seeds_oil": "种子油",
+  "item.kubejs.seeds_oil": "种子油",
+  "block.kubejs.seeds_oil": "种子油",
+  "item.kubejs.seeds_oil_bucket": "种子油桶"
+  
+  
+}

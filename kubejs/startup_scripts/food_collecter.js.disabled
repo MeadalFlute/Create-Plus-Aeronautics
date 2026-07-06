@@ -1,0 +1,141 @@
+StartupEvents.registry('block', event => {
+  event.create('food_collector')
+      //.soundType('minecraft:sponge')
+      .hardness(3.0)
+      .displayName('食物收集器')
+      .tagBlock('minecraft:mineable/pickaxe') // 用镐子开采
+      .tagBlock('minecraft:mineable/axe')
+      //.model('kubejs:block/food_collector')   // 模型路径与材质都还没准备好
+      .renderType('solid') // 实体渲染
+      .lightLevel(6)      // 发光等级
+      .noValidSpawns(true)
+      .defaultCutout()
+      .data()
+      .rightClicked(event => {
+        // 检查手持物是否是食物
+        const foodItem = event.player.mainHandItem();
+        if (!foodItem.isFood()) {
+          player.tell(Text.red('只能喂食食物！'));
+          return;
+        }
+        
+        // 获取方块实体
+        const tile = event.block.getBlockEntity();
+        if (!tile) return;
+        
+        // 初始化数据
+        if (!tile.data) tile.data = {
+          progress: 0,
+          fedFoods: [],
+          totalValue: 0
+        };
+        
+        // 获取食物属性
+        const foodProps = foodItem.getFoodProperties();
+        const hunger = foodProps.getNutrition(); // 饱食度
+        const saturation = foodProps.getSaturation(); // 饱和度
+        
+        // 计算食物价值 (饱食度 + 饱和度)
+        // 自定义食物价值（覆盖默认计算）
+        const SPECIAL_FOOD_VALUES = {
+          'minecraft:golden_apple': 30,       // 金苹果
+          'minecraft:enchanted_golden_apple': 100, // 附魔金苹果
+          'farmersdelight:stuffed_pumpkin': 15,
+          'createcafe:strawberry': 8
+        };
+        
+        // 获取自定义价值或计算默认价值
+        let foodValue = SPECIAL_FOOD_VALUES[itemId] || (hunger + saturation);
+        
+        // 检查是否首次喂食该食物
+        const itemId = foodItem.id;
+        if (!tile.data.fedFoods.includes(itemId)) {
+          foodValue *= 2; // 首次喂食奖励翻倍
+          tile.data.fedFoods.push(itemId);
+          player.tell(Text.green('发现新食物！获得双倍奖励'));
+        }
+        
+        // 更新进度
+        tile.data.progress += foodValue;
+        tile.data.totalValue += foodValue;
+        
+        // 检查是否达到目标
+        const TARGET_VALUE = 100; // 总进度需求
+        if (tile.data.progress >= TARGET_VALUE) {
+          // 给予奖励（示例：蛋糕）
+          player.give('minecraft:cake');
+          
+          // 重置进度（保留已喂食记录）
+          tile.data.progress = 0;
+          
+          player.tell(Text.gold('收集完成！获得蛋糕奖励'));
+        } else {
+          // 显示当前进度
+          const progressPercent = Math.floor((tile.data.progress / TARGET_VALUE) * 100);
+          player.tell(Text.of(`进度: ${progressPercent}% (${tile.data.fedFoods.length}种食物)`));
+        }
+        
+        // 消耗食物（非创造模式）
+        if (!player.isCreative()) {
+          foodItem.count--;
+          player.set(hand, foodItem);
+        }
+        
+        // 保存数据
+        tile.save();
+        event.cancel(); // 阻止默认交互
+      }); 
+      const pos = Block.pos.offset(0.5, 1.0, 0.5);
+        player.level.spawnParticles(
+          'minecraft:heart', // 粒子类型
+          pos.x, pos.y, pos.z, // 位置
+          3, // 数量
+          0.3, 0.3, 0.3, // 偏移范围
+          0.1 // 速度
+        )
+      });
+
+
+
+
+// ===== 2. 创建方块实体 =====
+/*StartupEvents.registry('block.entity_type.registry', event => {
+  event.create('food_collector_entity').block('kubejs:food_collector').tickable(true);
+});
+*/
+// ===== 3. 处理方块交互 =====
+// BlockEvents.rightClicked('minecraft:chest', event => {
+// ===== 5. 创建模型文件 =====
+// 在 kubejs/assets/kubejs/models/block/food_collector.json
+/*
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "kubejs:block/food_collector"
+  }
+}
+*/  
+/* ===== 4. 添加进度显示 =====
+      ClientEvents.tick(event => {
+        const player = event.player;
+        if (!player) return;
+        
+        // 检查玩家是否看着食物收集器
+        const target = player.rayTrace(5);
+        if (!target || target.id !== 'kubejs:food_collector') return;
+        
+        // 获取方块实体
+        const tile = target.getBlockEntity();
+        if (!tile || !tile.data) return;
+        
+        // 显示进度条
+        const progress = tile.data.progress;
+        const TARGET_VALUE = 100;
+        const progressPercent = Math.floor((progress / TARGET_VALUE) * 100);
+        
+        player.setActionBar(Text.of(
+          '食物收集进度: ',
+          Text.green(`${progressPercent}%`),
+          Text.gray(` (${tile.data.fedFoods.length}种食物)`)
+        ))
+*/

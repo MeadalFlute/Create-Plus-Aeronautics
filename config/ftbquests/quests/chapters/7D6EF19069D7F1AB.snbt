@@ -1,0 +1,236 @@
+{
+	autofocus_id: "7D51D96006CB0199"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7D6EF19069D7F1AB"
+	group: "38A9459C780387EC"
+	icon: {
+		id: "waystones:waystone"
+	}
+	id: "7D6EF19069D7F1AB"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6676FFE364D3886B"]
+			id: "1065B8AFEBAC48AF"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3EC9CB0E194E9D2A"
+				table_id: 5138471824333335709L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4A113A25F1FDBC2F"
+				item: { count: 1, id: "waystones:warp_scroll" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E68F4F5A372D83C"]
+			id: "6676FFE364D3886B"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "27776A97B77CAE9C"
+				item: {
+					count: 1
+					id: "waystones:waystone"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4444D165FFC5B82C"
+				item: { count: 1, id: "waystones:warp_stone" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6676FFE364D3886B"]
+			id: "35BE83CC6ACDBC05"
+			rewards: [{
+				count: 2
+				id: "41A5BE8EAD888BD7"
+				item: {
+					count: 1
+					id: "waystones:waystone"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "645062550E743A5A"
+				item: { count: 1, id: "waystones:waystone" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6676FFE364D3886B"]
+			id: "417DDED017FF632B"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "4EC7F8C3F2CCCED8"
+				item: {
+					count: 1
+					id: "waystones:warp_plate"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				count: 2L
+				id: "4BD691CC2C3A444C"
+				item: { count: 1, id: "waystones:warp_plate" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6676FFE364D3886B"]
+			id: "2281917373F10D54"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26D9BD13D65E8A6F"
+				table_id: 5138471824333335709L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "78948F8DC9B4D3FF"
+				item: { count: 1, id: "waystones:blank_scroll" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7D51D96006CB0199"]
+			icon: {
+				id: "waystones:warp_dust"
+			}
+			id: "1E68F4F5A372D83C"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "2E1BC412CD810771"
+				item: {
+					count: 1
+					id: "waystones:warp_dust"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "12E39D2FE4E90486"
+					item: { count: 1, id: "waystones:warp_dust" }
+					type: "item"
+				}
+				{
+					id: "617BEF2D2D15DA9C"
+					item: { count: 1, id: "waystones:dormant_shard" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			icon: {
+				id: "minecraft:ender_pearl"
+			}
+			id: "7D51D96006CB0199"
+			optional: true
+			rewards: [{
+				id: "1F724D3E796ED377"
+				item: {
+					count: 1
+					id: "minecraft:budding_amethyst"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [
+				{
+					id: "4A251074FC01B572"
+					item: { count: 1, id: "minecraft:ender_pearl" }
+					type: "item"
+				}
+				{
+					id: "72ECA76311745D83"
+					item: { count: 1, id: "minecraft:amethyst_shard" }
+					type: "item"
+				}
+				{
+					id: "670A24397FC0B79F"
+					item: { count: 1, id: "minecraft:flint" }
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6676FFE364D3886B"]
+			dependency_requirement: "one_started"
+			icon: {
+				id: "waystones:green_sharestone"
+			}
+			id: "2D902F1562969306"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "7EB4F113E0B255E9"
+				item: {
+					count: 1
+					id: "waystones:lime_sharestone"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5D784AA4671927EE"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(waystones:sharestones)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2D902F1562969306"]
+			dependency_requirement: "one_started"
+			id: "797DC5A4D7FF51C2"
+			optional: true
+			rewards: [{
+				id: "090B8294B5634E79"
+				item: {
+					count: 1
+					id: "waystones:warp_stone"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "011CE2B11634BEFB"
+				item: { count: 1, id: "waystones:lime_portstone" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+	]
+}

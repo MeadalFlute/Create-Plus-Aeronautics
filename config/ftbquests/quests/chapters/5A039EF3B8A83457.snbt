@@ -1,0 +1,680 @@
+{
+	autofocus_id: "1085E91902D8E1AF"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5A039EF3B8A83457"
+	group: "48DD03AE33686FDC"
+	icon: {
+		id: "anvilcraft:transcendium_ingot"
+	}
+	id: "5A039EF3B8A83457"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"7410E19C486BDA5F"
+				"2A888276660446A8"
+				"1DA94D67F0B86E9B"
+				"57E4FB9B8140169F"
+			]
+			id: "1085E91902D8E1AF"
+			rewards: [
+				{
+					count: 32
+					id: "3C9D745D2CE4556A"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "381159923C7FBA81"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "1F1FE7DBC3298838"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "60A7300D336AEE41"
+				item: { count: 1, id: "anvilcraft:transcendium_ingot" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["393AD5FF6F557EF0"]
+			id: "2A888276660446A8"
+			rewards: [{
+				id: "6B83D93C0101CA81"
+				item: {
+					count: 1
+					id: "anvilcraft:earth_core_shard_ore"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A0246D1C67290E0"
+				item: { count: 1, id: "anvilcraft:ember_metal_ingot" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["18820CFAE741DB8A"]
+			id: "7410E19C486BDA5F"
+			rewards: [{
+				id: "1826BCF4E3E8B7EB"
+				item: {
+					count: 1
+					id: "kaleidoscope_end:ender_dragon_smithing_template"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "17D23F50E2BBC549"
+				item: { count: 1, id: "kubejs:incomplete_transcendium_ingot" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4691BD12327CDEB7"]
+			dependency_requirement: "one_started"
+			id: "1DA94D67F0B86E9B"
+			rewards: [
+				{
+					id: "1DE7EB3FEDFB8634"
+					item: {
+						count: 1
+						id: "kaleidoscope_end:dragon_breath_bucket"
+					}
+					type: "item"
+				}
+				{
+					id: "74B05E33DB4B7616"
+					item: {
+						count: 1
+						id: "kaleidoscope_end:dragon_head_with_sauce"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "32FA5F929EFDB816"
+				item: { count: 1, id: "minecraft:shulker_shell" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17E1343A083C40E0"]
+			dependency_requirement: "all_started"
+			icon: {
+				id: "create:experience_block"
+			}
+			id: "18820CFAE741DB8A"
+			rewards: [{
+				id: "6E3620C52165BE3E"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+			tasks: [
+				{
+					id: "691B45BDF1601774"
+					item: { count: 1, id: "create:experience_nugget" }
+					type: "item"
+				}
+				{
+					count: 37L
+					id: "69982D217C2AE81C"
+					item: { count: 1, id: "create:experience_block" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"5BCB153F845192CB"
+				"0E14CA0D1F334373"
+				"3A2AF3E7B6EFE074"
+			]
+			dependency_requirement: "one_started"
+			id: "17E1343A083C40E0"
+			tasks: [{
+				count: 12L
+				id: "234FF0C0F72E14C0"
+				item: { count: 1, id: "anvilcraft:cursed_gold_block" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6C62197957BBF16F"]
+			dependency_requirement: "all_started"
+			id: "5BCB153F845192CB"
+			rewards: [
+				{
+					id: "1E83BA7666392BC0"
+					item: {
+						count: 1
+						id: "create:encased_fan"
+					}
+					type: "item"
+				}
+				{
+					id: "55E10CCFB37A81F8"
+					item: {
+						count: 1
+						id: "create:nozzle"
+					}
+					type: "item"
+				}
+				{
+					id: "0F686AD7D9E18333"
+					item: {
+						count: 1
+						id: "create:deployer"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0D35873532005C65"
+				item: { components: { "minecraft:potion_contents": { potion: "minecraft:strength" } }, count: 1, id: "minecraft:potion" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			id: "6C62197957BBF16F"
+			rewards: [{
+				count: 4
+				id: "6EA4B97FDC901957"
+				item: {
+					count: 1
+					id: "minecraft:iron_golem_spawn_egg"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 12L
+				id: "21ED0B3F407CA661"
+				item: { count: 1, id: "anvilcraft:heavy_iron_block" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4202A7B822717C80"]
+			dependency_requirement: "all_started"
+			id: "393AD5FF6F557EF0"
+			rewards: [{
+				id: "07103054AB3D7B3D"
+				item: {
+					count: 1
+					id: "netherdepthsupgrade:blazefish_bucket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "04DDBBCCF461EF81"
+				item: { count: 1, id: "minecraft:blaze_powder" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3C537D53825E8207"
+				"63EDC91EAAEB20EF"
+			]
+			dependency_requirement: "one_started"
+			id: "4202A7B822717C80"
+			rewards: [{
+				count: 16
+				id: "1010D33DA6D5EE8D"
+				item: {
+					count: 1
+					id: "minecraft:nether_gold_ore"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "78CCCD8069989542"
+				item: { count: 1, id: "anvilcraft:earth_core_shard" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6DE014274FF80AB5"]
+			dependency_requirement: "all_started"
+			id: "3C537D53825E8207"
+			tasks: [{
+				id: "568EDB84566C05B5"
+				item: { count: 1, id: "minecraft:netherite_ingot" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			id: "6DE014274FF80AB5"
+			rewards: [{
+				id: "135D16D48AD4A340"
+				item: {
+					count: 1
+					id: "farmersdelight:bacon_and_eggs"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A9FB72182505F7F"
+				item: { count: 1, id: "create:blaze_cake" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["072DA9EF2D5B6D65"]
+			id: "4691BD12327CDEB7"
+			optional: true
+			rewards: [{
+				id: "249F9A9A916D2BD0"
+				item: {
+					count: 1
+					id: "minecraft:armadillo_spawn_egg"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A2E680D180FB0AE"
+				item: { count: 1, id: "minecraft:wolf_armor" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1CCE66A323DCA9C1"]
+			id: "072DA9EF2D5B6D65"
+			optional: true
+			rewards: [{
+				id: "2AA5D5699AA299B2"
+				item: {
+					count: 1
+					id: "minecraft:armadillo_spawn_egg"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "19FECBBA43272B81"
+				item: { count: 1, id: "minecraft:armadillo_scute" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			id: "1CCE66A323DCA9C1"
+			optional: true
+			rewards: [{
+				id: "3602499E0A7E657D"
+				item: {
+					components: {
+						"minecraft:block_entity_data": {
+							id: "minecraft:brushable_block"
+							item: {
+								count: 1
+								id: "minecraft:dune_armor_trim_smithing_template"
+							}
+						}
+					}
+					count: 1
+					id: "minecraft:suspicious_sand"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2823FE1E562AFFB2"
+				item: { count: 1, id: "minecraft:brush" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			id: "0E14CA0D1F334373"
+			rewards: [
+				{
+					id: "280A7F33787D7E84"
+					item: {
+						count: 1
+						id: "anvilcraft:jewelcrafting_table"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "440A6615B3A19077"
+					item: {
+						count: 1
+						id: "anvilcraft:royal_steel_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "64E9B23125E26141"
+				item: { count: 1, id: "anvilcraft:royal_grindstone" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			icon: {
+				id: "create:bar_of_chocolate"
+			}
+			id: "3A2AF3E7B6EFE074"
+			rewards: [
+				{
+					count: 16
+					id: "4885606BA078A397"
+					item: {
+						count: 1
+						id: "minecraft:cocoa_beans"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6361F26EB3D99CF0"
+					item: {
+						count: 1
+						id: "farmersdelight:hot_cocoa"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0A9B4A4DF6B031CC"
+					item: { count: 1, id: "create:bar_of_chocolate" }
+					type: "item"
+				}
+				{
+					id: "1113942FDAA441D2"
+					item: { count: 1, id: "farmersdelight:dumplings" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "42750FFE959050F2"
+					item: { count: 1, id: "createfood:pizza_dough" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"74B83B6A3D5C8C4D"
+				"226935413D16F11F"
+				"4D9D414F0BEFE6C5"
+				"0B84B2F18C3DC8DC"
+			]
+			dependency_requirement: "one_started"
+			id: "63EDC91EAAEB20EF"
+			rewards: [{
+				count: 2
+				id: "67954BB293BB52E4"
+				item: {
+					count: 1
+					id: "create_enchantment_industry:mechanical_grindstone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D758FF74B1DDB06"
+				item: { count: 1, id: "kubejs:raw_earth_core_shard" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			id: "226935413D16F11F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "29A7852AC74F70DE"
+				table_id: 5138471824333335709L
+				type: "random"
+			}]
+			tasks: [{
+				id: "658E45EA42C620B8"
+				item: { count: 1, id: "minecraft:nether_wart" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			id: "74B83B6A3D5C8C4D"
+			rewards: [
+				{
+					id: "5672326950A1A868"
+					item: {
+						count: 1
+						id: "anvilcraft:magnet_block"
+					}
+					type: "item"
+				}
+				{
+					id: "549F9D4FE7B6B054"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:silk_touch": 1
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "39C82264F24D6A2D"
+				item: { count: 1, id: "minecraft:nether_gold_ore" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			id: "0B84B2F18C3DC8DC"
+			rewards: [{
+				id: "31DAC35F46BCE61B"
+				item: {
+					count: 1
+					id: "minecraft:composter"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "09EB027FEA6657D5"
+				item: { count: 1, id: "minecraft:white_dye" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			id: "4D9D414F0BEFE6C5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B9D8F93D3046B66"
+				table_id: 5138471824333335709L
+				type: "random"
+			}]
+			tasks: [{
+				id: "551AF6F2829DD5D8"
+				item: { components: { "minecraft:potion_contents": { potion: "minecraft:slowness" } }, count: 1, id: "minecraft:potion" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1085E91902D8E1AF"]
+			id: "7822A4F7E1300F47"
+			rewards: [{
+				id: "196C916490ED10A0"
+				item: {
+					count: 1
+					id: "supplementaries:confetti_popper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "24C83E7DA0D9DF87"
+				item: { count: 1, id: "anvilcraft:multiphase_transcendium" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["32AAEA2FFE571B7B"]
+			id: "57E4FB9B8140169F"
+			rewards: [
+				{
+					count: 8
+					id: "5A54308521778917"
+					item: {
+						count: 1
+						id: "create:blaze_burner"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "28D477FCA2B0A527"
+					item: {
+						count: 1
+						id: "create:mechanical_pump"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "48FCA3E47BEE387B"
+					item: {
+						count: 1
+						id: "create:mechanical_mixer"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0232FC99461A7729"
+					item: {
+						count: 1
+						id: "create:basin"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7759AA301CEF2177"
+					item: {
+						count: 1
+						id: "minecraft:copper_block"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4ADEF8036304A016"
+					item: {
+						count: 1
+						id: "fluid:copper_tap"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "61EC5401FEE34FF0"
+				item: { components: { "minecraft:potion_contents": { potion: "minecraft:regeneration" } }, count: 1, id: "minecraft:potion" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "create:mechanical_mixer"
+			}
+			id: "32AAEA2FFE571B7B"
+			rewards: [{
+				count: 16
+				id: "04018CCEF3639BBD"
+				item: {
+					count: 1
+					id: "minecraft:nether_wart"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "05CC5483055A9CEA"
+					item: { count: 1, id: "create:mechanical_mixer" }
+					type: "item"
+				}
+				{
+					id: "6D60B13C093AD498"
+					item: { count: 1, id: "create:basin" }
+					type: "item"
+				}
+				{
+					id: "4DB2B9B81494F934"
+					item: { count: 1, id: "minecraft:nether_wart" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 4.0d
+		}
+	]
+}

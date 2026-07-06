@@ -1,0 +1,13 @@
+{
+    "name": "etc:room_below",
+    "fallback": "minecraft:empty",
+    "elements": [{
+      "weight": 5,
+      "element": {
+        "location": "etc:etc/start_below",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }]
+}

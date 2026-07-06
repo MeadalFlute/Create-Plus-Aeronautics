@@ -1,0 +1,42 @@
+{
+	id: "212DBFBCD827E469"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{
+			count: 2
+			id: "6A9ECE87423424A7"
+			item: {
+				count: 1
+				id: "functionalstorage:copper_upgrade"
+			}
+			weight: 128.0f
+		}
+		{
+			id: "2B25794F093233DF"
+			item: {
+				count: 1
+				id: "functionalstorage:gold_upgrade"
+			}
+			weight: 8.0f
+		}
+		{
+			id: "55E648FF2BE789E5"
+			item: {
+				count: 1
+				id: "functionalstorage:diamond_upgrade"
+			}
+			weight: 4.0f
+		}
+		{ id: "5BB9F29F1AC7E528", item: { count: 1, id: "functionalstorage:netherite_upgrade" } }
+		{
+			count: 2
+			id: "2CD1EE6ABB40A63F"
+			item: {
+				count: 1
+				id: "functionalstorage:void_upgrade"
+			}
+			weight: 32.0f
+		}
+	]
+}

@@ -1,0 +1,313 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3637618D3ED9CB4B"
+	group: "38A9459C780387EC"
+	icon: {
+		id: "immersive_aircraft:biplane"
+	}
+	id: "3637618D3ED9CB4B"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6415CF8000F08DF1"]
+			id: "26737A5660E83B28"
+			rewards: [{
+				count: 64
+				id: "70D2946E9C99AC1F"
+				item: {
+					count: 1
+					id: "minecraft:coal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "55DCD31FBAB73350"
+				item: { count: 1, id: "immersive_aircraft:biplane" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6415CF8000F08DF1"]
+			id: "50815C1D74E30C19"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B99B42EB76AE0ED"
+				table_id: 5138471824333335709L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4DEB3B4178344E29"
+				item: { count: 1, id: "immersive_aircraft:gyrodyne" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6415CF8000F08DF1"]
+			id: "5548825817C0DF6C"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2DA56D9745A52DC4"
+				table_id: 5138471824333335709L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2BD184629098D9F0"
+				item: { count: 1, id: "immersive_aircraft:quadrocopter" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			id: "6415CF8000F08DF1"
+			size: 2.0d
+			tasks: [{
+				id: "136A728DBB90BF55"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6415CF8000F08DF1"]
+			id: "086003948C4C3044"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76B490897CAAA567"
+				table_id: 1569577647919889378L
+				type: "all_table"
+			}]
+			tasks: [{
+				id: "6F14CAD2E309FAE3"
+				item: { count: 1, id: "simulated:physics_assembler" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6C8815AFBC6DABAB"]
+			id: "09C778375A88B145"
+			tasks: [{
+				id: "288AA2E0862169E0"
+				item: { count: 1, id: "immersive_aircraft:airship" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6C8815AFBC6DABAB"]
+			id: "35171603395BE932"
+			tasks: [{
+				id: "53BEEB8089FE08E5"
+				item: { count: 1, id: "immersive_aircraft:cargo_airship" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6C8815AFBC6DABAB"]
+			id: "188CF3BC012D2131"
+			tasks: [{
+				id: "5993485A4A128293"
+				item: { count: 1, id: "immersive_aircraft:warship" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6415CF8000F08DF1"]
+			id: "5B01F68F7919680B"
+			tasks: [{
+				id: "61D0C5CC1AB84E8D"
+				item: { count: 1, id: "immersive_aircraft:bamboo_hopper" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3EB2626D59177BE3"]
+			id: "4E54187B940A72A4"
+			tasks: [{
+				id: "73B669DFB5EB27A9"
+				item: { count: 1, id: "immersive_aircraft:rotary_cannon" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3EB2626D59177BE3"]
+			id: "6D628729DD0944F8"
+			tasks: [{
+				id: "3142EC88103A24A0"
+				item: { count: 1, id: "immersive_aircraft:bomb_bay" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3EB2626D59177BE3"]
+			id: "17D17509EF026F84"
+			tasks: [{
+				id: "38100BDA5BB8FF53"
+				item: { count: 1, id: "immersive_aircraft:telescope" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3EB2626D59177BE3"]
+			id: "492091DDB34E3010"
+			tasks: [{
+				id: "4E26050C247C7E5C"
+				item: { count: 1, id: "immersive_aircraft:heavy_crossbow" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["53438BD346FA6F78"]
+			id: "1BA066EC2B339DBD"
+			tasks: [{
+				id: "446B616EB0F7653A"
+				item: { count: 1, id: "immersive_aircraft:enhanced_propeller" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["53438BD346FA6F78"]
+			id: "798260BC5FEE388B"
+			tasks: [{
+				id: "08014B54C9D74AB7"
+				item: { count: 1, id: "immersive_aircraft:sturdy_pipes" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["53438BD346FA6F78"]
+			id: "3CA7B16B049000EF"
+			tasks: [{
+				id: "4D1D2D81B57A8933"
+				item: { count: 1, id: "immersive_aircraft:industrial_gears" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["53438BD346FA6F78"]
+			id: "52ABA13A5ED16A8A"
+			tasks: [{
+				id: "1FAF24346B2A86BD"
+				item: { count: 1, id: "immersive_aircraft:steel_boiler" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["53438BD346FA6F78"]
+			id: "157882EEB07D9B56"
+			tasks: [{
+				id: "3D4E59E58299F555"
+				item: { count: 1, id: "immersive_aircraft:eco_engine" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["53438BD346FA6F78"]
+			id: "38A4AA43A9952C43"
+			tasks: [{
+				id: "53428C8D8A8BBEA6"
+				item: { count: 1, id: "immersive_aircraft:nether_engine" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0CC9D39D0CF1AE4E"]
+			id: "1EC21B7F387C20FE"
+			tasks: [{
+				id: "6E60DD3CBCD67C2C"
+				item: { count: 1, id: "immersive_aircraft:gyroscope" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0CC9D39D0CF1AE4E"]
+			id: "4BBEA8989D64A2E1"
+			tasks: [{
+				id: "5EA51CAB5C0B228D"
+				item: { count: 1, id: "immersive_aircraft:gyroscope_hud" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6415CF8000F08DF1"]
+			id: "6C8815AFBC6DABAB"
+			tasks: [{
+				id: "65FC485AE8CC3633"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6415CF8000F08DF1"]
+			id: "3EB2626D59177BE3"
+			tasks: [{
+				id: "46A148231731E40F"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6415CF8000F08DF1"]
+			id: "53438BD346FA6F78"
+			tasks: [{
+				id: "2162673082AE3CA5"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6415CF8000F08DF1"]
+			id: "0CC9D39D0CF1AE4E"
+			tasks: [{
+				id: "49E1F067ECB8869A"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+	]
+}

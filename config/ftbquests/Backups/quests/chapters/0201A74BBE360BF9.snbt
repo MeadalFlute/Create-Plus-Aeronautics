@@ -1,0 +1,473 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0201A74BBE360BF9"
+	group: "38A9459C780387EC"
+	icon: {
+		id: "functionalstorage:compacting_drawer"
+	}
+	id: "0201A74BBE360BF9"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1883C483A0439E77"]
+			id: "2939B3D6F6D626F5"
+			optional: true
+			rewards: [{
+				id: "37233379436A215A"
+				item: {
+					count: 1
+					id: "functionalstorage:oak_1"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "00C62C746F46E9A1"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(functionalstorage:drawer)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1883C483A0439E77"
+				"2939B3D6F6D626F5"
+			]
+			hide_until_deps_complete: true
+			id: "390C138909D71BED"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7679EF7ED0C2B177"
+				table_id: 2390777795004851305L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "1A962262D5411C0F"
+					item: { components: { "functionalstorage:direction": "north" }, count: 1, id: "functionalstorage:puller_upgrade" }
+					type: "item"
+				}
+				{
+					id: "4BD874990DB272E4"
+					item: { components: { "functionalstorage:direction": "north" }, count: 1, id: "functionalstorage:pusher_upgrade" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1883C483A0439E77"
+				"2939B3D6F6D626F5"
+			]
+			hide_until_deps_complete: true
+			id: "0CB3B9C9C4BFAF6A"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "176BC424D7216EEA"
+				table_id: 2390777795004851305L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "16ED492605E3588F"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(functionalstorage:fluid_drawer)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1883C483A0439E77"
+				"2939B3D6F6D626F5"
+			]
+			hide_until_deps_complete: true
+			id: "5DEC221707659F22"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B3B5D19764CA508"
+				table_id: 2390777795004851305L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "242EDBB8B7ED5CBB"
+				item: { count: 1, id: "functionalstorage:storage_controller" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1883C483A0439E77"
+				"2939B3D6F6D626F5"
+			]
+			hide_until_deps_complete: true
+			id: "0B4E423D0F00553B"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "118BA12532C84BE1"
+				table_id: 2390777795004851305L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "355B531A6AFCFBBD"
+					item: { count: 1, id: "functionalstorage:compacting_drawer" }
+					type: "item"
+				}
+				{
+					id: "05A42941887636C5"
+					item: { count: 1, id: "functionalstorage:simple_compacting_drawer" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"1883C483A0439E77"
+				"2939B3D6F6D626F5"
+			]
+			hide_until_deps_complete: true
+			id: "2056328E74370A67"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "150CDCD994CCBE56"
+				table_id: 2390777795004851305L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "52CD93379317D6C0"
+				item: { count: 1, id: "functionalstorage:framed_1" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1883C483A0439E77"
+				"5DEC221707659F22"
+			]
+			hide_until_deps_complete: true
+			id: "180F4DF11E0D9B34"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F4C0334D93A46D9"
+				table_id: 2390777795004851305L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "27E1A8A32ADA985D"
+					item: { count: 1, id: "functionalstorage:linking_tool" }
+					type: "item"
+				}
+				{
+					id: "6C09A8D7B9B0434F"
+					item: { count: 1, id: "functionalstorage:configuration_tool" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1883C483A0439E77"
+				"5DEC221707659F22"
+			]
+			hide_until_deps_complete: true
+			id: "632D93F702658D14"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5CD089BC87F31213"
+				table_id: 2390777795004851305L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5CF9656669E826CD"
+				item: { count: 1, id: "functionalstorage:controller_extension" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"1883C483A0439E77"
+				"632D93F702658D14"
+				"180F4DF11E0D9B34"
+			]
+			hide_until_deps_complete: true
+			id: "4EFB4B43B0977EA5"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "21B3C018673B97D8"
+				table_id: 2390777795004851305L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "67A195BB0F31484E"
+					item: { count: 1, id: "functionalstorage:framed_storage_controller" }
+					type: "item"
+				}
+				{
+					id: "0A5CA0C608229F35"
+					item: { count: 1, id: "functionalstorage:framed_controller_extension" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"1883C483A0439E77"
+				"2939B3D6F6D626F5"
+			]
+			hide_until_deps_complete: true
+			id: "544B8D112E834FEA"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1EE936A6E3288F43"
+				table_id: 2390777795004851305L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2611EA8224AC00AE"
+				item: { count: 1, id: "functionalstorage:copper_upgrade" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1883C483A0439E77"
+				"544B8D112E834FEA"
+			]
+			hide_until_deps_complete: true
+			id: "201AABAACD988B7C"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "483890F67259F750"
+				table_id: 2390777795004851305L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "244F198162699EF5"
+				item: { count: 1, id: "functionalstorage:gold_upgrade" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"1883C483A0439E77"
+				"201AABAACD988B7C"
+			]
+			hide_until_deps_complete: true
+			id: "49E985AF8A08783D"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37081083624FB2C0"
+				table_id: 2390777795004851305L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7D393AD168B4D2BE"
+				item: { count: 1, id: "functionalstorage:diamond_upgrade" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"1883C483A0439E77"
+				"49E985AF8A08783D"
+			]
+			hide_until_deps_complete: true
+			id: "64A10A249D1222A1"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "70F6017FF757CF88"
+					table_id: 2390777795004851305L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E005DB53E70089B"
+					table_id: 6556492525391098210L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "167BFB1314AA5854"
+				item: { count: 1, id: "functionalstorage:netherite_upgrade" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"1883C483A0439E77"
+				"390C138909D71BED"
+			]
+			hide_until_deps_complete: true
+			id: "6C3FDDA6C2D1E84D"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0901C28EB2A77F3D"
+				table_id: 2390777795004851305L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "72858040987F12F8"
+				item: { components: { "functionalstorage:direction": "north" }, count: 1, id: "functionalstorage:collector_upgrade" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"1883C483A0439E77"
+				"6C3FDDA6C2D1E84D"
+			]
+			hide_until_deps_complete: true
+			id: "220B58C7BF98AD45"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "02B66F0C5E976761"
+				table_id: 2390777795004851305L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "44D6639C8971E79E"
+				item: { count: 1, id: "functionalstorage:void_upgrade" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"1883C483A0439E77"
+				"2939B3D6F6D626F5"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				id: "functionalstorage:water_generator_upgrade"
+			}
+			id: "56357E854A76AA08"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "069FAE1383ABEDAE"
+				table_id: 2390777795004851305L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "61D4A403162622DB"
+					item: { count: 1, id: "functionalstorage:dripping_upgrade" }
+					type: "item"
+				}
+				{
+					id: "1AC9BA8B40E5FF86"
+					item: { count: 1, id: "functionalstorage:water_generator_upgrade" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1883C483A0439E77"
+				"56357E854A76AA08"
+			]
+			hide_until_deps_complete: true
+			id: "35ACDC55ED20BAEB"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "21AC2A98DC1B921E"
+				table_id: 2390777795004851305L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2FBAF1EA1AB7D111"
+				item: { count: 1, id: "functionalstorage:obsidian_upgrade" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"1883C483A0439E77"
+				"180F4DF11E0D9B34"
+			]
+			hide_until_deps_complete: true
+			id: "7A2900B878E9889C"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43FCE5CE49E016B6"
+				table_id: 2390777795004851305L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "25D7AE2BE964008E"
+				item: { count: 1, id: "functionalstorage:ender_drawer" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+	]
+}

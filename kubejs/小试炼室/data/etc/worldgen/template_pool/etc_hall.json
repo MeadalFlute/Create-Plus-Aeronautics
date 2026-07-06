@@ -1,0 +1,54 @@
+{
+    "name": "etc:hall",
+    "fallback": "minecraft:empty",
+    "elements": [{
+      "weight": 10,
+      "element": {
+        "location": "etc:etc/hall_shapeten_withhide",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },{
+      "weight": 10,
+      "element": {
+        "location": "etc:etc/hall_shapei_sameside",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },{
+      "weight": 10,
+      "element": {
+        "location": "etc:etc/hall_shapei_withhide_saferoom",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },{
+        "weight": 10,
+        "element": {
+            "location": "etc:etc/hall_shapei",
+            "processors": "minecraft:empty",
+			"projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 10,
+        "element": {
+            "location": "etc:etc/hall_shapet",
+            "processors": "minecraft:empty",
+			"projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 10,
+        "element": {
+            "location": "etc:etc/hall_shapei_withhide_saferoom_2",
+            "processors": "minecraft:empty",
+			"projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    }
+]
+}

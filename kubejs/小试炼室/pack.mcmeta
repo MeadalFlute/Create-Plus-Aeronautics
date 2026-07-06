@@ -1,0 +1,7 @@
+{
+	"pack": {
+		"pack_format": 48,
+		"supported_formats": [41, 61],
+		"description": "小型末地试炼结构，包含两个变体。战利品使用lootjs实现，如需挪用请同时移动kubejs脚本。"
+	}
+}

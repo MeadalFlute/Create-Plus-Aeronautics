@@ -1,0 +1,52 @@
+LootJS.lootTables(event => {
+        
+    event.create("etc:anvilcraft_vault_normal", "vault")
+    
+        .createPool(pool => {
+            // 武器工具
+            pool.addEntry(LootEntry.of("anvilcraft:frost_metal_sword").withWeight(5).setCount(1).withQuality(2).enchantWithLevels([15,30]).enchantRandomly())
+            pool.addEntry(LootEntry.of("anvilcraft:frost_metal_hoe").withWeight(5).setCount(1).withQuality(2).enchantWithLevels([15,30]).enchantRandomly())
+            pool.addEntry(LootEntry.of("anvilcraft:frost_metal_shovel").withWeight(5).setCount(1).withQuality(2).enchantWithLevels([15,30]).enchantRandomly())
+            pool.addEntry(LootEntry.of("anvilcraft:frost_metal_axe").withWeight(5).setCount(1).withQuality(2).enchantWithLevels([15,30]).enchantRandomly())
+            pool.addEntry(LootEntry.of("anvilcraft:frost_metal_pickaxe").withWeight(5).setCount(1).withQuality(2).enchantWithLevels([15,30]).enchantRandomly())
+            pool.addEntry(LootEntry.of("anvilcraft:ember_metal_sword").withWeight(5).setCount(1).withQuality(2).enchantWithLevels([15,30]).enchantRandomly())
+            pool.addEntry(LootEntry.of("anvilcraft:ember_metal_hoe").withWeight(5).setCount(1).withQuality(2).enchantWithLevels([15,30]).enchantRandomly())
+            pool.addEntry(LootEntry.of("anvilcraft:ember_metal_shovel").withWeight(5).setCount(1).withQuality(2).enchantWithLevels([15,30]).enchantRandomly())
+            pool.addEntry(LootEntry.of("anvilcraft:ember_metal_axe").withWeight(5).setCount(1).withQuality(2).enchantWithLevels([15,30]).enchantRandomly())
+            pool.addEntry(LootEntry.of("anvilcraft:ember_metal_pickaxe").withWeight(5).setCount(1).withQuality(2).enchantWithLevels([15,30]).enchantRandomly())
+            pool.addEntry(LootEntry.of("anvilcraft:royal_steel_sword").withWeight(15).setCount(1).withQuality(1).enchantWithLevels([15,30]).enchantRandomly())
+            pool.addEntry(LootEntry.of("anvilcraft:royal_steel_hoe").withWeight(15).setCount(1).withQuality(1).enchantWithLevels([15,30]).enchantRandomly())
+            pool.addEntry(LootEntry.of("anvilcraft:royal_steel_shovel").withWeight(15).setCount(1).withQuality(1).enchantWithLevels([15,30]).enchantRandomly())
+            pool.addEntry(LootEntry.of("anvilcraft:royal_steel_axe").withWeight(15).setCount(1).withQuality(1).enchantWithLevels([15,30]).enchantRandomly())
+            pool.addEntry(LootEntry.of("anvilcraft:royal_steel_pickaxe").withWeight(15).setCount(1).withQuality(1).enchantWithLevels([15,30]).enchantRandomly())
+            pool.addEntry(LootEntry.of("anvilcraft:multitool").withWeight(5).setCount(1).withQuality(2))
+            pool.addEntry(LootEntry.of("anvilcraft:dragon_rod").withWeight(5).setCount(1).withQuality(2))
+            // 杂项
+            pool.addEntry(LootEntry.of("anvilcraft:amulet_box").withWeight(5).setCount(1).withQuality(2))
+            pool.addEntry(LootEntry.of("anvilcraft:totem_of_rage").withWeight(5).setCount(1).withQuality(2))
+            pool.addEntry(LootEntry.of("anvilcraft:totem_of_recovery").withWeight(5).setCount(1).withQuality(2))
+            pool.addEntry(LootEntry.of("anvilcraft:topaz_amulet").withWeight(5).setCount(1).withQuality(2))
+            pool.addEntry(LootEntry.of("anvilcraft:ruby_amulet").withWeight(5).setCount(1).withQuality(2))
+            pool.addEntry(LootEntry.of("anvilcraft:comrade_amulet").withWeight(5).setCount(1).withQuality(2))
+            pool.addEntry(LootEntry.of("anvilcraft:silence_amulet").withWeight(5).setCount(1).withQuality(2))
+            pool.addEntry(LootEntry.of("anvilcraft:capacitor").withWeight(10).setCount([1,4]).withQuality(1))
+            // 资源和时尚小垃圾
+            pool.addEntry(LootEntry.of("anvilcraft:frost_metal_ingot").withWeight(10).setCount([4,8]).withQuality(1))
+            pool.addEntry(LootEntry.of("anvilcraft:ember_metal_ingot").withWeight(10).setCount([4,8]).withQuality(1))
+            pool.addEntry(LootEntry.of("anvilcraft:royal_steel_ingot").withWeight(15).setCount([4,8]).withQuality(1))
+            pool.addEntry(LootEntry.of("anvilcraft:topaz").withWeight(15).setCount([4,8]).withQuality(1))
+            pool.addEntry(LootEntry.of("anvilcraft:ruby").withWeight(15).setCount([4,8]).withQuality(1))
+            pool.addEntry(LootEntry.of("anvilcraft:sapphire").withWeight(15).setCount([4,8]).withQuality(1))
+            pool.addEntry(LootEntry.of("anvilcraft:circuit_board").withWeight(15).setCount([4,8]).withQuality(1))
+            pool.addEntry(LootEntry.of("anvilcraft:prismarine_cluster").withWeight(15).setCount([16,32]).withQuality(1))
+            pool.addEntry(LootEntry.of("anvilcraft:tungsten_ingot").withWeight(15).setCount([16,32]).withQuality(1))
+            pool.addEntry(LootEntry.of("anvilcraft:titanium_ingot").withWeight(15).setCount([16,32]).withQuality(1))
+            pool.addEntry(LootEntry.of("anvilcraft:magnet_block").withWeight(15).setCount([16,32]).withQuality(1))
+            pool.addEntry(LootEntry.of("anvilcraft:giant_anvil").withWeight(5).setCount(1).withQuality(2))
+            pool.addEntry(LootEntry.of("anvilcraft:tin_can").withWeight(15).setCount([4,8]).withQuality(1))
+            pool.addEntry(LootEntry.of("anvilcraft:spectral_anvil").withWeight(15).setCount([4,8]).withQuality(2))
+            pool.addEntry(LootEntry.of("anvilcraft:lead_block").withWeight(15).setCount(1).withQuality(2))
+            pool.rolls([2,4])   // 基础抽取次数
+            pool.bonusRolls(1)  // 每级幸运值额外抽取次数
+        })
+    })

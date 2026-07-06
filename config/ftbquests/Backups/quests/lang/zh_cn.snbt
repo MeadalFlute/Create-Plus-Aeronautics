@@ -1,0 +1,843 @@
+{
+	chapter.0201A74BBE360BF9.title: "功能性存储"
+	chapter.063210AF660B83CD.title: "量产金锭[WIP]"
+	chapter.084045D88D7D96EC.title: "引言"
+	chapter.1A88E10BB2A9491B.title: "Tom的简易存储"
+	chapter.36EF2E85E94FFA2B.title: "自动化！[WIP]"
+	chapter.51E325AA75B22DEF.title: "量产面包"
+	chapter.53C6B3344FB0E661.title: "安山时代"
+	chapter.5A6A0A91ADDD5C79.title: "量产烈焰蛋糕[WIP]"
+	chapter.5ED70CBDC72BFE54.title: "自由探索[WIP]"
+	chapter.6E4A5326951588CE.title: "精妙背包"
+	chapter.71E6C1BC5EC21C5B.title: "黄铜时代"
+	chapter.7531F7F6770BCDBE.title: "物流专题"
+	chapter.78822EB8D9E86771.title: "量产木炭"
+	chapter.7D6EF19069D7F1AB.title: "传送石碑"
+	chapter_group.38A9459C780387EC.title: "生活小窍门"
+	chapter_group.48DD03AE33686FDC.title: "挑战"
+	chapter_group.7B2C131BAF0BE966.title: "旅行路线"
+	quest.00CE1F4328EC11AB.quest_desc: ["传送带是简单好用的物品传输方式，还可以用来传动。这么方便的物品之后用量肯定不会少，有条件可以量产一下它的原料——海带。"]
+	quest.00CE1F4328EC11AB.title: "3.2海带物流"
+	quest.01A72753873DD8DE.quest_desc: ["两种动态结构都需要机械手补种树苗"]
+	quest.01A72753873DD8DE.title: "H2.5必要的神之手"
+	quest.01AE879008D8F755.quest_desc: ["锻炼一下你的物流布线能力"]
+	quest.01AE879008D8F755.title: "H2.6.1量产燃料-煤炭"
+	quest.01C34E2A1F16EBF8.quest_desc: ["打开背包，右边的就是物品管理器，下方则是搜索框。将鼠标移动到你感兴趣的物品上，按U查看用途，按R查看来源，就这么简单"]
+	quest.01C34E2A1F16EBF8.title: "麻麻再也不用担心我忘记配方啦！"
+	quest.01D2AFDC5E35C0B6.quest_desc: ["有了木头就该去挖矿了，带上这些会方便不少"]
+	quest.01D2AFDC5E35C0B6.title: "1.2石器时代"
+	quest.02DB3C1ECE2179FD.quest_desc: ["精妙背包可以通过安装升级模块获得更多功能，这里列一些比较实用的"]
+	quest.02DB3C1ECE2179FD.title: "O2.11插件"
+	quest.03519B3E2CB89140.quest_desc: ["黄铜隧道拥有多种分流方式，几乎可以满足你的全部需求"]
+	quest.03519B3E2CB89140.title: "4.4智能分流"
+	quest.0436FFFC388310C8.quest_desc: ["使用溜槽可以方便地往竖着放的粉碎轮进料"]
+	quest.0436FFFC388310C8.title: "S2.9.2纵式粉碎"
+	quest.052EEC12A5F2DD36.quest_desc: ["野外也会自然生成一些传送石碑，它们可以帮助你方便地在世界中穿梭，代价只是根据距离消耗一些经验"]
+	quest.052EEC12A5F2DD36.title: "S1.8.2传送石碑"
+	quest.05B2A7C2114EDC8F.quest_desc: ["有时一个粉碎轮无法满足需求，需要放置多个粉碎轮。使用黄铜隧道可以方便地分发原料，提高运行效率"]
+	quest.05B2A7C2114EDC8F.title: "S2.9.4堆叠粉碎轮"
+	quest.06BD7C3624E3270E.quest_desc: ["总是手搓精密构件也不是个事，造台机器让他自动化运行吧，一次性多做几个"]
+	quest.06BD7C3624E3270E.title: "S2.5量产！"
+	quest.06CA0ACF6DACA1B2.quest_desc: ["工程师护目镜可以查看机械动力各种机器的运行状态，扳手则可以快速旋转、拆卸机械动力的设备，它们会陪你一起走完机械动力之旅"]
+	quest.06CA0ACF6DACA1B2.title: "S1.6.4工程师就要有工程师的样子"
+	quest.079FDC6C3116B4B4.quest_desc: [
+		"除了思索，这套任务系统也是引导的一部分，不知道怎么做就按照任务路线来吧"
+		"比如现在，你可以切换到“安山时代”章节，正式开始机械动力之旅了"
+	]
+	quest.079FDC6C3116B4B4.title: "任务引导"
+	quest.082C92E76122BACB.quest_desc: ["不建议一次批量洗涤太多沙砾，容易卡"]
+	quest.082C92E76122BACB.title: "2.13沙砾"
+	quest.0894A266F5654165.quest_desc: ["在造铁产线时有没有发现你有大量相同的物品需要存储？这时候功能性存储的抽屉就派上用场了，它们可以大量存储同种物品，很适合用在这里。"]
+	quest.0894A266F5654165.title: "S2.12.1抽屉神教"
+	quest.08C6C0161A9864BE.quest_desc: [
+		"这个整合包（实际上都算不上整合包）并没有那么多远大的目标，只是希望你能借此玩明白机械动力，没有什么弯弯绕绕，还请放心。"
+		"虽说如此，游玩MC模组的通用技巧你还是需要有个简单的印象"
+	]
+	quest.08C6C0161A9864BE.title: "怎么玩整合包？"
+	quest.098F5ADD42F45F21.quest_desc: [
+		"许多时候你会需要将原料分散到多个工件中去，安山隧道可以将物品分出一个，可以搭配石磨使用。"
+		"箱子、保险库这类容器不止一格宽，多贴几个漏斗上去，也是分流/汇流的一种办法"
+	]
+	quest.098F5ADD42F45F21.title: "3.4分流"
+	quest.0AA19D11C352F234.quest_desc: ["帮助你通过红石线路控制动态结构的道具，没有红石基础的话可以跳过"]
+	quest.0AA19D11C352F234.title: "S1.7.13贴贴~"
+	quest.0B4E423D0F00553B.quest_desc: ["将存入的物品同时以块、锭、粒等多种形式存储，可以强行拆开一些不可逆压缩配方（比如粘土、石英）"]
+	quest.0B4E423D0F00553B.title: "O3.2压缩抽屉"
+	quest.0B6015A377AFF8C3.quest_desc: ["用烈焰人烧石头得到岩浆，再拿去做烈焰蛋糕喂给烈焰人，总感觉怪怪的，但也是一种方法。"]
+	quest.0B6015A377AFF8C3.title: "S2.6.6原汤化圆石"
+	quest.0BB11F4B6ECD25A8.quest_desc: [
+		"使用连接器将信标接入存储网络，让你可以远程、甚至跨维度访问存储网络"
+		"Tips：需要存储连接器处于加载状态，你可以简单理解成附近要有人、或者要把存储网络建在出生点附近"
+	]
+	quest.0BB11F4B6ECD25A8.title: "O4.5远程访问"
+	quest.0BFDF28D91E1F1A8.quest_desc: ["批量烟熏面团即可制成面包。烟熏和洗涤可以共用鼓风机喔，只需要在原先的洗涤风场后面加一个营火，就可以变成烟熏风场了，是不是很赞"]
+	quest.0BFDF28D91E1F1A8.title: "H1.15批量烟熏"
+	quest.0CB3B9C9C4BFAF6A.quest_desc: ["可以存储大量同类流体，让流体储罐只能拿去烧开水了"]
+	quest.0CB3B9C9C4BFAF6A.title: "O3.3流体抽屉"
+	quest.0CB71FF44BE3CEB1.quest_desc: [
+		"共享石碑可以让你直接传送至相同颜色的其他共享石碑而无需点亮，在多人游戏中这会更加方便些"
+		"你可以反复提交这个任务，将传送石碑换成共享石碑"
+	]
+	quest.0CB71FF44BE3CEB1.title: "S1.8.3共享石碑"
+	quest.0CF88205796A3F1F.quest_desc: [
+		"这是你给辛勤劳作的烈焰人准备的温馨小窝（存疑），用它右键烈焰人、烈焰人刷怪笼即可转变成烈焰人燃烧室。"
+		"下界危机四伏，带上传送石碑吧，至少往返堡垒会方便不少"
+	]
+	quest.0CF88205796A3F1F.title: "1.9“温馨的家”"
+	quest.0D82EA971359499B.quest_desc: [
+		"要说末地其实也没什么重要的资源给你，可以等忙完了再去拜访它们"
+		"既然都玩了这么久的机械动力了，顺便也给末影龙和小黑们设计些机器吧？"
+	]
+	quest.0D82EA971359499B.title: "2.15向末地进发"
+	quest.0DA337D6434410D6.quest_desc: [
+		"在末地主岛外的虚空上建造小黑塔效率奇高，配合机械手处死可以一劳永逸地解决经验问题"
+		"造完记得看看《机械动力：附魔工业》相关内容"
+	]
+	quest.0DA337D6434410D6.title: "S2.17.1小黑塔"
+	quest.0DE0AD10085E2DB7.quest_desc: ["仪表连接成合成配方时，可以将包裹送入动力合成器中进行合成，配合理包机可以将多个包裹合并导入。"]
+	quest.0DE0AD10085E2DB7.title: "S4.10.1自动合成"
+	quest.0E2A14E3043A91C5.quest_desc: ["在背包里塞个工作台，还附赠9格储物空间，相当实用"]
+	quest.0E2A14E3043A91C5.title: "O2.16随身工作台"
+	quest.0E75BB7A7E113575.quest_desc: ["存储控制器可以代理大量的抽屉，并且不要求与抽屉相连"]
+	quest.0E75BB7A7E113575.title: "S2.12.3存储控制器"
+	quest.0EDF4C9A21F28291.quest_desc: [
+		"你应该有准备鼓风机批量熔炼吧？把木头运过去就好。"
+		"多个加工风场可以叠加，有兴趣可以做一个多倍速的批量加工中心"
+	]
+	quest.0EDF4C9A21F28291.title: "H2.6物流"
+	quest.0F492741358DF5E0.quest_desc: [
+		"动力搅拌器看起来很像一个打蛋器，许多时候也确实可以用来做饭，但它是个实打实的工业机器。"
+		"用它制作安山合金消耗的材料，仅为手工合成安山合金消耗材料的一半"
+		"Tips：利用漏斗可以自动添料和取货"
+	]
+	quest.0F492741358DF5E0.title: "1.7厨房用具"
+	quest.0FB7A7F78D570407.quest_desc: ["经典但好用的方式，可以帮你快速聚集刷石机产出的圆石"]
+	quest.0FB7A7F78D570407.title: "S2.11.1流水收集"
+	quest.0FF38519C23079ED.quest_desc: ["也是装饰品"]
+	quest.0FF38519C23079ED.title: "O4.15也可以染色"
+	quest.102C4636E621290E.quest_desc: [
+		"机械动力6.0更新的内容大头就是这个新的物流系统，使用打包机和链接站组建物流网络。"
+		"之所以放在黄铜时代才来提，是因为安山时代通常没有这个需求"
+		"&c注意：&f包裹不能水运喔"
+	]
+	quest.102C4636E621290E.title: "S2.12.5机械动力6.0"
+	quest.1065B8AFEBAC48AF.quest_desc: ["一次性版本的传送石，使用过程中受到伤害依旧会被打断"]
+	quest.1065B8AFEBAC48AF.title: "O1.6传送卷轴"
+	quest.106C38491170F4B2.quest_desc: [
+		"是的，有农夫乐事，这是水槽包，我们没救啦！"
+		"可惜《机械动力：中央厨房》尚未更新至1.21，不过有另一个附属给你玩：《机械动力：集成农业》"
+		"这些内容是来丰富你的机械动力之旅的，不喜欢可以不理会它"
+	]
+	quest.106C38491170F4B2.title: "E1.7.3吃点好的"
+	quest.10D8C7654C651BEB.quest_desc: ["一个包裹可以存放9组物品，极大地提高了物流效率"]
+	quest.10D8C7654C651BEB.title: "3.7打包"
+	quest.10F6FE7BC7406958.quest_desc: ["包裹的目标地址也可以过滤，是不是很赞"]
+	quest.10F6FE7BC7406958.title: "4.7更适合黄铜机械师的传送带包裹物流"
+	quest.112A60B1E4DAD6AD.quest_desc: [
+		"利用简单的物理知识，让大齿轮带动小齿轮旋转，即可使转速翻倍！更高的转速意味着更高的工作效率，和更高的应力消耗。"
+		"&aTips：&f默认转速上限是256，超过这个速度，齿轮和传动杆会爆掉。使用工程师护目镜可以查看工件的应力消耗情况，配合转速表可以查看当前转速"
+	]
+	quest.112A60B1E4DAD6AD.title: "S1.6.3快一点，再快一点"
+	quest.11E5F573B98CA97B.quest_desc: ["试试用这套物流系统提高工作效率，让你的仓库常备原料，让你不必在各式工件间奔波，让你的工作室桌上常备巧克力浆果！"]
+	quest.11E5F573B98CA97B.title: "H2.12.1自动化!"
+	quest.133F45D674B072EA.quest_desc: ["动力轴承组成的旋转结构也很适合造树场，不过若要使用云杉树场会比较占地方"]
+	quest.133F45D674B072EA.title: "H2.3旋转树场"
+	quest.13729347EEB874B9.quest_desc: ["黄铜漏斗和智能溜槽可以直接安装过滤，从而分拣你需要的物品"]
+	quest.13729347EEB874B9.title: "H1.12过滤器"
+	quest.13B8ADC73C056AFB.quest_desc: ["动力合成器还能造些有趣的小玩具，建议搭配气罐使用"]
+	quest.13B8ADC73C056AFB.title: "S2.8.1稀罕玩意"
+	quest.13CB6BB1680BF625.quest_desc: ["这部分需要安山合金才能制作"]
+	quest.13CB6BB1680BF625.title: "声明"
+	quest.152C662A5793BE8E.quest_desc: ["使用它们来远程调控你的物流系统"]
+	quest.152C662A5793BE8E.title: "S2.12.8管理物流系统"
+	quest.15C05C2A9039B324.quest_desc: ["取出动态结构中物品的方法之一"]
+	quest.15C05C2A9039B324.title: "S1.7.13自动取物"
+	quest.175C11A7E58931AE.quest_desc: ["将动力锯搭载在动态结构上，一次性砍伐整棵树，并自动收集掉落物。机械手用于补种树苗"]
+	quest.175C11A7E58931AE.title: "H2.1不管怎么样，先量产木头吧"
+	quest.180F4DF11E0D9B34.quest_desc: [
+		"链接器可以将物品接入/移出抽屉网络（对着空气右键、shift+右键以切换模式）"
+		"配置器可以锁定抽屉，即便抽屉空了也不会被控制器塞入其他物品，简化了抽屉网络的无线物品传输"
+	]
+	quest.180F4DF11E0D9B34.title: "O3.6抽屉界的扳手"
+	quest.185B93334F9DA51C.quest_desc: ["到这里原版内容就差不多了，或者你可以去找找鞘翅？"]
+	quest.185B93334F9DA51C.title: "2.17See u again"
+	quest.1883C483A0439E77.quest_desc: ["这些内容关联性没有那么强，你可以自行探索"]
+	quest.1883C483A0439E77.title: "自由探索"
+	quest.192EF43BCEAC74B1.quest_desc: [
+		"功能性存储提供了各式各样的抽屉，帮助你大规模收纳同种物品。"
+		"等你有需求了去看一眼生活小窍门部分就好，现在不需要急着都看一边，那样很累的"
+	]
+	quest.192EF43BCEAC74B1.title: "功能性存储"
+	quest.1987C1711966FB61.quest_desc: ["许多整合包添加了大量物品，原版的背包完全不够用，模组《精妙背包》提供了一个巨大的背包和各种方便的升级插件，让你的旅行更加方便"]
+	quest.1987C1711966FB61.title: "我们需要大背包"
+	quest.19BCE614B4AAEE0A.quest_desc: ["实在找不到给你赊几个"]
+	quest.19BCE614B4AAEE0A.title: "S1.7.16找不到仙人掌和蕨？"
+	quest.1A37242E93FF0AF5.quest_desc: [
+		"很好用的升级，与其说是自动喂食，倒不如说是自动回血"
+		"正好，做了就顺便让你吃个爽"
+	]
+	quest.1A37242E93FF0AF5.title: "O2.21探图神器"
+	quest.1B135D79345CE60F.quest_desc: ["发展到这一步，安山合金已经不足够应付各种复杂需求了，我们需要寻找烈焰人，利用他的高温来生产黄铜。"]
+	quest.1B135D79345CE60F.title: "1.8我们需要再深入些"
+	quest.1BABACE4C71BED40.quest_desc: [
+		"如同它的描述。"
+		"精妙背包的过滤也有这个选项"
+	]
+	quest.1BABACE4C71BED40.title: "O4.18白名单"
+	quest.1C04AB8617976CBD.quest_desc: ["鼓风机的批量加工仅需提供应力，单次处理上限仅取决于你设备的性能"]
+	quest.1C04AB8617976CBD.title: "S1.7.12批量加工"
+	quest.1C5B599C278D3669.quest_desc: ["动态结构带有容器时也可以存储、运输物品，配合移动式存储接口即可与外界物流系统交互。"]
+	quest.1C5B599C278D3669.title: "3.6动态结构物流"
+	quest.1C7A6F53784CCDB3.quest_desc: [
+		"打包机在输入包裹时会自动将包裹拆开并存入容器（Tips：溜槽也是容器）。"
+		"动力锯一般接在传送带间使用，会将包裹拆开，并让物品排队回到传送带上。"
+		"此外包裹遇水、受伤死亡时也会被拆开，物品会散落出来。"
+	]
+	quest.1C7A6F53784CCDB3.title: "3.8拆包"
+	quest.1D073B7C4BD59CA6.quest_desc: ["传送带的尽头若没有遮挡，物品会飞出去。除了在尽头放置一个方块，置物台也是一个不错的选择，当置物台承载有物品时也可以堵住传送带。"]
+	quest.1D073B7C4BD59CA6.title: "S3.2.2此路不通"
+	quest.1D3280A6441C9112.quest_desc: ["虽然但是，不能再快了，再快会坏掉的！"]
+	quest.1D3280A6441C9112.title: "A1.6.1芜湖起飞！"
+	quest.1D8C4BC9D5F96D9E.quest_desc: ["是的，你可以多做几个背包，不论是带身上还是接在物流系统内，背包都非常好用，你不会嫌多的"]
+	quest.1D8C4BC9D5F96D9E.title: "O2.4更多的背包"
+	quest.1E68F4F5A372D83C.quest_desc: ["紫水晶与末影珍珠混合就可以制成传送粉，不需要研磨，真神奇"]
+	quest.1E68F4F5A372D83C.title: "O1.2粗加工"
+	quest.1EBE33170D6B21D8.quest_desc: [
+		"这套物流系统只能运输包裹，但好在有自动寻路功能，你只需要把所有节点都用蛙蛙练级来就可以了"
+		"&c注意：&f蛙蛙本身不会给包裹添加目标地址信息，你需要在打包机上放置告示牌来设置目标地址"
+	]
+	quest.1EBE33170D6B21D8.title: "3.11铁链物流"
+	quest.201AABAACD988B7C.quest_desc: ["要我重复吗"]
+	quest.201AABAACD988B7C.title: "O3.11升级2"
+	quest.2056328E74370A67.quest_desc: ["可以自定义纹理的抽屉，是好东西"]
+	quest.2056328E74370A67.title: "O3.4装饰一下"
+	quest.2057A20E7F0C1E8F.quest_desc: ["锦致装饰添加的笼子可以直接抓住小型生物带走，非常方便。虽然猪牛羊不能直接带走，但你可以用笼子带走它们的幼崽，所以带上饲料出发吧。"]
+	quest.2057A20E7F0C1E8F.title: "O2.3捕获小动物"
+	quest.20B7FB68F5EAB7B3.quest_desc: [
+		"控制转速，让物品处理好时从加工区域离开（比如从方块边缘掉下去），即可省去分拣操作"
+		"Tips：转速不影响批量加工的效率"
+	]
+	quest.20B7FB68F5EAB7B3.title: "H1.16转速也是一门艺术"
+	quest.20F6DBC3D5425C0E.quest_desc: [
+		"存储终端可以为相连的容器提供一个管理界面，通常贴到存储连接器上使用，也很适合贴到物品保险库上使用"
+		"Tips：在这个包中，存储终端可以在移动结构中正常使用"
+	]
+	quest.20F6DBC3D5425C0E.title: "O4.2只需要轻轻一贴"
+	quest.212D60A9905FE097.quest_desc: [
+		"蛙蛙可以将纸箱挂到锁链上，也可以将锁链上的包裹取下"
+		"&c注意：&f蛙蛙本身不会给纸箱添加目标地址信息，你需要在打包机上放置告示牌来设置目标地址"
+	]
+	quest.212D60A9905FE097.title: "S2.12.7短途运输"
+	quest.220B58C7BF98AD45.quest_desc: ["自动销毁超出储量上限的物品/流体"]
+	quest.220B58C7BF98AD45.title: "O3.17和爆仓说byebye"
+	quest.220BD2647ED0E33F.quest_desc: [
+		"动力锯朝上摆放时可以加工一些物品，比如说给原木去皮，将一块安山合金锯成6根传动杆。需要注意的是，当一个物品有多个加工配方时，动力锯会按顺序轮流执行这些配方，不仅浪费资源，还会造成卡顿。好在它有过滤槽，你可以过滤你需要的配方，以规避这些问题。"
+		"当然，它的本职工作是代替斧头破坏方块，特别的是它可以一次性砍到一整棵树（详见思索），也很适合部署于动态结构上使用"
+	]
+	quest.220BD2647ED0E33F.title: "S1.7.3We are 伐木累"
+	quest.2281917373F10D54.quest_desc: ["绑定后使用，可以传送至绑定的传送石碑，使用过程中受到伤害依旧会被打断"]
+	quest.2281917373F10D54.title: "O1.7绑定卷轴"
+	quest.23636E72D5D35C87.quest_desc: ["使用工厂仪表可以实现自动生产、补货"]
+	quest.23636E72D5D35C87.title: "4.10智慧工厂"
+	quest.23D39D0E1647207D.quest_desc: ["野外河边现在会生成野生亚麻，破坏后掉落种子，它们可以稳定地为你提供线"]
+	quest.23D39D0E1647207D.title: "O2.1寻找亚麻种子"
+	quest.249AC0661E558EED.quest_desc: [
+		"粉碎轮可以将粗矿粉碎，使矿物增产。此外，粉碎轮也可以成组地执行石磨的配方。"
+		"&aTips：&f看不清转向可以试着把转速调低一点"
+	]
+	quest.249AC0661E558EED.title: "2.9它到底在朝哪边转！"
+	quest.255E0ED975E37262.quest_desc: ["机械动力的旅途也是从搜集起步资源开始的，和大部分MC开局一样，先去收集些木头吧"]
+	quest.255E0ED975E37262.title: "1.1要致富，先撸树！"
+	quest.2562BB5024D041D5.quest_desc: [
+		"使用桌布组建你的机械动力商铺，即便货没送到也不会退款！"
+		"啊，好像…没什么顾客呢…"
+	]
+	quest.2562BB5024D041D5.title: "S3.10.1《我在MC开商店》"
+	quest.25C40E93F22FDAC6.quest_desc: ["列出来实际上是建议别做，毕竟机械动力有批量加工"]
+	quest.25C40E93F22FDAC6.title: "O2.19别造"
+	quest.263229837952BEAC.quest_desc: [
+		"矿车装配站相当超模，你可以用它快速搬运大量方块（比如物品保险库）。目前而言，将动力钻头部署在矿车结构上可能并不是一个很好的选择，毕竟不能自动铺路…"
+		"不过利用我给你的俩机械手足够实现自动铺路，让矿车结构一直开下去，是不是很棒，感兴趣就试试吧，别忘了用动力犁回收铁轨哦！"
+		"&aTips：&f喂动力矿车一块燃料就可以一直跑下去，便宜皮实好用"
+	]
+	quest.263229837952BEAC.title: "S1.7.8托马斯小火车开动咯！"
+	quest.26A3A0EE1E4AC480.quest_desc: ["在写了在写了"]
+	quest.26A3A0EE1E4AC480.title: "别急"
+	quest.26BEAF09440ADDAF.quest_desc: [
+		"算的兄弟，算的。"
+		"是个容器自然可以用存储连接器连成一个整体，只需要在连接器处接一个漏斗，及时导出圆石即可"
+	]
+	quest.26BEAF09440ADDAF.title: "S2.11.4溜槽算不算容器？"
+	quest.2779FF4D8283A9C8.quest_desc: ["这俩都是，红石信号/物品输出方向是发信器的红石火把指向的那边"]
+	quest.2779FF4D8283A9C8.title: "O4.16比较器和漏斗"
+	quest.27E288909A98C7B1.quest_desc: [
+		"神之手的力量是绝对的！你迟早会认识到这一点。比如说，神之手可以以令史蒂夫望洋兴叹的速度处理玫瑰石英。"
+		"在前面的支线章节中，你应该已经和神之手打过交道了，在之后遇到棘手的难题时也可以试试看能不能用它解决。"
+	]
+	quest.27E288909A98C7B1.title: "2.4神之手"
+	quest.28194B1C1C19E79D.quest_desc: ["用它右键传送石盘中心的凹槽即可塞入"]
+	quest.28194B1C1C19E79D.title: "O1.5共鸣碎片"
+	quest.285BF1D72C2DE4F8.quest_desc: [
+		"安山合金改变了世界，这种神奇的便宜材料很适合用来传动，它是机械动力的基石。"
+		"&aTips：&f铁粒和锌粒都可以用来做安山合金"
+	]
+	quest.285BF1D72C2DE4F8.title: "1.4开始机↑械↓动~力↓"
+	quest.289A567623689A49.quest_desc: [
+		"工具箱有8格槽位，每个槽位可以存4组物品，破坏后内部物品会保留，不过这不是它出现在这里的原因。"
+		"工具箱槽位内的物品被取光后，槽位依旧显示有0个该物品，不允许其他物品存入，配合漏斗可以分拣出所需的物品。"
+	]
+	quest.289A567623689A49.title: "H1.10分拣"
+	quest.293526A9C14D5E7B.quest_desc: ["把收集到的圆石运去粉碎轮吧"]
+	quest.293526A9C14D5E7B.title: "2.12圆石"
+	quest.2939B3D6F6D626F5.quest_desc: ["功能性存储添加了许多抽屉，它们共同特性是可以存储大量同类物品，并且破坏后会保留存储的物品，方便搬运"]
+	quest.2939B3D6F6D626F5.title: "O3.1拜入抽屉神教"
+	quest.295B5425E0E67AAA.quest_desc: [
+		"面对日益复杂的原料需求，你或许可以着手建造一片物流中心了，建气派点，别让别人瞧不起咱们"
+		"机械动力6.0新增了一套物流系统，把打包机放在锅炉那边装木炭的木桶旁边，再将工厂仪表和仓储链接站贴在打包机上，用木炭右键一下仪表，你就可以设置这里要保存多少木炭。储量低于这个数量时，仪表会自动通过仓储链接站向存储网络请求木炭进行补充，你只需要布置好将木炭运输到锅炉的物流线路就好了。"
+	]
+	quest.295B5425E0E67AAA.title: "H2.9物流中心"
+	quest.2970DBA86BE9E560.quest_desc: [
+		"软管滑轮抽取水和岩浆时，如果连在一起的液体超过一万格，会被视为无限，因此你可以准备一个很深的池子，往里面倒入一万桶岩浆，从而获取无限岩浆。"
+		"&aTips：&f往连在一起超过一万格水或岩浆的池子里排水或岩浆，超过一万格的部分会被销毁"
+	]
+	quest.2970DBA86BE9E560.title: "S2.6.3我的岩浆无穷无尽"
+	quest.29CD73BC72280746.quest_desc: [
+		"只要粘了羊毛/风帆它就能转，不论风帆长什么样，不论有没有风，甚至可以穿墙，哇哦！"
+		"&aTips：&f每8个羊毛/风帆可以提升一级风车等级，产出更多的应力，并提高转速"
+	]
+	quest.29CD73BC72280746.title: "S1.6.2它是怎么转起来的？"
+	quest.2A16BAB2FA4BDCDA.quest_desc: [
+		"按住鼠标前侧键可以放大远处的景象，使用鼠标滚轮可以进一步缩放"
+		"此外点按F4可以使用“灵魂出窍”功能，自由飞来飞去，观察四周。不过，你的肉身会留在原地不动，要注意保护好它"
+		"&aTips：&f“在菜单/选项/按键控制/按键绑定”中你可以自定义它们的触发按键，分别搜索“category:zoom”和“category:free”即可看到它们的按键设置"
+	]
+	quest.2A16BAB2FA4BDCDA.title: "缩放与灵魂出窍"
+	quest.2A5739CB5A0810FC.quest_desc: ["弹射置物台可以设置发射条件，将条件设为等于64即可让小麦粉合并成组运输，提高效率"]
+	quest.2A5739CB5A0810FC.title: "H1.14成组洗涤"
+	quest.2AAE35B64CECB620.quest_desc: [
+		"适合用作大范围收集，带身上也很好用"
+		"但是千万！千万！千万不要随便带着磁铁进有掉落物的生产线！"
+	]
+	quest.2AAE35B64CECB620.title: "O2.24好用，但注意生效范围"
+	quest.2D2B3FC617173A73.quest_desc: ["这些五颜六色的石头经过粉碎处理后可以提取出矿物，不过目前我们缺少合适的工具，先放着吧"]
+	quest.2D2B3FC617173A73.title: "S1.3.1漂亮的石头"
+	quest.2D902F1562969306.quest_desc: [
+		"共享石碑不需要激活，放下即可用于快速传送到其他相同颜色的共享石碑，在多人游戏中非常方便。"
+		"可惜的是，传送石和传送卷轴不能选择共享石碑作为传送目标"
+	]
+	quest.2D902F1562969306.title: "O1.5共享石碑"
+	quest.2DB0E7C25A47D08B.quest_desc: [
+		"烘焙一下就变成美味的面包啦！此外面团黏糊糊的，或许可以代替黏液球？"
+		"&aTips：&f鼓风机制作面包需要批量烟熏，注意不要使用批量熔炼，灰都不给你剩下"
+	]
+	quest.2DB0E7C25A47D08B.title: "S1.7.15生的"
+	quest.2DF84A43EDC96F48.quest_desc: ["下界的诡异森林中有许多末影人，路过了就去找他们借点珍珠用吧:P"]
+	quest.2DF84A43EDC96F48.title: "S1.8.1找小黑串门"
+	quest.2E0C0A656AA1908A.quest_desc: ["机械动力对矿物资源要求颇高，挖到了最好全部带走"]
+	quest.2E0C0A656AA1908A.title: "1.3重要物资"
+	quest.2E6EB86ED33799FF.quest_desc: ["安山时代的分拣比较麻烦，但也并非无计可施。比如说工具箱就是一个很好的工具，它的单个格子内即便物品数量为0，也会一直占着，直到你手动清空"]
+	quest.2E6EB86ED33799FF.title: "S1.7.18工具箱过滤器"
+	quest.2E816548D1DE0868.quest_desc: ["机械动力新增的两种与容器交互的元件，这是前期的物流基石。"]
+	quest.2E816548D1DE0868.title: "3.1与容器交互"
+	quest.2EF9EAC427C522C0.quest_desc: [
+		"使用这两个抽屉升级可以代替滴水石锥炼药锅，从而缩小锅炉体积"
+		"想想看，还可以用来干什么？"
+	]
+	quest.2EF9EAC427C522C0.title: "S2.6.5集成式再生水、岩浆"
+	quest.2FCA2FED5704B877.quest_desc: ["使用配置工具可以锁定抽屉，具有类似工具箱的功效"]
+	quest.2FCA2FED5704B877.title: "S3.5.1上锁的抽屉"
+	quest.308A1563055A715B.quest_desc: [
+		"动力砂轮来自机械动力的附属模组《机械动力：附魔工业》，它的额外功能是快速打磨玫瑰石英，详见思索。"
+		"虽然你可以手持玫瑰石英直接右键动力砂轮使用，但还是建议你用漏斗实现自动化"
+	]
+	quest.308A1563055A715B.title: "S2.3砂纸可以，砂轮也要行"
+	quest.315D37C37DF6F713.quest_desc: ["利用滴水石锥和炼药锅（详见MC Wiki）可以再生岩浆，岩浆本身很耐烧，因此少量的滴水石锥足以供给锅炉的燃料了。"]
+	quest.315D37C37DF6F713.title: "S2.6.2滴水石锥能滴岩浆很合理吧"
+	quest.31AF2FB206146F3C.quest_desc: ["很方便的升级，相比自动补货，其实中键选区的功能更常用"]
+	quest.31AF2FB206146F3C.title: "O2.22Pick"
+	quest.32477C9F45EFC9CB.quest_desc: ["可以代替箭头指向的容器与外界交互，方便你给容器贴更多漏斗"]
+	quest.32477C9F45EFC9CB.title: "O4.7扩大容器表面积"
+	quest.333E59BBBB468024.quest_desc: [
+		"木头做的水车为什么可以在岩浆中正常使用？"
+		"史蒂夫科技震撼人心"
+	]
+	quest.333E59BBBB468024.title: "A2.6.1哇去，风火轮"
+	quest.3467046051051E76.quest_desc: [
+		"机械动力与许多mod都有意想不到的联动，遇到了会和你介绍的。"
+		"当然，开动脑筋，自行探索会有很多有趣的发现的"
+	]
+	quest.3467046051051E76.title: "多模组联动"
+	quest.34CB3F726EEE85B5.quest_desc: ["用于复制并套用已经设置好的过滤，类似机械动力的剪贴板"]
+	quest.34CB3F726EEE85B5.title: "O4.20复制粘贴"
+	quest.3547FA56F0388380.quest_desc: [
+		"存储连接器会自动将与他相连的所有容器（箱子、木桶、抽屉、背包、漏斗…基本上是个容器就能接入）、通过容器或线缆连接的容器，整理为一个存储网络，并可以同时代表网络内所有容器与外界交互。"
+		"两个存储连接器不能接入同一个网络，但是一个容器可以接入多个网络"
+		"Tips：箱子放多了容易卡，建议用木桶"
+	]
+	quest.3547FA56F0388380.title: "O4.1核心出装"
+	quest.35ACDC55ED20BAEB.quest_desc: ["效率太低了，但胜在方便"]
+	quest.35ACDC55ED20BAEB.title: "O3.19集成式黑曜石机"
+	quest.35BE83CC6ACDBC05.quest_desc: [
+		"右键传送石碑可以消耗经验快速移动到其他已经激活的传送石碑，相当方便。除了人造，世界中也会生成传送石碑，比如村庄中。"
+		"短距离传送不需要经验，目标距离 1000～2000 格时传送需要消耗一级经验，目标距离 2000～3000 格时传送需要消耗二级经验，跨世界传送或目标距离 3000 格外消耗三级经验"
+		"右键激活后，小地图会对它标记，产生一个光柱，你可以在设置中关掉这个功能。"
+	]
+	quest.35BE83CC6ACDBC05.title: "O1.4传送石碑"
+	quest.35DCD1A9FEE91CB8.quest_desc: ["亚麻可以1:1合成线"]
+	quest.35DCD1A9FEE91CB8.title: "O2.2亚麻线"
+	quest.36F5C01A7406A0BF.quest_desc: ["动力臂能成组搬运物品，限制较小，在一些刁钻场景中有不错的发挥。不过目前它的任务是自动给烈焰人喂燃料…当然你造出来了干什么都行，我没那个权力管你"]
+	quest.36F5C01A7406A0BF.title: "2.6机仆"
+	quest.36F5E3EECFB6D761.quest_desc: ["可能要长期陪你的背包"]
+	quest.36F5E3EECFB6D761.title: "O2.8便宜的奢侈品"
+	quest.37260C62D6417351.quest_desc: [
+		"现在，你可以摆脱齿轮变速了，快换上高新科技-转速控制器！"
+		"强调一句：转速控制器是将输入端（比如齿轮）的应力导向输出端（比如转速控制器的接口），同时将转速调成你设定的数值"
+	]
+	quest.37260C62D6417351.title: "2.7工程师必备"
+	quest.376B0226F9435FAD.quest_desc: ["这是来自Tom的简易存储中的神奇小道具，可以通过它访问容器（比如置物台、漏斗、物品保险库等）"]
+	quest.376B0226F9435FAD.title: "E1.7.1杀死比赛"
+	quest.3906FBFE6DF806E4.quest_desc: ["这里的动态结构需要有缓存和接口，不然动力收割机不能自动收集小麦和种子"]
+	quest.3906FBFE6DF806E4.title: "H1.2通配"
+	quest.390C138909D71BED.quest_desc: [
+		"从指定方向抽入、输出物品，也可以给流体抽屉用，很方便"
+		"&aTips：&f在背包内右键它可以改变指定的方向，按F3可以查看你面朝的方向"
+	]
+	quest.390C138909D71BED.title: "O3.15内置全向漏斗"
+	quest.39D1FAC09600EFD3.quest_desc: ["纸板不止可以做打包机，他还能做盔甲和武器，集齐全套纸板护甲后潜行（蹲下）有特殊效果"]
+	quest.39D1FAC09600EFD3.title: "S2.16.6纸板"
+	quest.3A434C665E7F627A.quest_desc: ["同样是不建议做"]
+	quest.3A434C665E7F627A.title: "O2.20 也别造"
+	quest.3A4783866AF0E954.quest_desc: ["厌倦了像黑奴一样摇曲柄？快试试水车，100%清洁的无限能源"]
+	quest.3A4783866AF0E954.title: "S1.6.1水力发…应力"
+	quest.3AC7DED6E715F8EC.quest_desc: ["将鼠标光标放到动力冲压机上，再长按[W]进行思索，思索完你就会用了"]
+	quest.3AC7DED6E715F8EC.title: "1.6年轻人的第一台工业设备"
+	quest.3C1026EF37C893CF.quest_desc: [
+		"动力合成器还是太慢了，恰巧原版也有合成器，能不能把它接入机械动力的物流系统？"
+		"&c注意：&f牛爷爷虽然快一些，但却相当麻烦，只有经验丰富的工程师才能将它高效地并入物流系统。"
+	]
+	quest.3C1026EF37C893CF.title: "S4.10.2加速！"
+	quest.3D641E50217E411F.quest_desc: ["一般就前期用来合成铁背包"]
+	quest.3D641E50217E411F.title: "O2.6便宜背包"
+	quest.3D7032A4AB2988DE.quest_desc: ["抽屉系统可以在较大范围内无线、实时地运输物品，有时候比动力臂更好用"]
+	quest.3D7032A4AB2988DE.title: "S4.3.1无线抽屉传输"
+	quest.3D7B77FC4DA4A48F.quest_desc: ["精妙背包是整合包常客了，是个简单却强大的背包模组。背包可以随身携带，也可以装备到胸甲或背饰中，按B键快速访问背包。"]
+	quest.3D7B77FC4DA4A48F.title: "O2.5精妙背包"
+	quest.3D7E4FAEF34F3AA1.quest_desc: ["不论是熔炼成锭还是洗涤成粒，处理好的矿物都会占据大量仓库容量，理想状态还是要打包成矿物块存储，动力冲压机配合工作盆可以满足这一需求。"]
+	quest.3D7E4FAEF34F3AA1.title: "S2.10.1压块存储"
+	quest.3F198015065022AD.quest_desc: ["蒸汽锅炉启动后每隔一段时间便会清空一次储罐中的水，因此你需要为它持续输入水。使用动力泵和铜管道直接从江河湖海甚至水坑里抽水即可，不需要借助软管滑轮。"]
+	quest.3F198015065022AD.title: "2.2给锅炉供水"
+	quest.3F1D55B3D10C15A8.quest_desc: [
+		"厌倦了分类收纳和翻箱倒柜地寻找物品？快试试Tom的简易存储吧！"
+		"等你有需求了去看一眼生活小窍门部分就好，现在不需要急着都看一边，那样很累的"
+	]
+	quest.3F1D55B3D10C15A8.title: "简单的仓库管理"
+	quest.40EF2F8772FB09DF.quest_desc: ["可以存储某物品的多个变种"]
+	quest.40EF2F8772FB09DF.title: "O4.10同类物品收纳"
+	quest.4100506A28411BB5.quest_desc: ["和机械动力的列表过滤器一个用法"]
+	quest.4100506A28411BB5.title: "O4.17这就是列表过滤器"
+	quest.412D3AFF7FAC695E.quest_desc: ["最后，准备一个巨大的仓库，当作物流中心使用吧"]
+	quest.412D3AFF7FAC695E.title: "3.12物流中心"
+	quest.4147FD563F5B8437.quest_desc: ["动力钻头可以破坏面前的方块，即便是黑曜石也不例外"]
+	quest.4147FD563F5B8437.title: "S1.7.2突破天际的钻头！"
+	quest.417DDED017FF632B.quest_desc: [
+		"传送石盘（假设它的编号为A）主要用于远距离运输生物，放置后会生成一块同名的共鸣碎片（编号为A），将共鸣碎片（A）塞到其他传送石盘（假设编号为B）即可。"
+		"塞入沉眠碎片时，会再生成一块与传送石盘同名的共鸣碎片（A）。"
+		"当传送石盘（B）上方有实体（比如村民）时，经过短暂前摇，实体会被传送到与共鸣碎片（A）对应的传送石板（A）"
+		"&aTips：&f你可以用它配合矿车装配站，把刷怪笼搬回家用"
+	]
+	quest.417DDED017FF632B.title: "O1.4传送石盘"
+	quest.418B4F343AD328EA.quest_desc: [
+		"众所周知，下届残骸很稀有，但它既然防火…"
+		"把岩浆湖全刨了不就好了吗XD"
+	]
+	quest.418B4F343AD328EA.title: "S1.8.5稀有？全刨了！"
+	quest.429A59AB51756FCC.quest_desc: ["多余的钻石给我多好，干嘛做这个"]
+	quest.429A59AB51756FCC.title: "O2.14用不着"
+	quest.439FB931D388BDFB.quest_desc: [
+		"传送门近在眼前…"
+		"什么找不着？别忘了按F4灵魂出窍"
+	]
+	quest.439FB931D388BDFB.title: "2.16开门，史蒂夫送温暖"
+	quest.43A0F994F8722DF4.quest_desc: ["过度用的"]
+	quest.43A0F994F8722DF4.title: "O4.4美丽小废物"
+	quest.448BA2E592AE59B4.quest_desc: ["动力臂可以绑定多个烈焰人，用它喂烈焰人会方便些"]
+	quest.448BA2E592AE59B4.title: "H2.7喂烈焰人"
+	quest.44989E6F78FFB9E5.quest_desc: ["和铁类似，机械动力也有量产金子的办法，有空就去试试吧！"]
+	quest.44989E6F78FFB9E5.title: "S2.14.1无限金"
+	quest.46B354A9BBAA036A.quest_desc: [
+		"来自锦致装饰的水龙头贴在水源上时（比如一个含水树叶），可以源源不断地供水，且没有任何消耗，用它供水即可免去锅炉停机后费劲地手动泵水步骤。"
+		"贴在容器上时，它也可以将容器中的水抽出，注入下方容器内，如果你需要在地狱中使用蒸汽锅炉，水龙头也能帮上忙。"
+	]
+	quest.46B354A9BBAA036A.title: "S2.2牙签撬大象"
+	quest.46CCE67ABF227416.quest_desc: [
+		"进入黄铜时代，蒸汽锅炉成为了应力的最佳来源，许多情况下一台9级锅炉就足够供你一辈子，代价只是一些燃料，何乐而不为呢"
+		"&aTips：&f搭建方法见蒸汽引擎的思索"
+	]
+	quest.46CCE67ABF227416.title: "2.1蒸汽锅炉"
+	quest.4816843BD5B2FE89.quest_desc: ["水道和原版漏斗在机械动力中依旧有用武之地，不要把它们忘干净了"]
+	quest.4816843BD5B2FE89.title: "S3.2.1老手艺不能丢"
+	quest.48B46D0ECFAD13D0.quest_desc: ["起重机动态结构相对麻烦许多，不过它的性能开销也较小，本身也有许多特殊功能。对于新人而言有些复杂了，建议跳过。"]
+	quest.48B46D0ECFAD13D0.title: "S1.7.9最难用的动态结构"
+	quest.49BEAE6B58A06418.quest_desc: ["一般不会做这个，野外偶尔会刷新带背包的精英怪，它们的背包里会有唱片升级"]
+	quest.49BEAE6B58A06418.title: "O2.17野外随机刷新"
+	quest.49E985AF8A08783D.quest_desc: ["1"]
+	quest.49E985AF8A08783D.title: "O3.12升级3"
+	quest.49F0BD005AF49BA8.quest_desc: [
+		"很明显农作物长大需要时间，比起让起重机一直往返，定时启动它或许更方便"
+		"Tips：这个元件需要使用黄铜，你可以之后再来修改你的农场"
+	]
+	quest.49F0BD005AF49BA8.title: "H1.7定时往返"
+	quest.49F272968741D3DD.quest_desc: [
+		"弹射置物台可以成组地运输物品，布线也相对自由。此外，它可以放置在传送带间使用，让零散的物品积攒至一组（可配置）后再输入传送带。"
+		"你怎么不自己站上去试试？"
+	]
+	quest.49F272968741D3DD.title: "3.3“空运”"
+	quest.4A218D10EEB4096E.quest_desc: [
+		"强力胶可以强行将多个方块黏在一起，从而组建巨大的动态结构，你会需要它的"
+		"就算运气不好找不到史莱姆也没关系，机械动力为史莱姆球添加了合成配方，快用物品过滤器查询一下"
+	]
+	quest.4A218D10EEB4096E.title: "S1.7.1那很强力了"
+	quest.4A371F65307F46FA.quest_desc: ["将石英与红石混合制成的玫瑰石英很适合制作电子管，从而制造些更聪明的机器。不过玫瑰石英无法直接使用，得先用砂纸打磨一下"]
+	quest.4A371F65307F46FA.title: "2.3草莓味棒棒糖"
+	quest.4A42C3CC52E9DD9B.quest_desc: [
+		"起重机也很适合管理农场，它可以管理长片状的农田，或者立体的农田（比较复杂，不做展开）"
+		"需要注意的是起重机动态结构不能穿过方块，需要保持工作范围没有遮挡"
+	]
+	quest.4A42C3CC52E9DD9B.title: "H1.4起重机农场"
+	quest.4A6C41CA1B64E670.quest_desc: ["和存储代理器一样的功能，区别是它没有方向限制"]
+	quest.4A6C41CA1B64E670.title: "O4.8万向代理器"
+	quest.4B579F26CD36BE18.quest_desc: [
+		"产线中常有多种物品混杂在一起的情况，原版的漏斗分拣相当不便，使用工具箱可以简单地分拣。原理便是利用一些容器可以设定只接受特定物品的特性，配合安山漏斗进行分拣，能存进去的就会被取走，不能存进去的会留下。"
+		"工具箱的单个格子内即便物品（假设名字叫物品A）数量为0，也会一直占着（只接受物品A，不存储其他物品），直到你手动清空。它有8个格子，也就是说一个工具箱可以分拣1~8种物品。"
+	]
+	quest.4B579F26CD36BE18.title: "3.5分拣"
+	quest.4CE6FD6210F20209.quest_desc: ["出！nnd为什么不出！你给我出啊！"]
+	quest.4CE6FD6210F20209.title: "S1.10.1斩首行动"
+	quest.4DE6D8746807963A.quest_desc: ["啊？"]
+	quest.4DE6D8746807963A.title: "O2.15你赢了"
+	quest.4DEE2D8CF9D0C8EA.quest_desc: ["精妙背包的磁铁升级可以大范围收集指定物品，也很适合用在这里"]
+	quest.4DEE2D8CF9D0C8EA.title: "S2.11.3对的，这是个背包"
+	quest.4E5F7465E4545CC9.quest_desc: [
+		"流体抽屉可以大量存储流体，且挖掘后会保留存放的液体，相当的方便。保守派不用抽屉也行，用矿车装配站把流体储罐搬走就好"
+		"别想了，它不能用来搭建蒸汽锅炉"
+	]
+	quest.4E5F7465E4545CC9.title: "S2.6.4更便捷的流体储罐"
+	quest.4EFB4B43B0977EA5.quest_desc: ["控制器和扩展器也可以自定义纹理"]
+	quest.4EFB4B43B0977EA5.title: "O3.8也装饰一下"
+	quest.4F0981C6A7D6C9D5.quest_desc: [
+		"动力轴承在通入应力后会带动结构旋转，很适合建造小型树场、农场。离轴心越远，线速度越快，工件的工作效率越高…哇！"
+		"动力轴承带动的结构可以穿墙，方块化时会挤压破坏掉重合的方块，因此你也可以用它便宜快速地破坏方块。"
+	]
+	quest.4F0981C6A7D6C9D5.title: "S1.7.10 它转起来了！"
+	quest.4F79E772A0B73E7A.quest_desc: ["最大的区别是可以一次运输一组物品，且可以使用过滤，超赞"]
+	quest.4F79E772A0B73E7A.title: "4.1获得升级！"
+	quest.4F849B5CCEA84C30.quest_desc: ["在写了在写了"]
+	quest.4F849B5CCEA84C30.title: "别急"
+	quest.5094D6E28313B8AD.quest_desc: [
+		"使用神之手，你可以把大堆的齿轮塞进这么小一个构件中，从而制造更智能的机器。"
+		"神之手的力量是绝对的！"
+	]
+	quest.5094D6E28313B8AD.title: "2.5亚空间压缩技术"
+	quest.50DBE9905738208D.quest_desc: ["黄铜漏斗、智能溜槽、黄铜隧道都可以设置过滤，让我们欢送工具箱退休吧"]
+	quest.50DBE9905738208D.title: "4.5智能过滤"
+	quest.518764631D4ECC3E.quest_desc: [
+		"来自精妙背包的压制升级可以快速压缩多种、大量的物品，且背包本身储量也极大。虽然摆在产线尽头不伦不类的，但它方便啊"
+		"-你真的是背包吗？"
+		"-我觉得我是"
+	]
+	quest.518764631D4ECC3E.title: "S2.10.3还有高手？！"
+	quest.51D5A7E5C6A4D2E8.quest_desc: [
+		"岩浆除了直接喂烈焰人，还可以做成烈焰蛋糕，吃下烈焰蛋糕的烈焰人会进入超级燃烧状态，可以将蒸汽锅炉的等级推到18级，虽然大部分情况下你也用不完这么多应力。"
+		"目前下界岩没有量产途径，且用途不止造蛋糕，一条24h运行的烈焰蛋糕产线或许并不是好主意，试试用机械动力6.0新增的物流元件来解决吧！"
+	]
+	quest.51D5A7E5C6A4D2E8.title: "H2.6.2美味小汉堡"
+	quest.5235B0EC83F33C50.quest_desc: ["通过粉碎矿物、使用神之手击败生物等方式，你可以获取经验颗粒，一种方便的经验存储媒介。《机械动力：附魔工业》在经验机制上拓展了不少玩法，感兴趣可以研究研究"]
+	quest.5235B0EC83F33C50.title: "S2.4.2经验颗粒"
+	quest.5248106EB435E7D0.quest_desc: ["烟花火箭也可以自动化，将它的产线设计出来，然后接入物流系统吧"]
+	quest.5248106EB435E7D0.title: "S2.17.3麻麻我会飞！"
+	quest.52D1638587ADF907.quest_desc: [
+		"动力轴承配合收割机可以自动管理一块圆形的农场，很方便"
+		"虽然动力轴承不能含水，但传动杆可以呀"
+		"有需要你还可以将动力轴承堆叠，做一座小麦塔"
+	]
+	quest.52D1638587ADF907.title: "H1.3动力轴承"
+	quest.540E288CA40A579F.quest_desc: ["将前方一格空气视作一个容器，这一格范围内的掉落物也会被接入存储网络，相对应的也会把接收到的物品扔到前方"]
+	quest.540E288CA40A579F.title: "O4.9敞口箱"
+	quest.544B8D112E834FEA.quest_desc: ["字面意思"]
+	quest.544B8D112E834FEA.title: "O3.10升级1"
+	quest.54FBCC6AA2A3DA2A.quest_desc: ["与存储控制器连接后，可以代理存储控制器，扩大抽屉系统的有效范围"]
+	quest.54FBCC6AA2A3DA2A.title: "S2.12.4存储扩展器"
+	quest.5536784AB66FDC28.quest_desc: ["用它合成粉碎轮吧"]
+	quest.5536784AB66FDC28.title: "2.8神秘的动力合成器"
+	quest.553B73C3A38CC394.quest_desc: [
+		"我没有checkmark（确认标记）怎么办？"
+		"其实你只需要点一下那个√就可以完成任务了"
+	]
+	quest.553B73C3A38CC394.title: "Check Mark"
+	quest.56357E854A76AA08.quest_desc: ["很方便的流体来源，水生成升级在下界里也能用"]
+	quest.56357E854A76AA08.title: "O3.18再见，滴水石锥炼药锅"
+	quest.565FC8E39E2DAD09.quest_desc: ["在存储终端的基础上额外给予了一个工作台，可以与物品管理器一起使用"]
+	quest.565FC8E39E2DAD09.title: "O4.3合成终端"
+	quest.5728E5DDFEC65C1B.quest_desc: ["在溜槽下放置大尺寸的物品保险库，从而让它们全部导向同一个容器，也是一种收集办法"]
+	quest.5728E5DDFEC65C1B.title: "S2.11.2大尺寸容器"
+	quest.57CC8596A6F452F1.quest_desc: ["熔岩桶也是一种燃料，而且能烧很久，很适合用作烈焰人的燃料，至于怎么量产嘛…"]
+	quest.57CC8596A6F452F1.title: "S2.6.1量产燃料-熔岩"
+	quest.57DD30E6D5A0F3F0.quest_desc: ["这部分需要黄铜才能制作"]
+	quest.57DD30E6D5A0F3F0.title: "声明"
+	quest.581B7F6328943A77.quest_desc: ["粉碎轮是石磨的进阶版，可以一次研磨64份小麦。你现在可能还做不了它，获得黄铜后在回来改进吧"]
+	quest.581B7F6328943A77.title: "H1.9粉碎轮"
+	quest.58DC2571CADB5D6B.quest_desc: [
+		"工作盆会自动将产物传递到相邻4格下方1格的开放容器中。"
+		"至于哪些是开放容器？自行摸索、查Wiki，或者看看我以前做的教程都行"
+	]
+	quest.58DC2571CADB5D6B.title: "S3.1.1自动导出产物"
+	quest.59AFEFB4D426325F.quest_desc: ["还不错，有多余槽位可以带"]
+	quest.59AFEFB4D426325F.title: "O2.23造了估计你也不习惯用"
+	quest.5A620F05AAD3F8A5.quest_desc: ["手持包裹右键可以把包裹扔出去，那是不是可以开发些娱乐活动？"]
+	quest.5A620F05AAD3F8A5.title: "A2.12.1灌篮高手"
+	quest.5AF27B54E33991CF.quest_desc: ["将锌与铜一起放入动力搅拌器，辅以烈焰人的高温，终于是制作出了黄铜，是时候开启新篇章了！"]
+	quest.5AF27B54E33991CF.title: "1.11黄铜！"
+	quest.5B63C5D6D8BF040D.quest_desc: ["动力臂可以成组运输物品，而且限制颇小，不易被干扰，用它可以部分替代弹射置物台"]
+	quest.5B63C5D6D8BF040D.title: "4.3三维运输"
+	quest.5B74744EE5D552DC.quest_desc: ["类似合成升级，不过随身带的需求不大"]
+	quest.5B74744EE5D552DC.title: "O2.18有些用，但不多"
+	quest.5B7CAF6382995374.quest_desc: ["来自功能性存储的压缩抽屉可以自动将物品压缩存储，且可以直接取出块、锭、粒而不需要手动拆开，非常的方便"]
+	quest.5B7CAF6382995374.title: "S2.10.2更方便的选择"
+	quest.5C4E861F641219F0.quest_desc: ["使用配置工具锁定的抽屉具有与工具箱一样的特性，配合控制器还可以实现无线分拣、传输物品"]
+	quest.5C4E861F641219F0.title: "H1.11抽屉分拣"
+	quest.5C981487B1D809D8.quest_desc: ["主世界最好的背包"]
+	quest.5C981487B1D809D8.title: "O2.9到达主世界最高峰"
+	quest.5CF3E224E58145A8.quest_desc: ["使用传送带搭配漏斗，可以自动往横着、躺着放的粉碎轮进料"]
+	quest.5CF3E224E58145A8.title: "S2.9.1横式粉碎"
+	quest.5D1434F62FCEF197.quest_desc: ["你应该注意到了，屏幕右上角有一个小地图，按J即可全屏查看地图"]
+	quest.5D1434F62FCEF197.title: "旅行地图"
+	quest.5DEC221707659F22.quest_desc: [
+		"控制器可以创建一个抽屉网络，并同时代表网络内的所有容器与外部交互。抽屉网络不要求抽屉与控制器直接接触，因此也可用来无线传输物品"
+		"两个控制器不能彼此链接，一个抽屉也不能接入两个控制器"
+	]
+	quest.5DEC221707659F22.title: "O3.5抽屉网络"
+	quest.5DFC74E8F4776AFF.quest_desc: ["人工用小麦粉与水桶合成，可以制作面团。此外，使用鼓风机的批量洗涤功能可以更大规模地制作面团。"]
+	quest.5DFC74E8F4776AFF.title: "S1.7.11还不能吃"
+	quest.5E6AC4D5CEFF7861.quest_desc: ["接在矿物处理产线末端很方便"]
+	quest.5E6AC4D5CEFF7861.title: "O2.26这样搞得压缩抽屉很尴尬欸"
+	quest.5EDEAC56DF308BBD.quest_desc: ["到这里，你已经有了一套完备的物流系统了，试着把所有的工件都接入这套系统吧"]
+	quest.5EDEAC56DF308BBD.title: "3.13神功大成"
+	quest.5F838CB565BAEE16.quest_desc: ["装饰品"]
+	quest.5F838CB565BAEE16.title: "O4.14染色"
+	quest.5F91CA3FD1CD4D40.quest_desc: [
+		"鼓风机可以吹动实体（比如烦人的村民），还能批量洗涤、熔炼、烟熏、缠魂，非常实用"
+		"&aTips：&f多个鼓风机的风场可以叠加，从而提高加工效率（加工效率与鼓风机转速无关）"
+	]
+	quest.5F91CA3FD1CD4D40.title: "S1.7.6 799~呼呼呼~"
+	quest.61FB3C6EFAE19AC0.quest_desc: ["我知道你很急，但急也没用"]
+	quest.61FB3C6EFAE19AC0.title: "这部分在写了"
+	quest.62A3BFD801BEDBBA.quest_desc: [
+		"用于当作容器，参与链接存储网络"
+		"但…我为什么不直接塞木桶呢？"
+	]
+	quest.62A3BFD801BEDBBA.title: "O4.11容量为0的容器"
+	quest.62BE831079501667.quest_desc: [
+		"矿车装配站很适合建造云杉树场，效率高还简单。"
+		"需要注意的是启用矿车装配站前，务必确认设置了旋转锁定！"
+		"Tips：让矿车处于动态结构中心能略微减少性能开销"
+	]
+	quest.62BE831079501667.title: "H2.4矿车结构"
+	quest.632D93F702658D14.quest_desc: ["使用连接器连接到控制器后，可以和控制器一样代表所有抽屉与外界交互。扩展器不能绑定抽屉"]
+	quest.632D93F702658D14.title: "O3.7扩展抽屉网络"
+	quest.63F4051821289588.quest_desc: ["机械动力看着复杂，实际上玩一遍就会啦，多说无益，快去试试！"]
+	quest.63F4051821289588.title: "欢迎光临！"
+	quest.644E9D3E4DFC15BC.quest_desc: [
+		"就是这个界面啦，除了用任务书打开，按E打开背包后，在整个屏幕的左上角有个小的任务书的快捷图标，点击它也可以打开这个界面"
+		"将鼠标移动至任务界面最左边，你可以看到许多章节，那是分类好的各种引导任务，不知道干什么时就跟着任务走吧"
+	]
+	quest.644E9D3E4DFC15BC.title: "怎么用任务系统？"
+	quest.64595B1A54501FB3.quest_desc: ["任务界面的最右上角有一键领取任务奖励的功能，你不需要手动一个个点过去"]
+	quest.64595B1A54501FB3.title: "一键领取"
+	quest.64A10A249D1222A1.quest_desc: ["阿巴阿巴…"]
+	quest.64A10A249D1222A1.title: "O3.14升级4"
+	quest.64D021939B024BB2.quest_desc: ["这些工件当然不止能用于量产面包，你还可以产些别的，在物品过滤器中搜索 @Farmer 看看有没有你喜欢的吧"]
+	quest.64D021939B024BB2.title: "H1.18进阶"
+	quest.658335D65A1F5A46.quest_desc: ["这里的动态结构需要有缓存和接口，以便收集和取出木头"]
+	quest.658335D65A1F5A46.title: "H2.2老三样"
+	quest.65BF8FC02AE8FD7D.quest_desc: ["石英也是有用的资源，挖走还给不少经验，碰到了就带上吧"]
+	quest.65BF8FC02AE8FD7D.title: "S1.8.4来都来了"
+	quest.65EC18E9B0D560EC.quest_desc: ["可以量产的升级，只是有些麻烦"]
+	quest.65EC18E9B0D560EC.title: "O2.13没必要"
+	quest.6673D40DCE9EEF4B.quest_desc: ["机械动力铁比铜便宜，一般不用它"]
+	quest.6673D40DCE9EEF4B.title: "O2.11很少用"
+	quest.6676FFE364D3886B.quest_desc: [
+		"这个神奇的小玩意是合成传送石碑的原料，本身也可以长按右键使用，选择一个已经激活的传送石碑（共享石碑不行）进行传送，方便你快速回家"
+		"&c注意：&f受到伤害传送会被打断，请在安全的位置使用它"
+	]
+	quest.6676FFE364D3886B.title: "O1.3传送石"
+	quest.66D016585EA2B436.quest_desc: ["阿巴阿巴"]
+	quest.66D016585EA2B436.title: "x64指路石转换"
+	quest.66F7CB84CEA26D26.quest_desc: ["试试看吧，不需要多少资源，难度也不高"]
+	quest.66F7CB84CEA26D26.title: "H1.7.1面包滞销，帮帮我们"
+	quest.68EACC370598FD77.quest_desc: ["将小麦分拣出来，研磨成小麦粉，以提高小麦的利用率"]
+	quest.68EACC370598FD77.title: "H1.8磨粉"
+	quest.6994597220DA39DA.quest_desc: ["抽屉可以加装升级，各种升级的效果为乘算。比如说塞俩铜升级，储量是8×8=64倍"]
+	quest.6994597220DA39DA.title: "S2.12.2获得升级"
+	quest.69FBB054877310A4.quest_desc: ["击败凋零后要干什么，来个满级信标？"]
+	quest.69FBB054877310A4.title: "S1.10.2下界之星"
+	quest.6B0E81A5DD26BBBC.quest_desc: ["用它绑定存储连接器即可远程访问你的仓库啦"]
+	quest.6B0E81A5DD26BBBC.title: "O4.6神功大成"
+	quest.6B151160907137A0.quest_desc: [
+		"小黑塔是个相对麻烦的机器，使用蓝图系统能极大地减轻工作量，快去试试吧"
+		"&aTips：&f手持蓝图部署建筑时，Shift+右键可以填写具体坐标"
+	]
+	quest.6B151160907137A0.title: "S2.17.2开炮！"
+	quest.6B58E7363BD4E0F4.quest_desc: [
+		"若有不能被粉碎的东西被卷入粉碎轮会发生什么？答案是直接销毁！"
+		"快使用属性过滤器，使用粗矿作为参照物，添加“可以被粉碎”词条后塞到粉碎轮入口，拯救每一个失足方块人"
+	]
+	quest.6B58E7363BD4E0F4.title: "S2.9.3鹅滴审稿！"
+	quest.6B622E9F4CE8D0A8.quest_desc: ["使用斧头右键原木可以去皮，再手持安山合金右键去皮原木即可得到安山机壳"]
+	quest.6B622E9F4CE8D0A8.title: "1.5套壳！"
+	quest.6BCAC18D81E9476D.quest_desc: [
+		"机械动力的大部分工件都有提供“思索”，这是一套完善的动画教程。你只需要打开背包，将鼠标光标移动到你不会用的物品上，长按[W]进行思索。"
+		"还有问题，或者需要灵感，也可以去看看我之前做的机械动力教程:)"
+	]
+	quest.6BCAC18D81E9476D.title: "怎么玩机械动力？"
+	quest.6C3FDDA6C2D1E84D.quest_desc: [
+		"安装后可以收集指定方向的掉落物"
+		"是的，也可以抽水"
+	]
+	quest.6C3FDDA6C2D1E84D.title: "O3.16收集掉落物"
+	quest.6C975F30267C6C34.quest_desc: ["配合线缆使用，将远处的容器接入存储网络"]
+	quest.6C975F30267C6C34.title: "O4.13装接口"
+	quest.6DA5546C30AF595D.quest_desc: ["原料全部源自大自然，是纯天然有机农产品（确信）"]
+	quest.6DA5546C30AF595D.title: "S1.7.17纯天然无添加，童叟无欺"
+	quest.6E0DCE334B9D44B4.quest_desc: ["如果你有红石基础，可以自行摸索一下动态结构与红石的组合:P"]
+	quest.6E0DCE334B9D44B4.title: "S1.7.14俺寻思能行"
+	quest.6E98B59A5D229C20.quest_desc: [
+		"绳索滑轮很适合驱动动力钻头，可以一路挖至基岩层。当绳索滑轮停止移动后，绳索还可以当作梯子使用，帮助你快速爬回地表。"
+		"Tips：动态结构中带有存储方块时，产出的物品会自动存进去；另外物品保险库不能直接打开，不是BUG，记得看看它的思索"
+	]
+	quest.6E98B59A5D229C20.title: "S1.7.7地心游记"
+	quest.70A75AECE5AFE291.quest_desc: ["全MC最好的背包，陪你到天荒地老"]
+	quest.70A75AECE5AFE291.title: "O2.10终极奉献"
+	quest.70B69557EC69A476.quest_desc: [
+		"石磨可以研磨小麦，获取小麦粉，从而提高小麦的利用率。"
+		"一次只能磨一株小麦还是太慢了，或许以后有更高效的机器？"
+	]
+	quest.70B69557EC69A476.title: "S1.7.5小而美"
+	quest.70FA30FEA136BF9E.quest_desc: [
+		"锅炉肯定无法消化全部的木炭，多余的就运回仓库吧！一个简单的办法就是传送带直接连到仓库去，锅炉存放煤炭的木桶接在传送带两侧，用安山/黄铜漏斗取物。这样当木桶满了，漏斗就不会从传送带取物，木炭就自然地进入仓库了"
+		"你问我这里的存量转信器是干嘛的？其实暂时用不到，或者你可以用它检查仓库满了就关停树场？"
+	]
+	quest.70FA30FEA136BF9E.title: "H2.8分流"
+	quest.712EF7E4583780CC.quest_desc: ["粉碎后的矿石除了批量熔炼，还可以批量洗涤，能获得额外的副产物"]
+	quest.712EF7E4583780CC.title: "2.10碎矿"
+	quest.714DFF8B1435B67B.quest_desc: [
+		"想必你已经注意到了，沙砾洗涤后有概率获得铁粒，沙砾可以由圆石粉碎获得，而一个简单的刷石机即可提供源源不断的圆石，也就是说机械动力可以量产铁。"
+		"铁的需求相当大，你应该做一条铁生产线，就先从刷石机开始吧"
+	]
+	quest.714DFF8B1435B67B.title: "2.11量产铁"
+	quest.72A0E7758CE7A42A.quest_desc: ["一套战斗用品能很好地帮助你在危机四伏(存疑)的MC世界中更好地生存。当然，这不是必须的"]
+	quest.72A0E7758CE7A42A.title: "S.1.3.2对自己好一点"
+	quest.7408B3C901AC93C4.quest_desc: ["这部分其实物流专题就有讲，不过还是具体说说"]
+	quest.7408B3C901AC93C4.title: "别急"
+	quest.7459E4A4967D5550.quest_desc: [
+		"Tom的简易存储极大地简化了你的仓库，不必再翻箱倒柜啦！"
+		"&o详情请见生活小窍门部分&o"
+	]
+	quest.7459E4A4967D5550.title: "E1.7.2怎么会有这么方便的东西"
+	quest.74B22B35A46C23AB.quest_desc: ["能陪你一段时间"]
+	quest.74B22B35A46C23AB.title: "O2.7基础背包"
+	quest.7532BF1E9C6E7988.quest_desc: ["将传送石碑换成共享石碑"]
+	quest.7532BF1E9C6E7988.title: "x16指路石转换"
+	quest.7552BB5C0D181427.quest_desc: ["将告示牌贴在打包机上，即可设定包裹的目标地址。此外使用仓储发报机和红石请求器也可以设置目标地址。"]
+	quest.7552BB5C0D181427.title: "3.10分配地址"
+	quest.762F86F638041EC6.quest_desc: ["和机械动力的属性过滤器一个用法"]
+	quest.762F86F638041EC6.title: "O4.19属性过滤器"
+	quest.76B37CC4BA85F7C4.quest_desc: ["要量产面包，首先当然是量产小麦。动力收割机可以自动收割成熟的作物并补种，需要部署在动态结构上使用"]
+	quest.76B37CC4BA85F7C4.title: "H1.1自动小麦田"
+	quest.7730913B25648467.quest_desc: ["到这里，一条量产面包的产线就大功告成啦"]
+	quest.7730913B25648467.title: "H1.17投产！"
+	quest.7763C28C3F9AF9AC.quest_desc: [
+		"种田也能自动化！"
+		"动力收割机可以收割各种作物，甚至是海带、浆果、可可豆"
+		"虽然一大堆农作物也吃不完，但它可以没用，我们不可以没有（确信）"
+	]
+	quest.7763C28C3F9AF9AC.title: "S1.7.4种田也能自动化？"
+	quest.78555F9C28D8F5DD.quest_desc: [
+		"非常轻松地就做好了铁产线，不愧是你"
+		"至于燧石，你可以自行处理，我只在这里祝它幸福"
+	]
+	quest.78555F9C28D8F5DD.title: "2.14无限铁！"
+	quest.78627F8BDF656AC6.quest_desc: ["机械手可以放置方块，很适合用来扩建平台，接下来的机器结构往往比较大，有必要提前清理出空地。"]
+	quest.78627F8BDF656AC6.title: "S2.4扩大地盘"
+	quest.78BB766460EF42BF.quest_desc: [
+		"别忘了你还可以用搜索引擎搜、问AI、查MCmod百科，都是很方便的选择"
+		"此外我之前也做了一套教程，你可以去看看，找找灵感什么的.BV号：1gCNkeGEJR"
+	]
+	quest.78BB766460EF42BF.title: "看完任务还是不会用怎么办"
+	quest.797DC5A4D7FF51C2.quest_desc: ["可以单向传送至同色的共享石碑"]
+	quest.797DC5A4D7FF51C2.title: "O1.6传送石座"
+	quest.7A0C5244D1ABB4B9.quest_desc: ["注意过可以把背包放下还来吗，这两个升级能让背包作为存储元件使用更方便"]
+	quest.7A0C5244D1ABB4B9.title: "O2.25放下背包，立地成仓库"
+	quest.7A2900B878E9889C.quest_desc: [
+		"可以存储8.2k物品，放置时会随机分配一个频率，可以使用存储连接器存储、套用频率，相同频率的抽屉共享存储内容"
+		"Tips：如果频率丢失，物品很难找回来，不建议存放贵重物品"
+	]
+	quest.7A2900B878E9889C.title: "3.9无线传输"
+	quest.7A7825991729C7EB.quest_desc: ["不论你会不会红石，遇到了就多收集一点，以后有大用"]
+	quest.7A7825991729C7EB.title: "S1.3.3红石，我不会啊？"
+	quest.7B1C99709A83DCEA.quest_desc: ["玉（Jade）能帮助你快速确认生物、方块等的信息，会显示在屏幕顶部中间，你可以根据给出的名字和模组信息进一步搜索"]
+	quest.7B1C99709A83DCEA.title: "那是什么东东？"
+	quest.7B351A912F847C76.quest_desc: ["配合连接器使用，将远处的容器接入存储网络"]
+	quest.7B351A912F847C76.title: "O4.12拉网线"
+	quest.7CDA849025C588AC.quest_desc: ["把它放在打包机上，组建你的物流网络！"]
+	quest.7CDA849025C588AC.title: "3.9物流网络"
+	quest.7D51D96006CB0199.quest_desc: ["收集些制作传送石碑的原料"]
+	quest.7D51D96006CB0199.title: "O1.1原料"
+	quest.7DBF6F727C671718.quest_desc: ["使用接触时信号发生器，配合无线红石，可以实现自动往返"]
+	quest.7DBF6F727C671718.title: "H1.6自动反向"
+	quest.7DE975B729E0C49E.quest_desc: ["发挥你的口才，说服烈焰人替你工作吧（"]
+	quest.7DE975B729E0C49E.title: "1.10麻麻，你看，烈焰人！"
+	quest.7E37D652F20B3E43.quest_desc: ["方便量产的堆叠升级，用得多"]
+	quest.7E37D652F20B3E43.title: "O2.12用的多"
+	quest.7EC51B1111DC5998.quest_desc: ["起重机结构的运动方向取决于起重机杆的旋转方向，反转齿轮箱在接收到红石信号后会反转旋转方向，从而让起重机结构实现往返"]
+	quest.7EC51B1111DC5998.title: "H1.5你给我回来！"
+	quest.7F3FBAD2ADE01B06.quest_desc: [
+		"将分拣出的小麦粉送去批量洗涤，处理成面团。当然不分拣也行，小麦种子也可以分拣"
+		"水乱流怎么办？含水方块也可以用于批量洗涤，最方便的当属含水树叶了，它内部的水不会流走"
+	]
+	quest.7F3FBAD2ADE01B06.title: "H1.13批量洗涤"
+	reward_table.020A3C88B9B3C703.title: "作物种子"
+	reward_table.212DBFBCD827E469.title: "升级"
+	reward_table.474F84E641BDEC9D.title: "吃的"
+	reward_table.5AFD5736CC70B162.title: "添头"
+	reward_table.5CCB8AB029C40DF4.title: "矿物盲盒"
+	task.0065E29328643FE8.title: "试试看"
+	task.00C62C746F46E9A1.title: "Any #functionalstorage:drawer"
+	task.0B3B8A56F739DB18.title: "Any #waystones:waystones"
+	task.0CF7CBA281E21497.title: "了解"
+	task.126FDDF08D500C1A.title: "Any #create:crushed_raw_materials"
+	task.16ED492605E3588F.title: "Any #functionalstorage:fluid_drawer"
+	task.177A360C57852D7B.title: "Any #minecraft:signs"
+	task.1C4043D032F80106.title: "了解"
+	task.2383F5B86E9CC813.title: "了解"
+	task.307DA1E2AF30324B.title: "祝你好运"
+	task.34B7AEA470FC5A44.title: "Any #functionalstorage:drawer"
+	task.374D2397A2390402.title: "Any #minecraft:boats"
+	task.3F54E6FD887DD535.title: "试试看"
+	task.3FAE3DE3966CBDE3.title: "Any #minecraft:logs"
+	task.3FFCA4CE0E3396F8.title: "Any #waystones:waystones"
+	task.433853A0F627AAD4.title: "Any #create:toolboxes"
+	task.4475BA849EE89126.title: "了解"
+	task.45BBD14537C0F467.title: "试试看"
+	task.4E2DBC93ED8CC203.title: "试试看"
+	task.54F7747899613A42.title: "Any #waystones:waystones"
+	task.579CB4AE720FBB19.title: "了解"
+	task.589C74997E6AD8CE.title: "了解"
+	task.5D784AA4671927EE.title: "共享石碑"
+	task.678CB45AC6EB5C21.title: "了解"
+	task.67AA4FAC7902B00A.title: "Any #create:toolboxes"
+	task.6BDEB58616B2C275.title: "Any #functionalstorage:drawer"
+	task.73B343BB5FA6B389.title: "了解"
+	task.77C58C459DCCAE77.title: "Any #waystones:waystones"
+	task.78FE36ACA2995F64.title: "试试看"
+	task.7BDE4329B9531D79.title: "Any #minecraft:wool"
+}

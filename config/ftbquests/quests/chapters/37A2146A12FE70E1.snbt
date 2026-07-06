@@ -1,0 +1,1369 @@
+{
+	autofocus_id: "52F16F3FED5488ED"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "37A2146A12FE70E1"
+	group: "6642F1F67BC0859B"
+	icon: {
+		id: "minecraft:anvil"
+	}
+	id: "37A2146A12FE70E1"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "52F16F3FED5488ED"
+			rewards: [{
+				id: "790AF01188BC0C8C"
+				item: {
+					count: 1
+					id: "anvilcraft:geode"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "5E470D2F4F48646E"
+				item: { count: 1, id: "anvilcraft:guide_book" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52F16F3FED5488ED"]
+			id: "628DB3001CC7723B"
+			rewards: [{
+				id: "161C14F45ECC02D2"
+				item: {
+					count: 1
+					id: "minecraft:pumpkin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2270E3023024EE42"
+				item: { count: 1, id: "anvilcraft:amethyst_pickaxe" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["628DB3001CC7723B"]
+			id: "631833863A2A5E1F"
+			rewards: [{
+				id: "0114D1ADA3881489"
+				item: {
+					count: 1
+					id: "anvilcraft:anvil_hammer"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1BEAD8FD5EA5063B"
+				item: { count: 1, id: "minecraft:damaged_anvil" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["631833863A2A5E1F"]
+			id: "6B9FF06416BDA640"
+			rewards: [{
+				count: 4
+				id: "42DF42E6C89DCACC"
+				item: {
+					count: 1
+					id: "anvilcraft:geode"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "59E45EBCE6313969"
+				item: { count: 1, id: "anvilcraft:stamping_platform" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B9FF06416BDA640"]
+			icon: {
+				id: "minecraft:lightning_rod"
+			}
+			id: "20D88DF956E243B9"
+			rewards: [{
+				id: "45A72A346A523CCB"
+				item: {
+					count: 1
+					id: "minecraft:iron_block"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3456AD0E3391D4D3"
+					item: { count: 1, id: "minecraft:lightning_rod" }
+					type: "item"
+				}
+				{
+					id: "38337D264BBCB0D6"
+					item: { count: 1, id: "minecraft:iron_block" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["20D88DF956E243B9"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:piston"
+			}
+			id: "0CE7AF686BE2EFE5"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "69EA87AABA10ACF7"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6AF39F2C64EC3C84"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:fences)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "1B765AE661592DA4"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:boats)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "71F8F1F7AD4B7AA5"
+					item: { count: 1, id: "minecraft:piston" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["20D88DF956E243B9"]
+			icon: {
+				id: "anvilcraft:ferrite_core_magnet_block"
+			}
+			id: "2790065D5F10ED8D"
+			rewards: [{
+				count: 16
+				id: "3A20900D462F9911"
+				item: {
+					count: 1
+					id: "anvilcraft:magnet_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4E3253072A775E61"
+					item: { count: 1, id: "anvilcraft:ferrite_core_magnet_block" }
+					type: "item"
+				}
+				{
+					id: "429F249D914D36E8"
+					item: { count: 1, id: "minecraft:lever" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2790065D5F10ED8D"]
+			icon: {
+				id: "anvilcraft:charge_collector"
+			}
+			id: "25F2421EDCDE70CE"
+			rewards: [{
+				id: "48275AEDE9AE67E0"
+				item: {
+					count: 1
+					id: "anvilcraft:pulse_generator"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "68437BE2FF19D26E"
+					item: { count: 1, id: "anvilcraft:piezoelectric_crystal" }
+					type: "item"
+				}
+				{
+					id: "10A096B97A78F953"
+					item: { count: 1, id: "anvilcraft:charge_collector" }
+					type: "item"
+				}
+				{
+					id: "0F53459B193FBE95"
+					item: { count: 1, id: "anvilcraft:transmission_pole" }
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["25F2421EDCDE70CE"]
+			icon: {
+				id: "anvilcraft:heater"
+			}
+			id: "186329A2A56FD210"
+			rewards: [{
+				id: "1B00D46CD0EB9578"
+				item: {
+					count: 1
+					id: "supplementaries:confetti_popper"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4C8A7999FD07909C"
+					item: { count: 1, id: "anvilcraft:heater" }
+					type: "item"
+				}
+				{
+					id: "7A8B910559203E32"
+					item: { count: 1, id: "minecraft:cauldron" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["186329A2A56FD210"]
+			id: "4B739F8C258BD0C4"
+			rewards: [{
+				id: "69917F01EA674103"
+				item: {
+					count: 1
+					id: "trading_floor:trading_depot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:adventure/trade"
+				criterion: ""
+				id: "0BE8B8BCC75E898B"
+				type: "advancement"
+			}]
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B739F8C258BD0C4"]
+			hide_until_deps_complete: true
+			id: "3B0BCCECEE8775BF"
+			rewards: [{
+				count: 16
+				id: "556211A3B18D9181"
+				item: {
+					count: 1
+					id: "minecraft:oak_log"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "24E7AEF7B716B7E4"
+				item: { count: 1, id: "anvilcraft:resin_block" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4B739F8C258BD0C4"]
+			hide_until_deps_complete: true
+			id: "4E53611D08E4513D"
+			optional: true
+			tasks: [{
+				id: "47109A571C1776A8"
+				item: { count: 1, id: "anvilcraft:emerald_amulet" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4B739F8C258BD0C4"]
+			id: "52B60DBE76B4794B"
+			rewards: [{
+				id: "41FC613A2EE95B7D"
+				item: {
+					count: 1
+					id: "supplementaries:confetti_popper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4CAD18DFAE29B729"
+				item: { count: 1, id: "anvilcraft:royal_steel_ingot" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52B60DBE76B4794B"]
+			icon: {
+				id: "anvilcraft:jewelcrafting_table"
+			}
+			id: "39E11B52BE65F6B5"
+			tasks: [
+				{
+					id: "28A611F6A765A80C"
+					item: { count: 1, id: "anvilcraft:jewelcrafting_table" }
+					type: "item"
+				}
+				{
+					id: "229826875644E39D"
+					item: { count: 1, id: "anvilcraft:royal_steel_upgrade_smithing_template" }
+					type: "item"
+				}
+			]
+			x: 22.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["39E11B52BE65F6B5"]
+			id: "3020A3A992C5700D"
+			tasks: [{
+				id: "0F4A97AB062637E0"
+				item: { count: 1, id: "anvilcraft:royal_smithing_table" }
+				type: "item"
+			}]
+			x: 25.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3020A3A992C5700D"]
+			icon: {
+				id: "anvilcraft:royal_anvil"
+			}
+			id: "5A9DDD662F61550D"
+			rewards: [{
+				count: 64
+				id: "717F704287FEA7FC"
+				item: {
+					count: 1
+					id: "create:experience_nugget"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2A4649CE9513542B"
+					item: { count: 1, id: "anvilcraft:royal_anvil" }
+					type: "item"
+				}
+				{
+					id: "0796CD6CA14F61CA"
+					item: { count: 1, id: "anvilcraft:royal_grindstone" }
+					type: "item"
+				}
+			]
+			x: 27.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2790065D5F10ED8D"]
+			hide_until_deps_complete: true
+			id: "12011211264DC272"
+			optional: true
+			tasks: [{
+				id: "2FD47DA50C410A7B"
+				item: { count: 1, id: "anvilcraft:magnet" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5A9DDD662F61550D"]
+			id: "3BC40A2C1C254A3A"
+			tasks: [{
+				count: 3L
+				id: "6D4634756E21B9F2"
+				item: { count: 1, id: "minecraft:wither_skeleton_skull" }
+				type: "item"
+			}]
+			x: 30.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["754C3BCFF567AFE2"]
+			hide_until_deps_complete: true
+			id: "0A68D103B8BE5DB4"
+			rewards: [{
+				id: "09590F0D9967D119"
+				item: {
+					count: 1
+					id: "supplementaries:confetti_popper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F2E5D597272F536"
+				item: { count: 1, id: "anvilcraft:frost_metal_ingot" }
+				type: "item"
+			}]
+			x: 36.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3BC40A2C1C254A3A"]
+			id: "1480AE598B3F5363"
+			rewards: [{
+				id: "48B342E900629AF1"
+				item: {
+					count: 1
+					id: "supplementaries:confetti_popper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D31A025AE6F1866"
+				item: { count: 1, id: "minecraft:beacon" }
+				type: "item"
+			}]
+			x: 33.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1480AE598B3F5363"]
+			id: "754C3BCFF567AFE2"
+			rewards: [{
+				id: "3F48796BD0F5D1BF"
+				item: {
+					count: 1
+					id: "anvilcraft:corrupted_beacon"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 9L
+				id: "0386C0C922D7E275"
+				item: { count: 1, id: "anvilcraft:cursed_gold_block" }
+				type: "item"
+			}]
+			x: 36.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["700C61FA7B245F9C"]
+			id: "7C164BA476E7CD5B"
+			tasks: [{
+				id: "36D83D99E7E6A0A1"
+				item: { count: 1, id: "anvilcraft:oil_bucket" }
+				type: "item"
+			}]
+			x: 42.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C164BA476E7CD5B"]
+			id: "1CA3056632D85267"
+			rewards: [{
+				id: "2130517EF9B0BC32"
+				item: {
+					count: 1
+					id: "supplementaries:confetti_popper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E067DD5134CAD9F"
+				item: { count: 1, id: "anvilcraft:ember_metal_ingot" }
+				type: "item"
+			}]
+			x: 45.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52B60DBE76B4794B"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "anvilcraft:impact_pile"
+			}
+			id: "2E4F470968849D44"
+			optional: true
+			tasks: [
+				{
+					count: 4L
+					id: "38259ECAAD40895E"
+					item: { count: 1, id: "anvilcraft:ruby_laser" }
+					type: "item"
+				}
+				{
+					id: "3D23EBFF4A39D7D3"
+					item: { count: 1, id: "anvilcraft:ruby_prism" }
+					type: "item"
+				}
+				{
+					id: "642E2166E8AD4EA8"
+					item: { count: 1, id: "anvilcraft:impact_pile" }
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2E4F470968849D44"]
+			id: "66CD35919907E5AF"
+			optional: true
+			tasks: [{
+				id: "731D45501FA12A2D"
+				item: { count: 1, id: "anvilcraft:void_energy_collector" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5A9DDD662F61550D"]
+			hide_until_deps_complete: true
+			id: "1FF0F589C7990D81"
+			tasks: [{
+				id: "7C3A86797A469A49"
+				item: { count: 1, id: "anvilcraft:cursed_gold_ingot" }
+				type: "item"
+			}]
+			x: 27.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1CA3056632D85267"]
+			id: "498D6CAE7F0D43ED"
+			rewards: [{
+				id: "348227B05380B149"
+				item: {
+					count: 1
+					id: "supplementaries:confetti_popper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "0E7AF07FB81C7AC2"
+				item: { count: 1, id: "minecraft:shulker_shell" }
+				type: "item"
+			}]
+			x: 48.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["498D6CAE7F0D43ED"]
+			id: "109BE3721445EE5E"
+			rewards: [{
+				id: "5E22A597CE5442D2"
+				item: {
+					count: 1
+					id: "supplementaries:confetti_popper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "423F30522DA8FACE"
+				item: { count: 1, id: "anvilcraft:space_overcompressor" }
+				type: "item"
+			}]
+			x: 51.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["109BE3721445EE5E"]
+			hide_until_deps_complete: true
+			id: "1BB9BF9EFC596EDC"
+			tasks: [{
+				count: 16L
+				id: "19F668CAF247117B"
+				item: { count: 1, id: "minecraft:diamond_block" }
+				type: "item"
+			}]
+			x: 51.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["109BE3721445EE5E"]
+			id: "6C446DC45D0EFE73"
+			rewards: [{
+				id: "0DB97E2EA93A209B"
+				item: {
+					count: 1
+					id: "supplementaries:confetti_popper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "12B86B3A0382DB42"
+				item: { count: 1, id: "anvilcraft:neutronium_ingot" }
+				type: "item"
+			}]
+			x: 54.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C446DC45D0EFE73"]
+			id: "64B66B16E701756E"
+			tasks: [{
+				id: "0304E886F81EB905"
+				item: { count: 1, id: "anvilcraft:charged_neutronium_ingot" }
+				type: "item"
+			}]
+			x: 57.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["498D6CAE7F0D43ED"]
+			dependency_requirement: "all_started"
+			hide_until_deps_complete: true
+			id: "30BE06340C85D4A6"
+			optional: true
+			tasks: [{
+				id: "373ACED999B4BB19"
+				item: { count: 1, id: "anvilcraft:ionocraft_backpack" }
+				type: "item"
+			}]
+			x: 48.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["30BE06340C85D4A6"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "anvilcraft:capacitor"
+			}
+			id: "4BD7ABC1477AF18C"
+			optional: true
+			tasks: [
+				{
+					id: "7D56A6C2B2720CAB"
+					item: { count: 1, id: "anvilcraft:capacitor" }
+					type: "item"
+				}
+				{
+					id: "4D4DAB1264ABE7F4"
+					item: { count: 1, id: "anvilcraft:charger" }
+					type: "item"
+				}
+			]
+			x: 48.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1BB9BF9EFC596EDC"]
+			icon: {
+				id: "anvilcraft:acceleration_ring"
+			}
+			id: "525AD6D3FC562C55"
+			tasks: [
+				{
+					count: 8L
+					id: "6E0A6EBEA55CD6AD"
+					item: { count: 1, id: "anvilcraft:acceleration_ring" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "069BD039E169BBC8"
+					item: { count: 1, id: "anvilcraft:deflection_ring" }
+					type: "item"
+				}
+				{
+					id: "3B2470E1066E18C5"
+					item: { count: 1, id: "anvilcraft:heavy_iron_block" }
+					type: "item"
+				}
+				{
+					id: "741D9758B7E502A3"
+					item: { count: 1, id: "anvilcraft:tempering_glass" }
+					type: "item"
+				}
+			]
+			x: 51.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["525AD6D3FC562C55"]
+			icon: {
+				id: "anvilcraft:frost_metal_block"
+			}
+			id: "0D309C1374621C8A"
+			tasks: [
+				{
+					count: 2L
+					id: "71D165152890FB70"
+					item: { count: 1, id: "anvilcraft:frost_metal_block" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4C719A4608DF8BB4"
+					item: { count: 1, id: "anvilcraft:ember_anvil" }
+					type: "item"
+				}
+			]
+			x: 51.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0D309C1374621C8A"]
+			id: "0C4EF4D4A37ADC06"
+			tasks: [{
+				id: "6844C601BA2FFA1C"
+				item: { count: 1, id: "anvilcraft:multiphase_matter" }
+				type: "item"
+			}]
+			x: 51.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["64B66B16E701756E"]
+			id: "3EDB9250DFFFDC8A"
+			rewards: [{
+				id: "3334F5AE0AB0515F"
+				item: {
+					count: 1
+					id: "supplementaries:confetti_popper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D499B44262E8B36"
+				item: { count: 1, id: "anvilcraft:transcendium_block" }
+				type: "item"
+			}]
+			x: 60.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3EDB9250DFFFDC8A"]
+			id: "5428A8E531D969A5"
+			tasks: [{
+				id: "66BD45256EC07B23"
+				item: { count: 1, id: "anvilcraft:eight_to_one_smithing_template" }
+				type: "item"
+			}]
+			x: 63.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A4B02E72782E04B"]
+			icon: {
+				id: "anvilcraft:transcendence_anvil_hammer"
+			}
+			id: "5E2F67A9E4001AB1"
+			tasks: [
+				{
+					id: "0F7E236616846A4F"
+					item: { count: 1, id: "anvilcraft:transcendence_anvil_hammer" }
+					type: "item"
+				}
+				{
+					id: "274A4786200CB5E4"
+					item: { count: 1, id: "anvilcraft:transcendence_dragon_rod" }
+					type: "item"
+				}
+				{
+					id: "065F9C2444BFF3DD"
+					item: { count: 1, id: "anvilcraft:transcendence_heavy_halberd" }
+					type: "item"
+				}
+				{
+					id: "7521C998BF8FC57F"
+					item: { count: 1, id: "anvilcraft:transcendence_resonator" }
+					type: "item"
+				}
+			]
+			x: 65.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5428A8E531D969A5"]
+			icon: {
+				id: "anvilcraft:transcendium_upgrade_smithing_template"
+			}
+			id: "26A47109D96AD5A7"
+			rewards: [{
+				id: "6D4881E5DFF0FE83"
+				item: {
+					count: 1
+					id: "supplementaries:confetti_popper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "39869A7B6D4D1F67"
+				item: { count: 1, id: "anvilcraft:transcendium_upgrade_smithing_template" }
+				type: "item"
+			}]
+			x: 65.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0C4EF4D4A37ADC06"]
+			icon: {
+				id: "anvilcraft:heavy_halberd_core"
+			}
+			id: "10E3D0924F832EC6"
+			tasks: [
+				{
+					id: "4E6E042C5744FB74"
+					item: { count: 1, id: "anvilcraft:heavy_halberd_core" }
+					type: "item"
+				}
+				{
+					id: "2693BB8DCE1F9A02"
+					item: { count: 1, id: "anvilcraft:four_to_one_smithing_template" }
+					type: "item"
+				}
+			]
+			x: 54.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0C4EF4D4A37ADC06"]
+			icon: {
+				id: "anvilcraft:resonator_core"
+			}
+			id: "7DF4BEFADBEB9ADF"
+			tasks: [
+				{
+					id: "28CDABB9C8AC4B1D"
+					item: { count: 1, id: "anvilcraft:resonator_core" }
+					type: "item"
+				}
+				{
+					id: "68B9B8D288ABD556"
+					item: { count: 1, id: "anvilcraft:four_to_one_smithing_template" }
+					type: "item"
+				}
+			]
+			x: 48.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7C164BA476E7CD5B"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "anvilcraft:magnet_block"
+			}
+			id: "4BD59307EB5C3634"
+			tasks: [
+				{
+					id: "458565CD01D37F6D"
+					item: { count: 1, id: "anvilcraft:heat_collector" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "14A5027F35F45666"
+					item: { count: 1, id: "anvilcraft:magnet_block" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "721625EC24C0585C"
+					item: { count: 1, id: "anvilcraft:tungsten_block" }
+					type: "item"
+				}
+				{
+					id: "18520785C339D2B8"
+					item: { count: 1, id: "anvilcraft:charge_collector" }
+					type: "item"
+				}
+			]
+			x: 42.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["25F2421EDCDE70CE"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "anvilcraft:heliostats"
+			}
+			id: "6A1DFA5CB68B840B"
+			optional: true
+			tasks: [
+				{
+					count: 64L
+					id: "15314A6A332DE9DB"
+					item: { count: 1, id: "anvilcraft:heliostats" }
+					type: "item"
+				}
+				{
+					id: "33A0C126E442FF0C"
+					item: { count: 1, id: "anvilcraft:tungsten_block" }
+					type: "item"
+				}
+				{
+					id: "25B4E7482348893D"
+					item: { count: 1, id: "anvilcraft:heat_collector" }
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["754C3BCFF567AFE2"]
+			hide_until_deps_complete: true
+			id: "55DEC8C92162AD0E"
+			tasks: [
+				{
+					id: "26D5615096C27911"
+					item: { count: 1, id: "anvilcraft:ruby_block" }
+					type: "item"
+				}
+				{
+					id: "781FB8E35D3666C2"
+					item: { count: 1, id: "anvilcraft:sapphire_block" }
+					type: "item"
+				}
+				{
+					id: "487DDCE05A10AA3F"
+					item: { count: 1, id: "anvilcraft:topaz_block" }
+					type: "item"
+				}
+			]
+			x: 36.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["26A47109D96AD5A7"]
+			id: "605D85F70EF38B79"
+			rewards: [{
+				id: "44E87053BEC0A762"
+				item: {
+					count: 1
+					id: "supplementaries:confetti_popper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "00505EC3AC410BEB"
+				item: { count: 1, id: "anvilcraft:transcendence_anvil" }
+				type: "item"
+			}]
+			x: 68.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7DF4BEFADBEB9ADF"]
+			icon: {
+				id: "anvilcraft:ember_metal_resonator"
+			}
+			id: "0490516D16B022FC"
+			tasks: [
+				{
+					id: "4EF3F79170B9BDC2"
+					item: { count: 1, id: "anvilcraft:frost_metal_resonator" }
+					type: "item"
+				}
+				{
+					id: "55FF76528D2D14BA"
+					item: { count: 1, id: "anvilcraft:ember_metal_resonator" }
+					type: "item"
+				}
+			]
+			x: 45.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["10E3D0924F832EC6"]
+			icon: {
+				id: "anvilcraft:ember_metal_heavy_halberd"
+			}
+			id: "7B4967505448D27D"
+			tasks: [
+				{
+					id: "1758AFF5EA51D20A"
+					item: { count: 1, id: "anvilcraft:frost_metal_heavy_halberd" }
+					type: "item"
+				}
+				{
+					id: "2CF8E394E916C351"
+					item: { count: 1, id: "anvilcraft:ember_metal_heavy_halberd" }
+					type: "item"
+				}
+			]
+			x: 57.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7C164BA476E7CD5B"]
+			hide_until_deps_complete: true
+			id: "3434D3273D121F31"
+			tasks: [{
+				id: "13B6A96C0F5A08DC"
+				item: { components: { "anvilcraft:saved_entity": { isMonster: 1b, tag: { id: "minecraft:zombie" } } }, count: 1, id: "anvilcraft:resentful_amber_block" }
+				type: "item"
+			}]
+			x: 42.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["525AD6D3FC562C55"]
+			id: "25329C2F777F8256"
+			tasks: [{
+				id: "6DC94883B833BB09"
+				item: { count: 1, id: "anvilcraft:negative_matter_block" }
+				type: "item"
+			}]
+			x: 54.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["525AD6D3FC562C55"]
+			icon: {
+				id: "anvilcraft:uranium_ingot"
+			}
+			id: "0EF1BC9EBF6AE1D3"
+			tasks: [
+				{
+					id: "44BFEE3654590C74"
+					item: { count: 1, id: "anvilcraft:uranium_ingot" }
+					type: "item"
+				}
+				{
+					id: "1D91669E4C92204F"
+					item: { count: 1, id: "anvilcraft:uranium_block" }
+					type: "item"
+				}
+			]
+			x: 48.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0EF1BC9EBF6AE1D3"]
+			id: "41839730D89C3FA1"
+			tasks: [{
+				count: 4L
+				id: "388274A8CE57F0B1"
+				item: { count: 1, id: "anvilcraft:raw_uranium_block" }
+				type: "item"
+			}]
+			x: 45.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"4A4217E0399BAFB4"
+				"64B66B16E701756E"
+			]
+			hide_until_deps_complete: true
+			id: "27F40A9EF4C57BD7"
+			optional: true
+			tasks: [{
+				id: "6569725403A33FB0"
+				item: { count: 1, id: "anvilcraft:plutonium_nugget" }
+				type: "item"
+			}]
+			x: 57.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6C446DC45D0EFE73"]
+			hide_until_deps_complete: true
+			id: "4A4217E0399BAFB4"
+			optional: true
+			tasks: [{
+				id: "7252941859E24A63"
+				item: { count: 1, id: "anvilcraft:stable_neutronium_ingot" }
+				type: "item"
+			}]
+			x: 54.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4E53611D08E4513D"]
+			hide_until_deps_complete: true
+			id: "2709CC4F17953FB8"
+			optional: true
+			tasks: [{
+				id: "5F1D4D650D9EC78E"
+				item: { count: 1, id: "trading_floor:trading_depot" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["339B64DBFF03C75F"]
+			id: "385E701E2A01ECC8"
+			optional: true
+			tasks: [
+				{
+					count: 64L
+					id: "39C2FD790FE7FD01"
+					item: { count: 1, id: "minecraft:iron_ingot" }
+					type: "item"
+				}
+				{
+					id: "0168AD7853C5D9F7"
+					item: { count: 1, id: "minecraft:pumpkin" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2790065D5F10ED8D"]
+			hide_until_deps_complete: true
+			id: "339B64DBFF03C75F"
+			optional: true
+			tasks: [{
+				id: "2CA018D5DB593EAC"
+				item: { count: 1, id: "anvilcraft:magnetic_chute" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6B9FF06416BDA640"]
+			hide_until_deps_complete: true
+			id: "4ABD50F701E7028B"
+			optional: true
+			tasks: [{
+				id: "0F7BD0D1AACA5363"
+				item: { count: 1, id: "anvilcraft:chute" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["339B64DBFF03C75F"]
+			icon: {
+				id: "anvilcraft:item_detector"
+			}
+			id: "3371F80C22E76985"
+			optional: true
+			rewards: [{
+				count: 6
+				id: "0112AA4D033A3B6A"
+				item: {
+					count: 1
+					id: "supplementaries:cog_block"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "140522BB3B42AAE4"
+					item: { count: 1, id: "anvilcraft:item_detector" }
+					type: "item"
+				}
+				{
+					id: "1BE2101DF3F93E9B"
+					item: { count: 1, id: "anvilcraft:pulse_generator" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["498D6CAE7F0D43ED"]
+			hide_until_deps_complete: true
+			id: "5F14E48DD9F87225"
+			optional: true
+			tasks: [{
+				id: "17F5C10ECA2E8559"
+				item: { count: 1, id: "anvilcraft:spectral_anvil" }
+				type: "item"
+			}]
+			x: 48.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["39E11B52BE65F6B5"]
+			hide_until_deps_complete: true
+			id: "720A1FD029A7EB35"
+			tasks: [{
+				id: "6908910DDFA6B65C"
+				type: "checkmark"
+			}]
+			x: 22.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["754C3BCFF567AFE2"]
+			id: "700C61FA7B245F9C"
+			rewards: [{
+				id: "6334950F86ED4A59"
+				item: {
+					count: 1
+					id: "supplementaries:confetti_popper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C3A8A3B1C1D9713"
+				item: { count: 1, id: "anvilcraft:giant_anvil" }
+				type: "item"
+			}]
+			x: 39.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1CA3056632D85267"]
+			dependency_requirement: "all_started"
+			hide_until_deps_complete: true
+			id: "4255BE43A79443AC"
+			tasks: [{
+				id: "26B2B165ABE43DB7"
+				item: { count: 1, id: "anvilcraft:netherite_crystal_nucleus" }
+				type: "item"
+			}]
+			x: 45.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["631833863A2A5E1F"]
+			hide_until_deps_complete: true
+			id: "62E879B3DC1F85DC"
+			optional: true
+			tasks: [{
+				id: "17F7FCE55D6349C3"
+				item: { count: 1, id: "anvilcraft:crab_trap" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["62E879B3DC1F85DC"]
+			icon: {
+				id: "anvilcraft:block_placer"
+			}
+			id: "7B3DC5DA1E2B6C12"
+			tasks: [
+				{
+					id: "388FED9E696B9D70"
+					item: { count: 1, id: "anvilcraft:crab_claw" }
+					type: "item"
+				}
+				{
+					id: "3B38CAFC2B525301"
+					item: { count: 1, id: "anvilcraft:block_placer" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["26A47109D96AD5A7"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "anvilcraft:multiphase_transcendium"
+			}
+			id: "4A4B02E72782E04B"
+			tasks: [
+				{
+					id: "71967CC3FD431B48"
+					item: { count: 1, id: "anvilcraft:two_to_one_smithing_template" }
+					type: "item"
+				}
+				{
+					id: "4DD5011CBFD97DA6"
+					item: { count: 1, id: "anvilcraft:multiphase_transcendium" }
+					type: "item"
+				}
+			]
+			x: 65.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3371F80C22E76985"]
+			id: "7B8601DCACCF5152"
+			rewards: [{
+				count: 16
+				id: "4E5B1A769EFB9683"
+				item: {
+					count: 1
+					id: "supplementaries:cog_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "104D57BD9FD1CF69"
+				item: { count: 1, id: "supplementaries:cog_block" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["25F2421EDCDE70CE"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:copper_block"
+			}
+			id: "2B1328EF1C25F8D4"
+			optional: true
+			tasks: [
+				{
+					id: "24C116352775FF39"
+					item: { count: 1, id: "minecraft:copper_block" }
+					type: "item"
+				}
+				{
+					id: "6D71047450EE67EA"
+					item: { count: 1, id: "anvilcraft:magnet_block" }
+					type: "item"
+				}
+				{
+					id: "5A062E58E743952E"
+					item: { count: 1, id: "anvilcraft:charge_collector" }
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["385E701E2A01ECC8"]
+			id: "36BF32980D7F2389"
+			tasks: [{
+				id: "16FC1F3E94A7C5D7"
+				item: { count: 1, id: "sliceanddice:sprinkler" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["66CD35919907E5AF"]
+			id: "2991185EF14A4AC6"
+			tasks: [{
+				id: "10F90CCDF8E90C51"
+				item: { count: 1, id: "anvilcraft:menger_sponge" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 6.0d
+		}
+	]
+}
