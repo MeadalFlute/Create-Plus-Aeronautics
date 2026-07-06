@@ -3,7 +3,7 @@
 
 # Agent
 tools/
-游戏目录.lnk
+*.lnk
 
 # IDE
 .vscode/

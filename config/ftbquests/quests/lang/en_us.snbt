@@ -484,7 +484,7 @@
 		"On the recipe query page, hold down &eCrtl&f and click the formula product with &e left mouse button &r to get the recipe id, for example:"
 		""
 		"&aminecraft&r:&6spruce_trapdoor&r"
-		"&7 [Definition] ZXQPH1"
+		"&7[Definition]&r Added by &aminecraft&7 (mod)&r: &6spruce_trapdoor&7 (item)&r"
 		"{@pagebreak}"
 		"All recipes with &zkubejs&r or &zkjs&r appearing in their IDs are content added to the integration package and cannot be used outside of this integration package. For example:"
 		""
@@ -1992,7 +1992,7 @@
 		""
 		"Finally, you can use the &e trading shelf &r to realize automatic trade, which is a good way to obtain emeralds in batches."
 		""
-		"ZXQPH 0"
+		"&aTips&r: The recipe for the &eGem Processing Table&r is a &eduplication&7 (forging)&r recipe&7 (that is, you need to already have your first Emerald Amulet before you can use the Gem Processing Table to make a second one)&r. For the first amulet, sequential processing is still recommended."
 		"{@pagebreak}"
 		"You can also use Royal Steel to build laser mining equipment, which requires electricity and is very unmechanical."
 		""
@@ -2312,7 +2312,7 @@
 		""
 		"&9 honey &r meets &4 magma &r to generate &e limestone &7 (produce magma, or make volcanic ash)"
 		""
-		"&9 water &r meets &4 molten gem &r to randomly generate &e andesite &r&7 (making andesite alloy) ZX QPH7X, &e diorite &r&7 (producing zinc) &r or &e granite &r&7 (producing gold)"
+		"&9 water&r meets &4molten gemstone&r and randomly generates &eandesite&r&7 (for andesite alloy)&r, &ediorite&r&7 (for zinc)&r, or &egranite&r&7 (for gold)"
 		"{@pagebreak}"
 		"You may want to ask: Why wasn’t it said before that molten gemstones can produce granite?"
 		""
@@ -2590,13 +2590,13 @@
 		""
 		"In addition, I added some acquisition methods, you should be able to use JEI&7 (EMI) &r to view them."
 		"{@pagebreak}"
-		"Now holding &e enchanted with the looted weapon ZXQPH1"
+		"Now hold a weapon &eenchanted with Looting&r and &8&mkill&r gently pat villagers; there is a chance they will drop an Emerald Amulet."
 		""
 		"The description of the &8&m talisman was added by me. It may be wrong. If you find it, you can ask me to change it."
 		""
 		"There used to be a separate page in the &8&m tutorial book to introduce the talisman, but it was locked by default and the description of the talisman was deleted."
 		""
-		"ZXQph0"
+		"&8&mIt is not that the old description was patched up while the new one says nothing... let's just leave it here."
 		""
 		"&8 is all there, so I’d better delete them all."
 	]
@@ -2880,7 +2880,7 @@
 	]
 	quest.581B7F6328943A77.title: "H1.9 crushing wheel"
 	quest.585E803B363CB5BB.quest_desc: [
-		"ZXQPH 0"
+		"&eDeployer&r&7 (Mechanical Arm)&r can fill buckets with milk, and using a milk bucket on a &eDepot&r will automatically pour the milk out."
 		""
 		"The creature &7 (cow) &r will always sit on the &e cushion &r after it comes into contact with it. You can also use a rope to forcefully tie the creature to the cushion."
 		""
@@ -3521,7 +3521,7 @@
 	quest.6C446DC45D0EFE73.quest_desc: [
 		"Smashing enough mass into the overpressure device will produce neutron bomb &8 (a minute of silence for the iron golem) &r"
 		""
-		"ZXQph0"
+		"&aTips&r: Neutron beams pass directly through most blocks. It is best to place a layer of End Dust two blocks &ebelow&r the Supercritical Phase Shifter."
 	]
 	quest.6C446DC45D0EFE73.title: "AC1.22 neutron"
 	quest.6C62197957BBF16F.quest_desc: [
@@ -3933,7 +3933,7 @@
 		""
 		"However, the mass that can be moved by these methods is really limited, and you may need some advanced props."
 		""
-		"ZXQPH 0"
+		"&aTips&r: A &eDeployer&r can use &etopaz&7 (consumed)&r / &etopaz block&7 (not consumed)&r to process iron blocks into &ehollow magnetite blocks&r."
 	]
 	quest.79F73F15B08EC5D1.title: "Debugging, moving"
 	quest.7A0C5244D1ABB4B9.quest_desc: ["Have you noticed that you can put the backpack down and put it back? These two upgrades can make the backpack more convenient to use as a storage element."]
@@ -4046,7 +4046,7 @@
 	quest.7DF4BEFADBEB9ADF.quest_desc: [
 		"It looks like you are going to the ancient city to find trouble with the defenders."
 		""
-		"ZXQPH 0"
+		"&aTips&r: AnvilCraft adds a renewable route for Echo Shards: mobs defeated by a Warden's &esonic boom&r&7 (a Snow Golem is recommended)&r will drop one extra Echo Shard."
 	]
 	quest.7DF4BEFADBEB9ADF.title: "AC1.21.8 Resonator Core"
 	quest.7E272446BF72E20D.quest_desc: [
