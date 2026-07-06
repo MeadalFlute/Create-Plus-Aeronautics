@@ -1,6 +1,10 @@
 ﻿# KubeJS
 .probe/
 
+# Agent
+tools/
+游戏目录.lnk
+
 # IDE
 .vscode/
 .idea/
