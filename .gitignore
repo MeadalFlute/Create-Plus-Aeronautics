@@ -24,3 +24,4 @@ desktop.ini
 !CHANGELOG.md
 
 .codex/
+*.ps1

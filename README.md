@@ -1,4 +1,6 @@
-![Minecraft.png](Minecraft.png)
+<p align="center">
+  <img src="Minecraft.png" alt="Create Plus Aeronautics" />
+</p>
 
 # Create Plus Aeronautics
 
