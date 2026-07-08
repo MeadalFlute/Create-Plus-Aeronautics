@@ -1,9 +1,10 @@
-﻿# KubeJS
+# KubeJS
 .probe/
 
 # Agent
 tools/
 *.lnk
+sync.bat
 
 # IDE
 .vscode/
@@ -13,11 +14,13 @@ tools/
 Thumbs.db
 desktop.ini
 
-# 缓存和临时文件
+# Cache and temporary files
 *.下载
 *.module.css
 *·*Wiki*
 
-# 敏感信息（如果有的话）
+# Sensitive files, if any
 *.log
 !CHANGELOG.md
+
+.codex/

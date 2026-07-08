@@ -1,0 +1,12 @@
+* text=auto
+
+*.snbt text eol=lf
+*.json text eol=lf
+*.js text eol=lf
+*.mcfunction text eol=lf
+*.md text eol=lf
+
+*.png binary
+*.nbt binary
+*.jar binary
+*.zip binary
