@@ -1,3 +1,5 @@
+﻿[English](README_EN.md) | 中文
+
 <p align="center">
   <img src="Minecraft.png" alt="Create Plus Aeronautics" />
 </p>

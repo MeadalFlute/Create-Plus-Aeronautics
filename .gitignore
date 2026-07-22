@@ -4,7 +4,7 @@
 # Agent
 tools/
 *.lnk
-sync.bat
+*.bat
 
 # IDE
 .vscode/
@@ -25,3 +25,4 @@ desktop.ini
 
 .codex/
 *.ps1
+ignorefiles/
