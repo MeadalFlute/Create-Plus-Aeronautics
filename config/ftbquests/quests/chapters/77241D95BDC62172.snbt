@@ -104,8 +104,8 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:tools/knife)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 4.0d
+			x: 2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1E178EEB88CDD228"]
@@ -136,7 +136,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["40BD2A20316B98CC"]
+			dependencies: ["1E178EEB88CDD228"]
 			icon: {
 				id: "kaleidoscope_cookery:iron_kitchen_knife"
 			}
@@ -161,8 +161,8 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:tools/knife)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 2.0d
+			x: 0.0d
+			y: 3.5d
 		}
 		{
 			id: "1E178EEB88CDD228"
@@ -219,8 +219,8 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
-			y: 5.0d
+			x: 4.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["56BBF2993021E622"]
@@ -271,8 +271,8 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: 5.0d
+			x: 4.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["54953E46874B97F4"]
@@ -313,16 +313,13 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: 5.0d
+			x: 7.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["11F5C25A065AA3EA"]
 			icon: {
-				components: {
-					"ftbquests:missing_item": "displaydelight:food_plate"
-				}
-				id: "ftbquests:missing_item"
+				id: "displaydelight:food_plate"
 			}
 			id: "0AC87DB1718993F2"
 			rewards: [{
@@ -343,8 +340,8 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: 6.0d
+			x: 5.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["54953E46874B97F4"]
@@ -352,6 +349,7 @@
 				id: "kaleidoscope_cookery:chair_oak"
 			}
 			id: "06CF1E92496C2D66"
+			invisible: true
 			rewards: [
 				{
 					id: "71796532125CB2BC"
@@ -375,8 +373,8 @@
 				id: "44B6CD83ADADCFBE"
 				type: "checkmark"
 			}]
-			x: 2.0d
-			y: 6.0d
+			x: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3FFE5F7A41C3E51B"]
@@ -415,8 +413,8 @@
 				item: { count: 1, id: "minecraft:fishing_rod" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 3.0d
+			x: -0.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["73C23D5D71D93963"]
@@ -445,8 +443,8 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: 3.0d
+			x: -1.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["3F4C4C22D05DE8A4"]
@@ -483,8 +481,8 @@
 					type: "item"
 				}
 			]
-			x: 6.5d
-			y: 3.0d
+			x: -2.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["27DE7AD859F9FDCC"]
@@ -525,8 +523,8 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: 1.0d
+			x: 2.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["3FFE5F7A41C3E51B"]
@@ -581,8 +579,8 @@
 					value: 100
 				}
 			]
-			x: 3.5d
-			y: 1.0d
+			x: 0.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["40BD2A20316B98CC"]
@@ -600,7 +598,7 @@
 				type: "advancement"
 			}]
 			x: -3.5d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["438D5290BE258CBC"]
@@ -617,7 +615,7 @@
 				item: { count: 1, id: "supplementaries:fodder" }
 				type: "item"
 			}]
-			x: -5.0d
+			x: -4.5d
 			y: 1.0d
 		}
 		{
@@ -659,8 +657,8 @@
 					type: "item"
 				}
 			]
-			x: -5.0d
-			y: 3.5d
+			x: -3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["40BD2A20316B98CC"]
@@ -695,8 +693,8 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
-			y: 3.5d
+			x: -2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["154416D3A6801D63"]
@@ -716,7 +714,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["154416D3A6801D63"]
@@ -746,7 +744,7 @@
 				}
 			]
 			x: -2.0d
-			y: -1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1B033F4CB68051B3"]
@@ -772,8 +770,8 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
-			y: -2.0d
+			x: -2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["154416D3A6801D63"]
@@ -794,7 +792,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["19E7D0D5D4F06150"]
@@ -820,8 +818,8 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
-			y: -2.5d
+			x: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1B033F4CB68051B3"]
@@ -847,7 +845,7 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
+			x: -3.0d
 			y: -1.0d
 		}
 		{
@@ -899,8 +897,8 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
-			y: -2.5d
+			x: 0.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["438D5290BE258CBC"]
@@ -940,7 +938,7 @@
 					type: "item"
 				}
 			]
-			x: -5.0d
+			x: -4.5d
 			y: 2.0d
 		}
 		{
@@ -988,8 +986,8 @@
 					type: "item"
 				}
 			]
-			x: -5.0d
-			y: 0.0d
+			x: -3.5d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -1019,7 +1017,7 @@
 				}
 			]
 			x: -2.0d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4D2314DA32426B80"]
@@ -1053,7 +1051,7 @@
 				}
 			]
 			x: 2.0d
-			y: -0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4D2314DA32426B80"]
@@ -1084,8 +1082,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: -1.0d
+			x: 2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -1119,8 +1117,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 7.0d
+			x: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3E1685A174D77849"]
@@ -1151,8 +1149,8 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
-			y: -4.5d
+			x: 0.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["20478B1B35E6429D"]
@@ -1183,8 +1181,8 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
-			y: -3.5d
+			x: 0.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -1203,8 +1201,8 @@
 				item: { count: 1, id: "create:bar_of_chocolate" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 7.0d
+			x: 5.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4D2314DA32426B80"]
@@ -1230,8 +1228,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: -2.0d
+			x: 2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6A395F0A533BBFA6"]
@@ -1263,8 +1261,8 @@
 				item: { count: 1, id: "anvilcraft:large_cake" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 7.0d
+			x: 7.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4D2314DA32426B80"]
@@ -1281,7 +1279,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -2.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["54953E46874B97F4"]
@@ -1327,8 +1325,8 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: 5.0d
+			x: 8.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["54953E46874B97F4"]
@@ -1366,8 +1364,8 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: 5.0d
+			x: 5.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["54953E46874B97F4"]
@@ -1385,8 +1383,8 @@
 				item: { count: 1, id: "kaleidoscope_cookery:transmutation_lunch_bag" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 7.0d
+			x: 11.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["54953E46874B97F4"]
@@ -1418,8 +1416,8 @@
 				item: { count: 1, id: "kaleidoscope_cookery:millstone" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: 5.0d
+			x: 10.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["11F5C25A065AA3EA"]
@@ -1455,8 +1453,8 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
-			y: 7.0d
+			x: 7.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["54953E46874B97F4"]
@@ -1503,8 +1501,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: 6.0d
+			x: 5.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["441B30BAB78F4D3E"]
@@ -1554,8 +1552,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 6.0d
+			x: 7.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["603B57082D2B7448"]
@@ -1620,8 +1618,8 @@
 				item: { count: 1, id: "kaleidoscope_tavern:bar_cabinet" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 6.0d
+			x: 8.5d
+			y: 5.0d
 		}
 	]
 }

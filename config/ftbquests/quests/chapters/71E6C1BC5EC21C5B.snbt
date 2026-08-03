@@ -957,6 +957,14 @@
 					type: "loot"
 				}
 				{
+					id: "6B4758717534FEBE"
+					item: {
+						count: 1
+						id: "minecraft:brush"
+					}
+					type: "item"
+				}
+				{
 					id: "04B15ED274D7EEC1"
 					item: {
 						count: 1
@@ -1185,7 +1193,7 @@
 				item: { count: 1, id: "create:attribute_filter" }
 				type: "item"
 			}]
-			x: -6.0d
+			x: -4.0d
 			y: -7.0d
 		}
 		{
@@ -1767,6 +1775,7 @@
 				{
 					id: "5F4B0E67E3A32154"
 					item: { count: 1, id: "minecraft:firework_rocket" }
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -2843,13 +2852,13 @@
 					type: "item"
 				}
 				{
-					id: "4F76196571B75AF6"
-					item: { components: { "ftbquests:missing_item": "aeroworks:joystick" }, count: 1, id: "ftbquests:missing_item" }
+					id: "4106A57D65373D23"
+					item: { count: 1, id: "simulated:linked_typewriter" }
 					type: "item"
 				}
 				{
-					id: "4106A57D65373D23"
-					item: { count: 1, id: "simulated:linked_typewriter" }
+					id: "2C9771E04FD2AC9E"
+					item: { count: 1, id: "aeroworks:joystick" }
 					type: "item"
 				}
 				{
@@ -2984,6 +2993,45 @@
 			]
 			x: 20.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["46CCE67ABF227416"]
+			hide_until_deps_complete: true
+			id: "259C2614E8FE14AE"
+			optional: true
+			rewards: [
+				{
+					id: "0A1B2B5EF2D77402"
+					item: {
+						count: 1
+						id: "anvilcraft:heater"
+					}
+					type: "item"
+				}
+				{
+					id: "55A7280F2267C0F9"
+					item: {
+						count: 1
+						id: "minecraft:cauldron"
+					}
+					type: "item"
+				}
+				{
+					id: "5386D51F39FC7126"
+					item: {
+						count: 1
+						id: "anvilcraft:spectral_anvil"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3344B1E6AEF3621D"
+				item: { count: 1, id: "created_anvilcraft_generator:andesite_generator" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: -3.0d
 		}
 	]
 }

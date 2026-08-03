@@ -290,7 +290,7 @@
 		""
 		"&aTips&r: There is no strict order requirement for this part of the tasks. The order of completion depends on your eyes."
 	]
-	quest.0955E2B800DC1C95.quest_subtitle: "This part is more like an instruction manual than a task, so there are no numbers ("
+	quest.0955E2B800DC1C95.quest_subtitle: "This part is more like an instruction manual than a task, so there are no numbers :)"
 	quest.0955E2B800DC1C95.title: "Transmission"
 	quest.098F5ADD42F45F21.quest_desc: [
 		"Many times you will need to spread raw materials across multiple workpieces."
@@ -386,11 +386,11 @@
 	quest.0CF88205796A3F1F.quest_desc: [
 		"This is the cozy little home you prepared for the hard-working blaze &m&8 (doubtful) &r. Use it to right-click &e Blaze &r or &e blaze monster spawner &r to transform it into a Blaze Burner."
 		""
-		"The netherworld is full of dangers. Bring the &e teleportation stone tablet &r. At least it will be much more convenient to travel to and from the fortress &7 (fortress) &r."
+		"The netherworld is full of dangers. Bring the &e waystone &r. At least it will be much more convenient to travel to and from the fortress."
 		""
 		"&aTips&r: Fire retardant potion is very useful for fighting blazes."
 		"{@pagebreak}"
-		"If you can't find the fortress, you can use the &e structure compass &r and search for &efortress&r."
+		"If you can't find the fortress, you can use the &e explorer's compass &r and search for &efortress&r."
 	]
 	quest.0CF88205796A3F1F.title: "1.9 \"warm Home\""
 	quest.0D309C1374621C8A.quest_desc: ["It's a bit expensive, but everything is worth it"]
@@ -959,6 +959,13 @@
 	]
 	quest.1DBF6994087931C6.quest_subtitle: "Prerequisites (but not mandatory)"
 	quest.1DBF6994087931C6.title: "New Member"
+	quest.1DF7559560D06CF3.quest_desc: [
+		"The most important aspect of the modpack is the guidance &7 (personal opinion, please do not criticise) &r. "
+		""
+		"In this modpack, guidance is mainly provided through the quest system, which is this page. "
+		""
+		"If you are unsure what to do, follow the quest instructions to progress."
+	]
 	quest.1E178EEB88CDD228.quest_desc: [
 		"When arriving in the different world &7 (why is MC not considered a different world) &r, the first thing is to ensure that you can survive, and the second thing is to research whether the land can grow vegetables &7 (confirmation) &r."
 		""
@@ -1176,6 +1183,25 @@
 		"&8Ah, it seems... there are not many customers..."
 	]
 	quest.2562BB5024D041D5.title: "S3.10.1 \"I Open a Store in MC\""
+	quest.259C2614E8FE14AE.quest_desc: [
+		"Boilers can produce enormous amounts of stress for you to use freely. For a long time, you will no longer need to worry about stress capacity."
+		""
+		"That means you can afford a little luxury: generating electricity."
+		""
+		"This electricity can power &eAnvilCraft&r machines, such as the Heater."
+		""
+		"It can process an entire stack of ores instantly and double the output."
+		""
+		"Check its Ponder scene to learn how to use it."
+		"{@pagebreak}"
+		"AnvilCraft's machines are more fragmented than Create's, and most cannot operate on their own. This places &zextremely high demands&a①&r on your redstone skills."
+		""
+		"There is no need to get bogged down in AnvilCraft, though. This is a Create modpack, after all."
+		""
+		"&a①&r Extremely high demands: compared with Create"
+	]
+	quest.259C2614E8FE14AE.quest_subtitle: "&cDo not overtax yourself. Skip anvilcraft is OK"
+	quest.259C2614E8FE14AE.title: "S2.1.1 Power Generation"
 	quest.25C40E93F22FDAC6.quest_desc: ["Listing it is actually a recommendation not to do it. After all, Create has batch processing."]
 	quest.25C40E93F22FDAC6.title: "O2.19 Unique"
 	quest.25F2421EDCDE70CE.quest_desc: [
@@ -1346,9 +1372,9 @@
 	quest.285BF1D72C2DE4F8.quest_desc: [
 		"&e andesite alloy &r changed the world. This magical and cheap material is very suitable for transmission. It is the cornerstone of Create."
 		""
-		"&aTips:&fClick on the item in the mission target to view how to obtain it."
+		"&aTips:&fClick on the item in the &eTasks&r target to view how to craft it."
 		""
-		"Both iron granules and zinc granules can be used to make andesitic alloy. The cost of using the &e power mixer &r to make andesitic alloy is lower."
+		"Both iron granules and zinc granules can be used to make andesitic alloy. The cost of using the &e Mechanical mixer &r to make andesitic alloy is cheaper."
 		"{@pagebreak}"
 		"It is highly recommended to find a flat place to base."
 		""
@@ -1957,7 +1983,7 @@
 		""
 		"{\"text\":\"Transmission and logistics\",\"color\":\"blue\",\"underlined\":true,\"clickEvent\":{\"action\":\"change_page\",\"value\":\"0955E2B800DC1C95\"}}"
 		"{@pagebreak}"
-		"JEI&7 (EMI) &r The acquisition method can be switched to &7 at the top of the formula query page (click the arrow button to turn pages) &r."
+		"JEI&7 (EMI) &r The acquisition method can be switched to at the top of the formula query page &7(click the arrow button to turn pages) &r."
 		"{image:kubejs:textures/ftbq_image/1_6.png width:135 height:47 align:center}"
 	]
 	quest.3AC7DED6E715F8EC.title: "1.6 Young People’s First Industrial Equipment"
@@ -3201,16 +3227,29 @@
 		""
 		"Create can look intimidating at first, but it starts to make sense once you actually build with it. Enough talking: jump in, try things, and let the machines teach you."
 		""
-		"&aTranslation note&r: this English quest text was translated and polished with AI assistance. If you are a native English speaker and can improve the wording, better translations are very welcome. Contact details will be added after the project is published on GitHub."
-		""
 		"&aTips&r: some quests have multiple pages. Click the arrow in the lower-right corner to keep reading."
 		"{@pagebreak}"
 		"Nice, you found the next page. &7# applause"
 		"{@pagebreak}"
 		"Yep, that's the idea."
 		"{@pagebreak}"
-		"That's all. No more pages, really."
+		"Why hasn't the quest been completed yet?"
+		""
+		"Actually, you only need to click the &7gray check mark √&r in the &eTasks&r requirement&r. Once it turns &agreen&r, the quest can be completed."
+		"{@pagebreak}"
+		"Most FTBQuest description ware translated by Google from simplified Chinese, and I don have the energy to translate or check  manually."
+		""
+		"I'll be glad if you can privide help:"
+		""
+		"{ \"text\": \"Check GitHub and send PR\",\"color\":\"blue\", \"underlined\": true, \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://github.com/MeadalFlute/Create-Plus-Aeronautics\" } }"
+		""
+		"Bug reports:"
+		""
+		"{ \"text\": \"Leave a comment under this video\",\"color\":\"blue\", \"underlined\": true, \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://www.bilibili.com/video/BV165J56ZERr/\" } }"
+		""
+		"{ \"text\": \"Send GitHub Issue\",\"color\":\"blue\", \"underlined\": true, \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://github.com/MeadalFlute/Create-Plus-Aeronautics/issues\" } }"
 	]
+	quest.63F4051821289588.quest_subtitle: "English ver made by Google translate, quit simple to find text strange"
 	quest.63F4051821289588.title: "Welcome!"
 	quest.6415CF8000F08DF1.quest_desc: [
 		"Taking into account the needs of running maps, this package adds an immersive aircraft."
@@ -3475,7 +3514,7 @@
 		"Quickly use the attribute filter, use coarse ore as a reference, add the entry \"&e can be crushed &r\" and stuff it into the entrance of the crushing wheel to save every person who has lost their footing."
 	]
 	quest.6B58E7363BD4E0F4.title: "S2.9.3 Goudi Review!"
-	quest.6B622E9F4CE8D0A8.quest_desc: ["Use the ax to right-click the log to peel it. Then right-click the log with &e to peel the log &r and get the Andesite case."]
+	quest.6B622E9F4CE8D0A8.quest_desc: ["Use the ax to right-click the log to peel it. Then right-click the log with&e Andesite&r and get the Andesite case."]
 	quest.6B622E9F4CE8D0A8.title: "1.5 Sets of Shells!"
 	quest.6B6979B9E5EB8248.quest_desc: [
 		"A jetpack can give you a near-creative experience of flying, but it’s cumbersome to make."
@@ -4043,7 +4082,7 @@
 	quest.7D51D96006CB0199.title: "O1.1 Raw Materials"
 	quest.7DBF6F727C671718.quest_desc: ["Using the contact signal generator and wireless redstone, automatic round-trip can be achieved"]
 	quest.7DBF6F727C671718.title: "H1.6 Automated Reverse"
-	quest.7DE975B729E0C49E.quest_desc: ["Use your eloquence to convince the Blaze to work for you ("]
+	quest.7DE975B729E0C49E.quest_desc: ["Use your eloquence to convince the Blaze to work for you XD"]
 	quest.7DE975B729E0C49E.title: "1.10 Mom, Look, Blaze!"
 	quest.7DF4BEFADBEB9ADF.quest_desc: [
 		"It looks like you are going to the ancient city to find trouble with the defenders."

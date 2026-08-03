@@ -155,45 +155,32 @@
 					type: "item"
 				}
 				{
-					count: 4
-					id: "2CA87C586618212A"
+					id: "1D2B0C33298E813F"
 					item: {
-						components: {
-							"kaleidoscope_tavern:brew_level": 6
-						}
 						count: 1
-						id: "kaleidoscope_tavern:miners_star"
+						id: "kaleidoscope_tavern:godfather"
 					}
 					type: "item"
 				}
 				{
-					count: 4
-					id: "2BAFF59E3697DE8A"
+					count: 16
+					id: "2E0DD985AFEF9D75"
 					item: {
-						components: {
-							"kaleidoscope_tavern:brew_level": 6
-						}
 						count: 1
-						id: "kaleidoscope_tavern:whiskey"
+						id: "farmersdelight:stuffed_potato"
 					}
 					type: "item"
 				}
 				{
-					count: 4
-					id: "2FAEEECCEB433A7A"
-					item: {
-						components: {
-							"kaleidoscope_tavern:brew_level": 6
-						}
-						count: 1
-						id: "kaleidoscope_tavern:luminous_bride"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "4F2FBB8108C9F817"
+					table_id: 6686590560981224948L
+					type: "random"
 				}
 			]
 			tasks: [
 				{
-					count: 16L
+					count: 32L
 					id: "64EC158DDDCD5824"
 					item: { count: 1, id: "minecraft:raw_iron" }
 					type: "item"
@@ -2139,12 +2126,6 @@
 			optional: true
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "512E4DAECFC92F66"
-					table_id: 6686590560981224948L
-					type: "random"
-				}
-				{
 					count: 16
 					id: "0A96ECEC86AF3C2E"
 					item: {
@@ -2154,10 +2135,19 @@
 					type: "item"
 				}
 				{
+					count: 8
 					id: "3392BBA5C1AF2092"
 					item: {
 						count: 1
 						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "2E98326B27A743B1"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
 					}
 					type: "item"
 				}

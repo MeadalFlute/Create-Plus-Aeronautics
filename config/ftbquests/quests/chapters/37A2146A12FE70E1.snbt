@@ -190,14 +190,24 @@
 				id: "anvilcraft:charge_collector"
 			}
 			id: "25F2421EDCDE70CE"
-			rewards: [{
-				id: "48275AEDE9AE67E0"
-				item: {
-					count: 1
-					id: "anvilcraft:pulse_generator"
+			rewards: [
+				{
+					id: "48275AEDE9AE67E0"
+					item: {
+						count: 1
+						id: "anvilcraft:pulse_generator"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "515764921A1BAFB8"
+					item: {
+						count: 1
+						id: "anvilcraft:active_silencer"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "68437BE2FF19D26E"

@@ -226,6 +226,9 @@
 		}
 		{
 			dependencies: ["644E9D3E4DFC15BC"]
+			icon: {
+				id: "minecraft:writable_book"
+			}
 			id: "553B73C3A38CC394"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -243,7 +246,10 @@
 		{
 			dependencies: ["644E9D3E4DFC15BC"]
 			icon: {
-				id: "ftbquests:book"
+				components: {
+					"ftbquests:icon": "ftbquests:textures/gui/collect_rewards.png"
+				}
+				id: "ftbquests:custom_icon"
 			}
 			id: "64595B1A54501FB3"
 			rewards: [{
@@ -260,7 +266,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["08C6C0161A9864BE"]
+			dependencies: ["7B1C99709A83DCEA"]
 			icon: {
 				id: "minecraft:carved_pumpkin"
 			}
@@ -275,8 +281,8 @@
 				id: "1C4D9953CAE992D7"
 				type: "checkmark"
 			}]
-			x: -6.5d
-			y: 0.0d
+			x: -7.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3F1D55B3D10C15A8"]
@@ -298,7 +304,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["2A16BAB2FA4BDCDA"]
+			dependencies: ["08C6C0161A9864BE"]
 			icon: {
 				id: "minecraft:map"
 			}
@@ -401,10 +407,7 @@
 		{
 			dependencies: ["67F4721322D79770"]
 			icon: {
-				components: {
-					"ftbquests:missing_item": "anvilcraft:cogwheel_amulet"
-				}
-				id: "ftbquests:missing_item"
+				id: "sophisticatedbackpacks:crafting_upgrade"
 			}
 			id: "0FA4245F6B8D3912"
 			rewards: [{
@@ -422,6 +425,9 @@
 		}
 		{
 			dependencies: ["67F4721322D79770"]
+			icon: {
+				id: "minecraft:oak_sign"
+			}
 			id: "02AC24E1D7921EB0"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -441,6 +447,23 @@
 			}]
 			x: -2.5d
 			y: -3.0d
+		}
+		{
+			dependencies: ["08C6C0161A9864BE"]
+			id: "1DF7559560D06CF3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36E372115BBA11DA"
+				table_id: 5138471824333335709L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1A1BEC5B015336C6"
+				item: { count: 1, id: "ftbquests:book" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
 		}
 	]
 }
