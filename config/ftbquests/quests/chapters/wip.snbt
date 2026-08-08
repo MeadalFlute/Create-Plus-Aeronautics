@@ -1,0 +1,615 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "wip"
+	group: "6B4CE528DB927DA5"
+	icon: {
+		id: "create:steam_whistle"
+	}
+	id: "30358B4D7DE073A6"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "create:steam_whistle"
+			}
+			id: "18EFCAA387654B1A"
+			rewards: [
+				{
+					count: 256
+					id: "239569E349CF0B85"
+					item: {
+						count: 1
+						id: "create:track"
+					}
+					type: "item"
+				}
+				{
+					count: 256
+					id: "15F7E0D44A1A6C9A"
+					item: {
+						count: 1
+						id: "create:metal_girder"
+					}
+					type: "item"
+				}
+				{
+					id: "14340BE2851C4AAD"
+					item: {
+						count: 1
+						id: "railways:handcar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "38BB2518FAF5A285"
+				item: { count: 1, id: "create:track" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18EFCAA387654B1A"]
+			id: "41DA43B09C21ABDD"
+			rewards: [
+				{
+					count: 64
+					id: "1A000F741D0E05D0"
+					item: {
+						count: 1
+						id: "minecraft:spruce_log"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6198C518783C501B"
+					item: {
+						count: 1
+						id: "create:track_station"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A83739E6B471FAB"
+					table_id: 6556492525391098210L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6A0C4214DB1361E4"
+				item: { count: 1, id: "create:track_station" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["41DA43B09C21ABDD"]
+			icon: {
+				id: "create:railway_casing"
+			}
+			id: "1C3CAA1C27534E62"
+			rewards: [
+				{
+					count: 256
+					id: "689C64150CFCB711"
+					item: {
+						count: 1
+						id: "create:copycat_panel"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "69CDF2ECA2BB1ABD"
+					item: {
+						count: 1
+						id: "copycats:copycat_folding_door"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0ADE61CDDC05D282"
+					item: {
+						count: 1
+						id: "copycats:copycat_ladder"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3DA2C8267D9C2A89"
+					item: { count: 1, id: "create:railway_casing" }
+					type: "item"
+				}
+				{
+					id: "426927C115E93893"
+					item: { count: 1, id: "create:controls" }
+					type: "item"
+				}
+				{
+					id: "024316C082A74A80"
+					item: { count: 1, id: "create:super_glue" }
+					type: "item"
+				}
+				{
+					id: "492763A46B32A606"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(create:seats)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6C57D0073783814F"
+					item: { count: 1, id: "create:blaze_burner" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1C3CAA1C27534E62"]
+			icon: {
+				id: "create:portable_storage_interface"
+			}
+			id: "2BA5FD303D178FA5"
+			rewards: [
+				{
+					count: 27
+					id: "0B963C545414B0E0"
+					item: {
+						count: 1
+						id: "create:item_vault"
+					}
+					type: "item"
+				}
+				{
+					count: 27
+					id: "00834DD2020D93C8"
+					item: {
+						count: 1
+						id: "create:fluid_tank"
+					}
+					type: "item"
+				}
+				{
+					count: 27
+					id: "14D0716C6F8C1B0A"
+					item: {
+						count: 1
+						id: "railways:fuel_tank"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1D243E386678B58C"
+					item: {
+						count: 1
+						id: "create:linear_chassis"
+					}
+					type: "item"
+				}
+				{
+					id: "3969F192C047C411"
+					item: {
+						count: 1
+						id: "copycats:copycat_trapdoor"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "4F8881026B1FC75B"
+					item: { count: 1, id: "create:portable_storage_interface" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "156334C8BDB744D3"
+					item: { count: 1, id: "create:portable_fluid_interface" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "131595E43FBE2FC7"
+					item: { count: 1, id: "railways:portable_fuel_interface" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0308437427A45A5B"
+					item: { count: 1, id: "create:white_seat" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1C3CAA1C27534E62"]
+			id: "49A957BCE55402AB"
+			rewards: [{
+				id: "5C35DEF6528EB474"
+				item: {
+					count: 1
+					id: "minecraft:flint_and_steel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 12L
+				id: "5962350599C6638A"
+				item: { count: 1, id: "minecraft:obsidian" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1C3CAA1C27534E62"]
+			id: "17F191488FABC5C3"
+			rewards: [
+				{
+					id: "28A7D49785AB1063"
+					item: {
+						count: 1
+						id: "minecraft:stonecutter"
+					}
+					type: "item"
+				}
+				{
+					id: "1BCE59C5FC0C063D"
+					item: {
+						count: 1
+						id: "create:mechanical_saw"
+					}
+					type: "item"
+				}
+				{
+					id: "266590842284B2D7"
+					item: {
+						count: 1
+						id: "create:filter"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "124F2D624FD72930"
+				item: { count: 1, id: "create:steam_whistle" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"3B7A4A7D237641F9"
+				"27C0C1D582764952"
+			]
+			dependency_requirement: "one_completed"
+			id: "413600B59E0C332D"
+			rewards: [
+				{
+					count: 16
+					id: "364D79B1122D0CBF"
+					item: {
+						count: 1
+						id: "create:track_observer"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0D7C9C6CDB9286AB"
+					item: {
+						count: 1
+						id: "minecraft:redstone_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6358B2EF13C6D471"
+				item: { count: 1, id: "create:schedule" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3C5909F78FA7CFB7"]
+			id: "3B7A4A7D237641F9"
+			rewards: [
+				{
+					count: 16
+					id: "1350DD82ECD9CAC9"
+					item: {
+						count: 1
+						id: "create:track_signal"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "45FDDCECBF39413C"
+					item: {
+						count: 1
+						id: "railways:semaphore"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "61F7784CDB1AACB4"
+					item: {
+						count: 1
+						id: "create:nixie_tube"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "0371D074229C3EE5"
+				item: { count: 1, id: "create:track_signal" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["41DA43B09C21ABDD"]
+			icon: {
+				id: "railways:track_switch_brass"
+			}
+			id: "3C5909F78FA7CFB7"
+			rewards: [{
+				count: 16
+				id: "379B50EC506A98AC"
+				item: {
+					count: 1
+					id: "minecraft:snowball"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "343C5E241AEC596F"
+					item: { count: 1, id: "railways:track_switch_brass" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "05D91D2B25ACF00F"
+					item: { count: 1, id: "railways:track_switch_andesite" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1C3CAA1C27534E62"]
+			id: "1FB862502EE9B3D4"
+			rewards: [{
+				count: 35
+				id: "70FA1683E8FE5680"
+				item: {
+					count: 1
+					id: "create:mechanical_drill"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "0F8EFEA941144C53"
+				item: { count: 1, id: "create:mechanical_roller" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["41DA43B09C21ABDD"]
+			icon: {
+				id: "create:goggles"
+			}
+			id: "22DF702CDA6EC855"
+			rewards: [
+				{
+					id: "53415F80BBD549CE"
+					item: {
+						components: {
+							"minecraft:custom_data": { }
+						}
+						count: 1
+						id: "railways:remote_lens"
+					}
+					type: "item"
+				}
+				{
+					id: "2C42E58084421B68"
+					item: {
+						count: 1
+						id: "railways:conductor_whistle"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3B63A18F2DAA7671"
+					item: {
+						count: 1
+						id: "railways:conductor_vent"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7BF8DB4D9C44EC89"
+					item: { count: 1, id: "create:andesite_casing" }
+					type: "item"
+				}
+				{
+					id: "2E4ECC817CDB0B97"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(railways:conductor_caps)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2BA5FD303D178FA5"]
+			id: "27C0C1D582764952"
+			rewards: [
+				{
+					count: 4
+					id: "595BAC194ADFDD13"
+					item: {
+						count: 1
+						id: "create:white_postbox"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "674F3E3DF6AF2CCE"
+					item: {
+						count: 1
+						id: "create:packager"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "52EE37C79B85C800"
+					item: {
+						count: 1
+						id: "minecraft:spruce_hanging_sign"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7A2B57F2EC84CD4B"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(create:postboxes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["41DA43B09C21ABDD"]
+			icon: {
+				id: "create:wrench"
+			}
+			id: "6023C8292A09A3F4"
+			rewards: [
+				{
+					id: "59BBF08245CD3D19"
+					item: {
+						count: 1
+						id: "create:sequenced_gearshift"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "67A8B5CFC09C1189"
+					item: {
+						count: 1
+						id: "create:linear_chassis"
+					}
+					type: "item"
+				}
+				{
+					id: "41831348FD7C2E90"
+					item: {
+						count: 1
+						id: "railways:track_coupler"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "07A35647E3C2E707"
+					item: { count: 1, id: "create:wrench" }
+					type: "item"
+				}
+				{
+					id: "2F77C0A17DEEAC52"
+					item: { count: 1, id: "create:deployer" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["413600B59E0C332D"]
+			icon: {
+				id: "railways:track_monorail"
+			}
+			id: "399182578F0DA809"
+			rewards: [
+				{
+					count: 256
+					id: "4C64B759C8489AE0"
+					item: {
+						count: 1
+						id: "railways:track_monorail"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6064C1671656B92A"
+					table_id: 6686590560981224948L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1B499496CF65F225"
+					table_id: 6556492525391098210L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "0F44458FC317E18F"
+					item: { count: 1, id: "railways:track_monorail" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "75141D5025C2934E"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(create:tracks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 1.5d
+		}
+	]
+}

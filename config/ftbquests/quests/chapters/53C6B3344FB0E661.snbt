@@ -1503,32 +1503,94 @@
 			}
 			id: "2D2B3FC617173A73"
 			optional: true
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1191C9BF9008203A"
-				table_id: 6556492525391098210L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1191C9BF9008203A"
+					table_id: 6556492525391098210L
+					type: "random"
+				}
+				{
+					id: "46CBA51590E86EB0"
+					item: {
+						components: {
+							"prospector:prospector_data": {
+								marker_duration: 600
+								marker_mode: 0
+								sampling_mode: 0
+								scan_range: 9
+								targets: [
+									{
+										count: 1
+										id: "create:crimsite"
+									}
+									{
+										count: 1
+										id: "create:veridium"
+									}
+									{
+										count: 1
+										id: "create:scoria"
+									}
+									{
+										count: 1
+										id: "create:scorchia"
+									}
+									{
+										count: 1
+										id: "create:asurine"
+									}
+									{
+										count: 1
+										id: "create:limestone"
+									}
+									{
+										count: 1
+										id: "create:ochrum"
+									}
+									{
+										count: 1
+										id: "create:limestone"
+									}
+								]
+							}
+						}
+						count: 1
+						id: "prospector:prospector_pickaxe"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			tasks: [
 				{
 					id: "40D83884D2B228A4"
 					item: { count: 1, id: "create:crimsite" }
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "152553C2878A3E12"
 					item: { count: 1, id: "create:ochrum" }
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "67A54374EF4BD256"
 					item: { count: 1, id: "create:veridium" }
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "36D5FAE755AEFB3C"
 					item: { count: 1, id: "create:asurine" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "66BE005FE95BD7DA"
+					item: { count: 1, id: "minecraft:diamond_pickaxe" }
 					type: "item"
 				}
 			]

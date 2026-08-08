@@ -3,7 +3,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "5ED70CBDC72BFE54"
-	group: "091834D10C22ADA3"
+	group: "6B4CE528DB927DA5"
 	icon: {
 		id: "aeronautics:aviators_goggles"
 	}
@@ -134,11 +134,55 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "290933689DE40F9B"
-				item: { count: 1, id: "simulated:red_portable_engine" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "290933689DE40F9B"
+					item: { count: 1, id: "simulated:red_portable_engine" }
+					type: "item"
+				}
+				{
+					id: "1F3442CE5F82DAB6"
+					item: { count: 1, id: "create_fantasizing:compact_hydraulic_engine" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6033BB26B2C28BEF"
+					item: { count: 1, id: "create_fantasizing:compact_wind_engine" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "69B5439965A6F15B"
+					item: { count: 1, id: "createpropulsion:stirling_engine" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "558A6CA3E009A010"
+					item: { count: 1, id: "createpropulsion:solid_burner" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "423A0309929A099B"
+					item: { count: 1, id: "create_fantasizing:sculk_engine" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1D2F0A0910E6B6F6"
+					item: { count: 1, id: "create_fantasizing:yin_yang_engine" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "347B45B677F179A2"
+					item: { count: 1, id: "create:creative_motor" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 7.5d
 			y: -4.0d
 		}
@@ -919,6 +963,44 @@
 			]
 			x: 9.0d
 			y: -0.5d
+		}
+		{
+			dependencies: ["57CE0B284AFB79CA"]
+			icon: {
+				id: "anvilcraft:transcendium_upgrade_smithing_template"
+			}
+			id: "6C3D3622E0DDCC95"
+			rewards: [
+				{
+					count: 8
+					id: "7C94B4043F3986C6"
+					item: {
+						count: 1
+						id: "anvilcraft:transcendium_ingot"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12451994AB518004"
+					table_id: 6556492525391098210L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "09C5FA83F4D7AD92"
+					item: { count: 1, id: "createpropulsion:creative_thruster" }
+					type: "item"
+				}
+				{
+					id: "35E7D9F58DFF5CD1"
+					item: { count: 1, id: "createpropulsion:creative_vector_thruster" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -7.5d
 		}
 	]
 }

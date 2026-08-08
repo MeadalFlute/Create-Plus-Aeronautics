@@ -3,8 +3,10 @@
 	chapter.063210AF660B83CD.title: "量产金锭"
 	chapter.084045D88D7D96EC.title: "引言"
 	chapter.1A88E10BB2A9491B.title: "Tom的简易存储"
+	chapter.30358B4D7DE073A6.title: "[WIP]汽鸣铁道"
+	chapter.34D530AC962E8DEC.title: "重要资源获取方式汇总"
 	chapter.3637618D3ED9CB4B.title: "[WIP]沉浸式飞行器"
-	chapter.36EF2E85E94FFA2B.title: "自动化！"
+	chapter.36EF2E85E94FFA2B.title: "[弃用]自动化！"
 	chapter.37A2146A12FE70E1.title: "铿！"
 	chapter.3CD8C4662D3BAC4F.title: "附魔工业"
 	chapter.4B584BB69D7418A7.title: "[WIP]里程碑"
@@ -24,6 +26,7 @@
 	chapter_group.38A9459C780387EC.title: "生活小窍门"
 	chapter_group.48DD03AE33686FDC.title: "挑战"
 	chapter_group.6642F1F67BC0859B.title: "铁砧工艺"
+	chapter_group.6B4CE528DB927DA5.title: "通勤"
 	chapter_group.7B2C131BAF0BE966.title: "主线任务"
 	quest.000E9F2ECF5432D5.quest_desc: [
 		"有了粉碎轮，你可以大批量将圆石转变为沙砾和沙子"
@@ -31,6 +34,14 @@
 		"洗涤沙砾、红沙和灵魂沙可以获得铁、金和石英"
 	]
 	quest.000E9F2ECF5432D5.title: "量产矿物"
+	quest.004EAF9EE2AEAA4E.quest_desc: ["村民会出售滴水石块"]
+	quest.004EAF9EE2AEAA4E.title: "村民交易"
+	quest.00C23897B3EEAEFD.quest_desc: [
+		"在地下经常会大批量生成这类特殊石头，经过粉碎后能获取对应的矿物。"
+		""
+		"使用探矿镐以快速定位它们。"
+	]
+	quest.00C23897B3EEAEFD.title: "大规模矿藏"
 	quest.00CE1F4328EC11AB.quest_desc: [
 		"传送带是简单好用的物品传输方式，还可以用来传动。这么方便的物品之后用量肯定不会少，有条件可以量产一下它的原料——海带。"
 		""
@@ -303,7 +314,14 @@
 		"&aTips：&r记得看思索"
 	]
 	quest.098F5ADD42F45F21.title: "3.4分流"
+	quest.0994BCB8D5EFCA4E.quest_desc: [
+		"在地下经常会大批量生成这类特殊石头，经过粉碎后能获取对应的矿物。"
+		""
+		"使用探矿镐以快速定位它们。"
+	]
+	quest.0994BCB8D5EFCA4E.title: "大规模矿藏"
 	quest.09B330403F3C7545.quest_desc: ["还是把它贴在仓库旁边，当打包机&c受到红石信号&r时，会&c持续&r将容器中的物品打包"]
+	quest.09BC3C34B7A4D7B0.title: "铁砧工艺"
 	quest.0A68D103B8BE5DB4.quest_desc: [
 		"雪块在炼药锅上被铁砧砸一下会变成冰，同时炼药锅内会产生一层细雪，借此你可以量产浮霜金属……"
 		""
@@ -316,6 +334,8 @@
 	quest.0AA19D11C352F234.title: "S1.7.13贴贴~"
 	quest.0AC87DB1718993F2.quest_desc: ["农夫乐事中有不少食物是不能摆放的，但它们中有部分可以放在餐盘上，也有模型噢！"]
 	quest.0AC87DB1718993F2.title: "F3.4摆放食物"
+	quest.0B3D66496B266276.quest_desc: ["铅、锌、银可以通过过筛&e火山灰&r获取"]
+	quest.0B3D66496B266276.title: "过筛"
 	quest.0B4E423D0F00553B.quest_desc: [
 		"将存入的物品同时以块、锭、粒等多种形式存储。"
 		""
@@ -396,6 +416,26 @@
 	quest.0CF88205796A3F1F.title: "1.9“温馨的家”"
 	quest.0D309C1374621C8A.quest_desc: ["贵是贵了点，但一切都是值得的"]
 	quest.0D309C1374621C8A.title: "AC1.21.6昂贵的对撞"
+	quest.0D79B24C56340C45.quest_desc: [
+		"你可以通过&e洗涤&r不同的沙子来获取对应的矿物粒，所有需要的原料都可以再生。"
+		""
+		"使用JEI&7（EMI）&r以查询具体获取方式。"
+		""
+		"{ \"text\": \"相关补充信息\",\"color\":\"blue\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"44E4DB19E314EABB\" } }"
+		""
+		"&aTips&r：铜粒由洗涤&e火山灰&r或&e可控沙&r获取，用火山灰会简单很多。"
+		""
+		"下一页有别的方法。"
+		"{@pagebreak}"
+		"这五种特殊石头都可以由圆石合成，且合成路径非常多样。"
+		""
+		"步骤长短不一，有些会比较繁琐，建议都看一遍，然后选最喜欢的。"
+		""
+		"你可以自行设计、搭建产线，以实现量产。"
+		""
+		"圆石怎么获取？刷石机会不，应该不用教吧？"
+	]
+	quest.0D79B24C56340C45.title: "圆石生万物"
 	quest.0D82EA971359499B.quest_desc: [
 		"要说末地其实也没什么重要的资源给你，可以等忙完了再去拜访它们"
 		""
@@ -634,6 +674,7 @@
 	]
 	quest.112A60B1E4DAD6AD.quest_subtitle: "工作效率只与转速挂钩"
 	quest.112A60B1E4DAD6AD.title: "S1.6.3快一点，再快一点"
+	quest.11B92BA6A58AD720.title: "土生土长"
 	quest.11B9BB3FA707DA1D.quest_desc: [
 		"原版的合成器效率相当不错，也是个好的选择。"
 		""
@@ -743,8 +784,12 @@
 	]
 	quest.156A3365E209D363.quest_subtitle: "&c滥用该功能可能会损害游戏体验"
 	quest.156A3365E209D363.title: "赊账"
+	quest.1572E75B690DD564.quest_desc: ["将宝石混入熔融宝石中，塑形，获得对应的宝石块。"]
+	quest.1572E75B690DD564.title: "熔融宝石"
 	quest.15C05C2A9039B324.quest_desc: ["取出动态结构中物品的方法之一"]
 	quest.15C05C2A9039B324.title: "S1.7.13自动取物"
+	quest.16E1D2B2AF8645E7.quest_desc: ["钨矿、下届残骸均可以通过&e注液&r不同药水获取。"]
+	quest.16E1D2B2AF8645E7.title: "炼金术"
 	quest.175C11A7E58931AE.quest_desc: [
 		"将动力锯搭载在动态结构上，一次性砍伐整棵树，并自动收集掉落物&7（如有容器）&r。"
 		""
@@ -778,6 +823,8 @@
 		"{ \"text\": \"量产金锭\",\"color\":\"blue\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"469208ED7DC7B90E\" } }"
 	]
 	quest.17E1343A083C40E0.title: "H5.2.3量产诅咒金"
+	quest.17F191488FABC5C3.quest_desc: ["汽鸣铁道添加了大量的装饰性方块，搜索“&e@rails&r”来查看它们！"]
+	quest.17F191488FABC5C3.title: "T1.3.1装饰列车"
 	quest.180F4DF11E0D9B34.quest_desc: [
 		"链接器可以将抽屉方块接入/移出抽屉网络&7（对着空气右键、shift+右键以切换模式）&r。"
 		""
@@ -819,6 +866,23 @@
 	]
 	quest.18C1E22A9888E1B5.quest_subtitle: "记得看思索！"
 	quest.18C1E22A9888E1B5.title: "S1.11.4建造树场"
+	quest.18EFCAA387654B1A.quest_desc: [
+		"机械动力添加了一套强大的铁路系统，但还不够。"
+		""
+		"于是就有了&e《机械动力：汽鸣铁道》&r，一个专注于扩展铁路系统的模组。"
+		""
+		"在接下来的任务中，我会混着按次序介绍铁路系统的具体功能。"
+		""
+		"在此之前，你需要准备一点基础的东西，也就是列车轨道。"
+		"{@pagebreak}"
+		"本整合包中使用的是汽鸣铁道的非官方移植版，因为官方版本一直没出来。"
+		""
+		"如果你想提前了解一下这部分有什么用，可以看一下这个视频："
+		""
+		"{ \"text\": \"铁路系统简单介绍\",\"color\":\"blue\", \"underlined\": true, \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://www.bilibili.com/video/BV1gCNkeGEJR?p=12\" } }"
+	]
+	quest.18EFCAA387654B1A.quest_subtitle: "非官方移植版"
+	quest.18EFCAA387654B1A.title: "T1.1汽鸣铁道"
 	quest.190F08AFB913637A.quest_desc: [
 		"制造这些美味小零食，让烈焰人进行超越附魔——最高可以附魔到60级！"
 		""
@@ -909,6 +973,16 @@
 		"优点举例：仅需提供应力&7（不消耗燃料）&r，处理速度极快&7（相较原版）&r，同时处理上限仅取决于你电脑的性能。"
 	]
 	quest.1C04AB8617976CBD.title: "S1.7.12批量加工"
+	quest.1C3CAA1C27534E62.quest_desc: [
+		"使用&e列车机壳&r创建你的第一个转换架！"
+		""
+		"之后，你可以在转换架上继续完成列车建造。一台列车至少要1个转换架和1个列车驾驶台。"
+		""
+		"你可以使用坐垫来安置列车驾驶员，或者使用烈焰人燃烧室代劳。它们可以配合列车时刻表自动开车，而且比你开得快。"
+		""
+		"&aTips&r：别忘了用强力胶！"
+	]
+	quest.1C3CAA1C27534E62.title: "T1.3组装列车"
 	quest.1C571172EDD00AC2.quest_desc: [
 		"给汽车装个镗头，就变成盾构机了。"
 		""
@@ -1001,6 +1075,14 @@
 		"{ \"text\": \"相关补充信息\",\"color\":\"blue\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"44E4DB19E314EABB\" } }"
 	]
 	quest.1F9AD531D28B402C.title: "H3.6.1逃课"
+	quest.1FB862502EE9B3D4.quest_desc: [
+		"列车上也可以装载元件，比如钻头和压路机。"
+		""
+		"很推荐你在列车上使用压路机，不过由于航空学的奇妙BUG，经常性会漏掉部分方块。"
+		""
+		"&aTips&r：拐弯的列车轨道是没有碰撞箱的，你会踩空掉下去。"
+	]
+	quest.1FB862502EE9B3D4.title: "T1.3.2工作车"
 	quest.1FB8F3E6B3CE1FB4.quest_desc: ["这个货物蛙港在粉碎轮这里，就叫它&e粉碎&r吧"]
 	quest.1FF0F589C7990D81.quest_desc: [
 		"后续你需要用诅咒金块搭信标，快去多收集点"
@@ -1123,6 +1205,17 @@
 		"不过单个搅拌器显然效率不够高，你也需要为这一步准备堆叠设计&8——如果你追求效率的话"
 	]
 	quest.22847E52B5242373.title: "H3.6花岗岩"
+	quest.2298ABEC00E545E7.title: "钨、钛、锡、银、铅"
+	quest.22DF702CDA6EC855.quest_desc: [
+		"矮小灵活的指挥机器人是人工控制红石电路的好帮手。"
+		""
+		"虽然不能放置、破坏方块，但它们可以操控按钮、拉杆，已经很有用啦！"
+		""
+		"&aTips&r：使用&e机器人通道&r为它们预留快速通道。"
+	]
+	quest.22DF702CDA6EC855.title: "T1.2.2指挥机器人"
+	quest.22F6493780CA5E18.quest_desc: ["过筛火山灰获取青金石"]
+	quest.22F6493780CA5E18.title: "过筛"
 	quest.2311F440D9DD1D20.quest_desc: [
 		"通过控制&e水平&r放置的&e对称风帆&r的迎角&7（建议不超过30°）&r，能获得不同方向的升力，从而实现&e俯仰控制&r。"
 		""
@@ -1141,6 +1234,12 @@
 	quest.23636E72D5D35C87.title: "4.10智慧工厂"
 	quest.23D39D0E1647207D.quest_desc: ["野外河边现在会生成野生亚麻，破坏后掉落种子，它们可以稳定地为你提供线"]
 	quest.23D39D0E1647207D.title: "O2.1寻找亚麻种子"
+	quest.248EE09D0CD9A24D.quest_desc: [
+		"粉碎紫水晶块回收紫水晶"
+		""
+		"也可以用砧板"
+	]
+	quest.248EE09D0CD9A24D.title: "粉碎紫水晶块"
 	quest.249AC0661E558EED.quest_desc: [
 		"粉碎轮可以将粗矿粉碎，使&e矿物增产&r。"
 		""
@@ -1320,7 +1419,19 @@
 	]
 	quest.26737A5660E83B28.quest_subtitle: "先看说明书"
 	quest.26737A5660E83B28.title: "O5.2跑图神器"
+	quest.2674DC9309EDD25F.quest_desc: [
+		"在地下经常会大批量生成这类特殊石头，经过粉碎后能获取对应的矿物。"
+		""
+		"使用探矿镐以快速定位它们。"
+	]
+	quest.2674DC9309EDD25F.title: "大规模矿藏"
 	quest.26A47109D96AD5A7.title: "AC1.26超越极限！"
+	quest.26A7CB7354874119.quest_desc: [
+		"在地下经常会大批量生成这类特殊石头，经过粉碎后能获取对应的矿物。"
+		""
+		"使用探矿镐以快速定位它们。"
+	]
+	quest.26A7CB7354874119.title: "大规模矿藏"
 	quest.26BEAF09440ADDAF.quest_desc: [
 		"算的兄弟，算的。"
 		""
@@ -1345,6 +1456,12 @@
 		"&aTips&r：空心磁铁不能传导红石信号，其他两种都可以。"
 	]
 	quest.2790065D5F10ED8D.title: "AC1.6喏，吸铁石"
+	quest.27A36CE2AB72F808.quest_desc: [
+		"&e安山岩&r可以由燧石&e塑形&r获取。"
+		""
+		"[ \"也可以用\", { \"text\": \"熔融宝石刷石机\", \"color\":blue,\"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"44E4DB19E314EABB\" } } ]"
+	]
+	quest.27A36CE2AB72F808.title: "塑形"
 	quest.27A7F173EAB82EF0.quest_desc: [
 		"传送带也可以直线运输应力——但是是垂直于传动杆的平面内运输。"
 		""
@@ -1353,6 +1470,12 @@
 		"使用扳手&e右键&r传送带&7（方块）&r可以缩短传送带，&eShift&r+&e右键&r则是拆除传送带。"
 	]
 	quest.27A7F173EAB82EF0.quest_subtitle: "副标题随便写点，免得说我霸凌传送带"
+	quest.27C0C1D582764952.quest_desc: [
+		"邮箱将机械动力6.0新增的物流系统接入列车系统，让远距离自动派件成为现实。"
+		""
+		"&aTips&r：目标地址是由打包机决定，而不是邮箱。"
+	]
+	quest.27C0C1D582764952.title: "T1.3.4后会“邮”期"
 	quest.27DE7AD859F9FDCC.quest_desc: [
 		"许多食物能提供强力的药水效果，吃一桌宴席更是能提供长达30分钟的强力效果。"
 		""
@@ -1458,7 +1581,7 @@
 		""
 		"&8这个模组Bug很多，使用时可能出各种奇奇怪怪的问题。遇到BUG不要怀疑自己，一定是模组的问题"
 	]
-	quest.299541DBC10244DF.quest_subtitle: "[WIP]"
+	quest.299541DBC10244DF.quest_subtitle: "&m[WIP]&r [R.I.P.]"
 	quest.299541DBC10244DF.title: "S3.11.1运输流体"
 	quest.29CD73BC72280746.quest_desc: [
 		"只要粘了羊毛/风帆它就能转，不论风帆长什么样，不论有没有风，甚至可以穿墙，哇哦！"
@@ -1466,6 +1589,16 @@
 		"&aTips：&f每8个羊毛/风帆可以提升一级风车等级，产出更多的应力，并提高转速"
 	]
 	quest.29CD73BC72280746.title: "S1.6.2它是怎么转起来的？"
+	quest.29CED57CCD52EBA9.quest_desc: [
+		"机械动力本身的流体系统可以说是相当不好用，因此有了附属模组&e《机械动力：流体》&r来专程增强流体系统。"
+		""
+		"这部分属于拓展内容，虽然真的非常方便，但后续任务中会尽量避免提及它们，毕竟这是个教学包。"
+		""
+		"就当是给自学能力强大的你一些解题捷径吧:)"
+		""
+		"&aTips&r：搜索“&e@fluid&r”以查看该模组添加的内容。"
+	]
+	quest.29CED57CCD52EBA9.title: "S2.2.3流体拓展"
 	quest.2A16BAB2FA4BDCDA.quest_desc: [
 		"按住&e鼠标前侧键&r可以放大远处的景象，使用&e鼠标滚轮&r可以进一步缩放"
 		""
@@ -1514,8 +1647,18 @@
 	]
 	quest.2B1328EF1C25F8D4.quest_subtitle: "这算什么…切割磁感线？"
 	quest.2B1328EF1C25F8D4.title: "AC1.7.2另一种发电方式"
+	quest.2B76BD6A425C92B7.quest_desc: ["将宝石混入熔融宝石中，时移，获得对应的宝石块。"]
+	quest.2B76BD6A425C92B7.title: "时移"
 	quest.2B97BCEBEDDF02E1.quest_desc: ["有些配方你可能需要大量使用——利用漏斗供料和收集，让机器提前大量备料，能省去无聊的等待时间"]
 	quest.2B97BCEBEDDF02E1.title: "批处理"
+	quest.2BA5FD303D178FA5.quest_desc: [
+		"你可以使用各种接口，在列车和车站间交换物品。"
+		""
+		"使用伪装活版门遮盖接口，让列车更美观。"
+		""
+		"&aTips&r：列车上有燃料时，会尝试消耗燃料加速。"
+	]
+	quest.2BA5FD303D178FA5.title: "T1.3.3运输车"
 	quest.2C1301A9907AB057.quest_desc: [
 		"在&e末地外岛&r会零散刷新一些试炼房间，挑战成功后能获取钥匙，打开宝库。"
 		""
@@ -1545,6 +1688,7 @@
 		"地形生成这块我还是初学者，欢迎指教。若遇到问题还请体谅一下orz"
 	]
 	quest.2C1301A9907AB057.title: "S2.17.4试炼"
+	quest.2C6BE589450E6334.quest_desc: ["往铁锭里充电，获得磁铁锭"]
 	quest.2CE821475BC7BFE8.quest_desc: [
 		"按住波浪键“&e~&r”&7（不出意外的话，波浪键在你键盘左上方，Esc键的下面第一个）&r即可激活连锁挖矿。激活后，连锁挖矿的状态提示会显示在你屏幕&e左上角&r。"
 		""
@@ -1556,9 +1700,19 @@
 	]
 	quest.2CE821475BC7BFE8.title: "连锁挖矿"
 	quest.2D2B3FC617173A73.quest_desc: [
-		"这些五颜六色的石头会成片成片地生成，储量往往上千——经过粉碎处理后可以从中提取出矿物，这就是上千的矿物锭！"
+		"这些五颜六色的石头会成片成片地生成，储量巨大且易于规模化开采。"
 		""
-		"目前我们缺少合适的工具，无法开采。不过它们依然值得你在地图上留下标记，以便日后取用。"
+		"经过粉碎处理后可以从中提取出矿物，这就是成千上万的矿物锭！"
+		""
+		"目前我们缺少合适的工具，还做不到粉碎它们。不过它们依然值得你在地图上留下标记，以便日后取用。"
+		"{@pagebreak}"
+		"探矿镐在钻石镐的基础上，右键可以粗探地下矿物，非常适合搭配&e垂直矿机&r&7（后面会教）&r使用。"
+		""
+		"探矿镐没有合成配方，不过可以用钻石修复。"
+		""
+		"另外，探矿镐可以附魔，但是不能用附魔台附魔。如有需要请使用铁砧+附魔书。"
+		""
+		"&aTips&r：使用皇家砂轮可以清除附魔经验惩罚"
 	]
 	quest.2D2B3FC617173A73.quest_subtitle: "这些是支线，不用急着完成的喔"
 	quest.2D2B3FC617173A73.title: "S1.3.1漂亮的石头"
@@ -1642,6 +1796,8 @@
 	quest.2E816548D1DE0868.title: "3.1与容器交互"
 	quest.2EA20C058E731DB4.quest_desc: ["这个神奇的模板广泛存在于下界的宝箱中，可以让你的烈焰人执掌附魔的权能（）"]
 	quest.2EA20C058E731DB4.title: "E1.6烈焰人转职"
+	quest.2ECF3D88C2366928.quest_desc: ["你会造苦力怕刷怪塔吗？"]
+	quest.2ECF3D88C2366928.title: "苦力怕掉落"
 	quest.2EF4CFFEACC11C2C.quest_desc: [
 		"复生土是下界版沃土，由放置在下界的忘魂肥料“忘却”获得。"
 		""
@@ -1664,6 +1820,8 @@
 		"&8想想看，还可以用来干什么？"
 	]
 	quest.2EF9EAC427C522C0.title: "S2.6.5集成式再生水、岩浆"
+	quest.2F48103BD793ACB9.quest_desc: ["这些矿物由铁砧工艺添加，可以通过&e注液&r不同的药水获取。"]
+	quest.2F48103BD793ACB9.title: "炼金术"
 	quest.2F616531E63466F0.quest_desc: [
 		"锁链传动轮可以相当自由地彼此连接，传输应力的同时兼具送货功能，非常好用。"
 		""
@@ -1723,6 +1881,12 @@
 		"▷利用工厂仪表，建造一条全自动食品产线&7（你可以自选量产目标）"
 	]
 	quest.30ED3DE9089FB3F2.title: "吃点好的"
+	quest.31357BFEE09B328E.quest_desc: [
+		"粉碎钻石制品可以回收部分钻石。"
+		""
+		"从村民处购买钻石制品。"
+	]
+	quest.31357BFEE09B328E.title: "粉碎旧装备"
 	quest.3154F3DFC46A4654.quest_desc: [
 		"如果你尚未决定接下来干什么，可以试着造火车，或者搭建智能化工厂&7（或者玩别的整合包）&r。"
 		""
@@ -1865,8 +2029,10 @@
 	quest.35BE83CC6ACDBC05.title: "O1.4传送石碑"
 	quest.35DCD1A9FEE91CB8.quest_desc: ["亚麻可以1:1合成线"]
 	quest.35DCD1A9FEE91CB8.title: "O2.2亚麻线"
+	quest.36998F46F141A4D7.quest_desc: ["这三种粉尘均可以由&e余烬面粉&r注液不同的药水获取。"]
+	quest.36998F46F141A4D7.title: "炼金术"
 	quest.36BF32980D7F2389.quest_desc: [
-		"机械动力可以批量炼制药水，此外使用洒水器可以将流体以100mb/次的速度往下洒。"
+		"机械动力可以批量炼制药水，此外使用雾化器可以将流体往前喷洒。"
 		""
 		"二者配合，你就可以自动给所有生物洒药水进行治疗……"
 		""
@@ -1917,7 +2083,7 @@
 	quest.376B0226F9435FAD.quest_desc: [
 		"这是来自Tom的简易存储中的神奇小道具，可以通过它访问容器&7（比如置物台、漏斗、物品保险库等）&r"
 		""
-		"你还可以把它粘到动态结构上，从而直接拿取动态结构中的物品。"
+		"你还可以把它粘到&e动态结构&r上&7（需要强力胶）&r，从而直接拿取动态结构中的物品。"
 		""
 		"&aTips&r：进入黄铜时代后，你可以组建物联网，让产线自动调用仓库里面的原料。"
 		""
@@ -1957,6 +2123,12 @@
 	]
 	quest.397A15088D9D7C59.quest_subtitle: "采蘑菇的史蒂夫，背着一个大箩筐"
 	quest.397A15088D9D7C59.title: "F1.8种蘑菇"
+	quest.399182578F0DA809.quest_desc: [
+		"汽鸣铁道还增添了多种轨道，以期满足更复杂的需求。"
+		""
+		"虽然我并不建议你开历史倒车，还是车同轨比较好。"
+	]
+	quest.399182578F0DA809.title: "T1.8更多轨道"
 	quest.39D1FAC09600EFD3.quest_desc: [
 		"纸板不止可以做打包机，他还能做盔甲和武器"
 		""
@@ -2029,6 +2201,12 @@
 	]
 	quest.3B6D08C930787F82.quest_subtitle: "这不是机械动力的内容，不过你可能感兴趣"
 	quest.3B6D08C930787F82.title: "S1.11.1哪来的东西"
+	quest.3B7A4A7D237641F9.quest_desc: [
+		"列车信号机可以将列车轨道“分段”，有效避免撞车。"
+		""
+		"配合红石可以实现进阶功能，也很适合为装饰提供红石信号。"
+	]
+	quest.3B7A4A7D237641F9.title: "T1.6道路管理"
 	quest.3BC40A2C1C254A3A.quest_desc: [
 		"紫水晶剑自带&e斩首&r附魔&7（最高Ⅲ级）&r，这样你收集凋零骷髅头应当方便些"
 		""
@@ -2061,6 +2239,18 @@
 	quest.3C2CEBF878AB2A20.title: "汽车类"
 	quest.3C537D53825E8207.quest_desc: ["{ \"text\": \"相关补充信息\",\"color\":\"blue\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0E261EE5B5EA8F41\" } }"]
 	quest.3C537D53825E8207.title: "H5.4.2量产……下界合金？！"
+	quest.3C5909F78FA7CFB7.quest_desc: [
+		"一个列车轨道可以链接到多个不同位置的列车轨道，这会创建一些重叠的弯道。"
+		""
+		"驾驶列车时，使用“A”、“W”、“D”在多个弯道间切换。"
+		""
+		"这个功能很有用，尤其是创建大型车站时。"
+		""
+		"转辙器不是必须的。"
+	]
+	quest.3C5909F78FA7CFB7.title: "T1.5岔路"
+	quest.3D17451FBC81AF36.quest_desc: ["解包滴水石块，获得滴水石锥"]
+	quest.3D17451FBC81AF36.title: "解包"
 	quest.3D641E50217E411F.quest_desc: ["一般就前期用来合成铁背包"]
 	quest.3D641E50217E411F.title: "O2.6便宜背包"
 	quest.3D7032A4AB2988DE.quest_desc: [
@@ -2211,6 +2401,14 @@
 		"仓库用什么容器都可以，但是我很推荐物品保险库。"
 	]
 	quest.41207AC7A7FD17B3.title: "仓库"
+	quest.413600B59E0C332D.quest_desc: [
+		"使用列车时刻表右键列车司机&7（比如烈焰人燃烧室）&r，司机将根据时刻表自动运作。"
+		""
+		"也可以放置在&e列车站点&r上方，会自动覆盖给停靠在站点的列车司机。"
+		""
+		"{ \"text\": \"正则匹配车站名称\",\"color\":\"blue\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"10F6FE7BC7406958\" } }"
+	]
+	quest.413600B59E0C332D.title: "T1.7自动化运营"
 	quest.4147FD563F5B8437.quest_desc: [
 		"动力钻头可以破坏面前的方块，即便是黑曜石也不例外。"
 		""
@@ -2268,6 +2466,14 @@
 		"感兴趣的话可以看看思索和自动化章节。"
 	]
 	quest.41D3A1AE0002B54B.title: "F1.13自动化"
+	quest.41DA43B09C21ABDD.quest_desc: [
+		"在铺设好的铁路上，使用列车站点创建车站，你可以在车站中组装你的第一台列车。"
+		""
+		"之后，你可以随意铺设铁路、增减站点。"
+		""
+		"当你在为车站取名时，最好取一个规整点的名字。"
+	]
+	quest.41DA43B09C21ABDD.title: "T1.2路网与车站"
 	quest.4202A7B822717C80.quest_desc: [
 		"自然界不会自然生成地核碎片或相关矿物，除非主动刺激。"
 		""
@@ -2290,6 +2496,14 @@
 	quest.4274FBFC68ACEB87.title: "S1.11.3节约锻造模板"
 	quest.429A59AB51756FCC.quest_desc: ["多余的钻石给我多好，干嘛做这个"]
 	quest.429A59AB51756FCC.title: "O2.14用不着"
+	quest.42EA77856F0001DD.quest_desc: [
+		"这里只会罗列JEI&7（EMI）&r查询起来比较困难的获取方式。"
+		""
+		"“&eCtrl + F&r”可以搜索任务。"
+		""
+		"&eJEI&7（EMI）&r也是好帮手。"
+	]
+	quest.42EA77856F0001DD.title: "获取方式\\获取项目"
 	quest.438D5290BE258CBC.quest_desc: [
 		"你能想象没有肉蛋奶的世界吗？"
 		""
@@ -2356,6 +2570,12 @@
 		"{ \"text\": \"重戟核心\",\"color\":\"blue\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"10E3D0924F832EC6\" } }"
 	]
 	quest.457937D43D028BF6.title: "S2.17.6多功能工具"
+	quest.45A166BD8DAE84F9.quest_desc: [
+		"&e粉碎&r钻石制品，根据耐久回收部分钻石。"
+		""
+		"&e巨型铁砧&r可以将3×3×3的煤炭块转化为1个钻石块。"
+	]
+	quest.45A166BD8DAE84F9.title: "粉碎、合成"
 	quest.4691BD12327CDEB7.quest_desc: ["狼铠是个很OP的装备，不过人不能穿。"]
 	quest.4691BD12327CDEB7.title: "H5.3.3潜影贝农场的替代品"
 	quest.469208ED7DC7B90E.quest_desc: [
@@ -2373,7 +2593,7 @@
 		""
 		"如果你需要在下界中使用蒸汽锅炉，水龙头也能帮上忙。"
 	]
-	quest.46B354A9BBAA036A.title: "S2.2牙签撬大象"
+	quest.46B354A9BBAA036A.title: "S2.2.1牙签撬大象"
 	quest.46CCE67ABF227416.quest_desc: [
 		"进入黄铜时代，蒸汽锅炉成为了应力的最佳来源。"
 		""
@@ -2424,6 +2644,16 @@
 		"&aTips&r:用刷子刷&e犰狳&r可以快速获得犰狳壳"
 	]
 	quest.498D6CAE7F0D43ED.title: "AC1.20探索末地"
+	quest.49A957BCE55402AB.quest_desc: [
+		"列车可以通过下界传送门。"
+		""
+		"而众所周知，下界1格=主世界8格。"
+		""
+		"因此，你可以在下界建造特快列车。"
+		""
+		"&aTips&r：建在地狱基岩层上方是个很不错的主意"
+	]
+	quest.49A957BCE55402AB.title: "T1.4地狱交通"
 	quest.49AA6727342CA7EB.quest_desc: [
 		"石英砂经过洗涤后可以产出锌，火山灰经过洗涤后更是可以产出铜、锌、铁，三种矿物。"
 		""
@@ -2468,17 +2698,19 @@
 		""
 		"&aTips&r：记得翻页"
 		"{@pagebreak}"
-		"如果实在不方便做强力胶，你可以先使用一些无需强力胶就可以彼此粘黏在一起的方块应急，比如任务里提到的。"
+		"如果实在不方便做强力胶，你可以先使用一些无需强力胶就可以彼此粘黏在一起的方块应急，比如任务需求里提到的。"
 		""
 		"不过，不论如何你总要强力胶的，迟早还是要做。"
 		""
-		"&7我都这么安利了，你就做一个嘛做一个嘛"
+		"&7我都这么安利了，你就做一个嘛做一个嘛做一个嘛"
 		"{@pagebreak}"
 		"就算运气不好找不到史莱姆也没关系"
 		""
 		"机械动力为黏液球添加了合成配方，快用JEI&7（EMI）&r查询一下。"
 		""
 		"{ \"text\": \"或者你可以跟着这个任务来\",\"color\":\"blue\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"70B69557EC69A476\" } }"
+		""
+		"{ \"text\": \"动态元件概览\",\"color\":\"blue\", \"underlined\": true, \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://www.bilibili.com/video/BV1gCNkeGEJR?p=5\" } }"
 	]
 	quest.4A218D10EEB4096E.quest_subtitle: "先做这个任务！"
 	quest.4A218D10EEB4096E.title: "S1.7.1那很强力了"
@@ -2529,6 +2761,18 @@
 	quest.4BD59307EB5C3634.title: "AC1.18.1油电"
 	quest.4BD7ABC1477AF18C.quest_desc: ["一根电容器可以给飘升机补充50%的电"]
 	quest.4BD7ABC1477AF18C.title: "AC1.20.2续航"
+	quest.4BF63C881904FBC1.quest_desc: ["监守者使用音波攻击，击败任意生物时，会额外掉落一枚回响碎片"]
+	quest.4BF63C881904FBC1.title: "音波攻击"
+	quest.4C140FE7AA365101.quest_desc: [
+		"所有具有“&e粗矿物块&r”形态的矿物，都可以由激光采矿批量获取。"
+		""
+		"详见&e铁砧工艺指南&r的“激光采矿”、“矿物涌泉”部分。"
+		""
+		"&aTips&r：你可以使用&e安山发电机&r发电。"
+		""
+		"&e矿物涌泉&7（多方块结构）&r也产火山灰。"
+	]
+	quest.4C140FE7AA365101.title: "激光采矿"
 	quest.4CE6FD6210F20209.quest_desc: [
 		"出！nnd为什么不出！你给我出啊！"
 		""
@@ -2612,6 +2856,12 @@
 		"当然你完全可以直接攀铁砧工艺的科技线，绕过机械动力把它做出来"
 	]
 	quest.4E3CFC1C3EDC6E56.title: "S2.17.5造神器第一步"
+	quest.4E479B2AC0165C0E.quest_desc: [
+		"与村民交易可以获取绿宝石"
+		""
+		"使用&e交易置物台&r自动批量获取绿宝石"
+	]
+	quest.4E479B2AC0165C0E.title: "村民交易"
 	quest.4E53611D08E4513D.quest_desc: [
 		"手持&7（或装备）&r绿宝石护符可以让村民给你折扣，至于怎么获得护符嘛…"
 		""
@@ -2638,6 +2888,7 @@
 		"&8它不能代替流体储罐搭建蒸汽锅炉"
 	]
 	quest.4E5F7465E4545CC9.title: "S2.6.4更便捷的流体储罐"
+	quest.4E9D7D15638B9AF3.title: "生物刷取"
 	quest.4EFB4B43B0977EA5.quest_desc: ["控制器和扩展器也可以自定义纹理"]
 	quest.4EFB4B43B0977EA5.title: "O3.8也装饰一下"
 	quest.4F0981C6A7D6C9D5.quest_desc: [
@@ -2681,7 +2932,7 @@
 		""
 		"精密构件的制作过程被称作&e序列组装&r，算是机械动力的特色。"
 		""
-		"本包在机械动力原有的基础上额外添加了些有趣的序列组装配方，感兴趣可以试试看。"
+		"本包在机械动力原有的基础上额外添加了些有趣的序列组装配方，遇到了可以试试看。"
 	]
 	quest.5094D6E28313B8AD.quest_subtitle: "神之手的力量是绝对的！"
 	quest.5094D6E28313B8AD.title: "2.5亚空间压缩技术"
@@ -2879,6 +3130,11 @@
 	quest.55DEC8C92162AD0E.title: "AC1.16.2宝石转化"
 	quest.5616A7673F58B988.quest_desc: ["用一些手段，比如溜槽，把小仓库里面的物品运进粉碎轮"]
 	quest.5616A7673F58B988.title: "进料"
+	quest.56173986CFBAFCBC.quest_desc: [
+		"地下自然生成滴水石块、滴水石锥。"
+		""
+		"使用&e探矿镐&r快速定位它们。"
+	]
 	quest.56357E854A76AA08.quest_desc: ["很方便的流体来源，水生成升级在下界里也能用"]
 	quest.56357E854A76AA08.title: "O3.18再见，滴水石锥炼药锅"
 	quest.565FC8E39E2DAD09.quest_desc: [
@@ -3119,6 +3375,7 @@
 		"试着把所有的设备都接入这套系统吧"
 	]
 	quest.5EDEAC56DF308BBD.title: "3.12神功大成"
+	quest.5EFE7FF5F215DEB3.title: "机械动力"
 	quest.5F052C4E1F23717A.quest_desc: [
 		"除了便携式引擎，这里还有一些进阶的应力源。"
 		""
@@ -3162,6 +3419,14 @@
 	]
 	quest.5F91CA3FD1CD4D40.quest_subtitle: "799~呼呼呼~"
 	quest.5F91CA3FD1CD4D40.title: "S1.7.6御风者"
+	quest.6023C8292A09A3F4.quest_desc: [
+		"汽鸣铁道允许持有扳手的机械手右键列车站点以自动拆装列车。"
+		""
+		"这允许你在车站中设置对列车进行自动的操作，比如更换货舱。"
+		""
+		"如果只是需要增减车厢，连挂器可能更实用。"
+	]
+	quest.6023C8292A09A3F4.title: "T1.2.1自动拆装"
 	quest.603B57082D2B7448.quest_desc: [
 		"将浆果放入&e果盆&r中，用你的脚慢慢将它们踩碎&7（翻译：在盆里跳）&r，获得关键原料——浆果汁。"
 		""
@@ -3329,6 +3594,12 @@
 		"森罗物语的物品标签系统简直是一团乱麻，烦死了"
 	]
 	quest.646D0951BFFCE244.title: "F1.3榨油"
+	quest.6498D4A8917CC48D.quest_desc: [
+		"在地下经常会大批量生成这类特殊石头，经过粉碎后能获取对应的矿物。"
+		""
+		"使用探矿镐以快速定位它们。"
+	]
+	quest.6498D4A8917CC48D.title: "大规模矿藏"
 	quest.64A10A249D1222A1.quest_desc: ["阿巴阿巴…"]
 	quest.64A10A249D1222A1.title: "O3.14升级4"
 	quest.64AEEAEE183968EE.quest_desc: ["看着工作站慢慢悠悠地运行总让人等得心浮气躁，试着把通入的应力速度提高到256rpm吧！"]
@@ -3379,6 +3650,13 @@
 		"&c悲报&r：虚空衰变不产诅咒金块了"
 	]
 	quest.66CD35919907E5AF.title: "AC1.10.2虚空矿机（？）"
+	quest.66DE1A267E937181.quest_desc: [
+		"击杀铁傀儡获取铁锭。"
+		""
+		"村庄中会自然生成铁傀儡。"
+	]
+	quest.66DE1A267E937181.quest_subtitle: "并不是说别的不能刷生物获取，只是不推荐"
+	quest.66DE1A267E937181.title: "刷铁机"
 	quest.66F7CB84CEA26D26.quest_desc: [
 		"试试看量产吧，不需要多少资源，难度也不高"
 		""
@@ -3440,6 +3718,11 @@
 		"我把使用方法写物品介绍里面了:)"
 	]
 	quest.697E93BB81B45AAE.title: "S1.11.5妙妙小工具2.0"
+	quest.6983C80D4250A5D0.quest_desc: [
+		"&e闪电&r劈到铁块时，会将铁块转化为&e空心磁铁块&r。"
+		""
+		"往空心磁铁块中放入铁锭，会缓慢转化为&e磁铁块&r。"
+	]
 	quest.6994597220DA39DA.quest_desc: [
 		"抽屉可以加装升级，各种升级的效果为乘算。"
 		""
@@ -3563,6 +3846,7 @@
 	]
 	quest.6B9FF06416BDA640.quest_subtitle: "动力冲压机：？"
 	quest.6B9FF06416BDA640.title: "AC1.4铿！"
+	quest.6BBE868EADD6AD33.quest_desc: ["紫水晶母岩上会生长紫水晶簇，破坏水晶簇会掉落紫水晶。"]
 	quest.6BCAC18D81E9476D.quest_desc: [
 		"机械动力的大部分工件都有提供“&e思索&r”:这是一套完善的动画教程。"
 		""
@@ -3583,6 +3867,14 @@
 		"{ \"text\": \"比如贴一个终端上去\", \"underlined\": true,\"color\":\"blue\",\"clickEvent\": { \"action\": \"change_page\", \"value\": \"376B0226F9435FAD\" } }"
 	]
 	quest.6BE2FADB6BBB8E57.title: "S1.6.5大型仓库"
+	quest.6C3D3622E0DDCC95.quest_desc: [
+		"使用超限升级模板，可以将部分物品升级为超限版本——也就是创造版本。"
+		""
+		"创造版本的物品不需要能源供给，具有无限耐久，更大的出力，更多的可调选项。"
+		""
+		"总之，就是同类物品里面最强大的那一个。"
+	]
+	quest.6C3D3622E0DDCC95.title: "超限化"
 	quest.6C3FDDA6C2D1E84D.quest_desc: [
 		"安装后可以收集指定方向的掉落物"
 		""
@@ -4050,8 +4342,20 @@
 		"之后，你可以直接在物理结构上继续建造。"
 		""
 		"&aTips&r：请妥善保管你的手杖，它的合成配方很贵"
+		"{@pagebreak}"
+		"目前该部分进度还只是处于分类列出资料，因为我有些抓瞎了，不知道怎么写可以更清晰明了"
+		""
+		"可能做成一个实战任务，比如让你跟着造一艘船？"
+		""
+		"有什么好的建议，欢迎反馈给我。"
+		""
+		"{ \"text\": \"在该视频下评论\",\"color\":\"blue\", \"underlined\": true, \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://www.bilibili.com/video/BV165J56ZERr/\" } }"
+		""
+		"{ \"text\": \"Github Issue\",\"color\":\"blue\", \"underlined\": true, \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://github.com/MeadalFlute/Create-Plus-Aeronautics/issues\" } }"
 	]
+	quest.7ADEAB99C8CE4802.quest_subtitle: "未完工、未编号。"
 	quest.7ADEAB99C8CE4802.title: "航空学"
+	quest.7AF85362D35B6C8D.quest_desc: ["机械手使用&e黄玉&7（消耗）&r、&e黄玉块&7（不消耗）&r可以将铁块转化为空心磁铁块。"]
 	quest.7B1C99709A83DCEA.quest_desc: ["玉&7（Jade）&r能帮助你快速确认生物、方块等的信息&7（显示在屏幕顶部的正中间）&r，你可以根据给出的名字和模组信息进一步搜索"]
 	quest.7B1C99709A83DCEA.quest_subtitle: "What's that？"
 	quest.7B1C99709A83DCEA.title: "那是什么东东？"
@@ -4080,9 +4384,12 @@
 		"有了它，对付铁砧工艺那定是轻而易举啊（赞许）"
 	]
 	quest.7B8601DCACCF5152.title: "AC1.6.4浮空红石粉"
+	quest.7BD8FD7FE0303EB9.title: "各类宝石"
 	quest.7C164BA476E7CD5B.quest_desc: ["&e时移&r肉和头颅可以获得原油"]
 	quest.7C164BA476E7CD5B.title: "AC1.18当心滋生霉菌"
 	quest.7C4308026EBF4714.quest_desc: ["在仓库附近放一个锁链传动轮，稍微放高一点，因为蛙港只能与不低于自身高度的锁链交互"]
+	quest.7CB70812BFE011B6.quest_desc: ["时移晶洞，获得紫水晶母岩"]
+	quest.7CB70812BFE011B6.title: "时移"
 	quest.7CBCEFD6188F3C75.quest_desc: [
 		"这个任务只是把它们列出来，毕竟它们的物品描述都很清晰了。"
 		""
@@ -4110,6 +4417,12 @@
 		"&aTips&r：现在末影珍珠可以循坏再生了噢！"
 	]
 	quest.7D51D96006CB0199.title: "O1.1原料"
+	quest.7D64DD2E8BCB540A.quest_desc: [
+		"时移晶核获取下界残骸。"
+		""
+		"使用&e加热器&r进行熔炼，一个残骸可以获得两个碎片。"
+	]
+	quest.7D64DD2E8BCB540A.title: "时移"
 	quest.7DBF6F727C671718.quest_desc: ["使用接触时信号发生器，配合无线红石，可以实现自动往返"]
 	quest.7DBF6F727C671718.title: "H1.6自动反向"
 	quest.7DE975B729E0C49E.quest_desc: ["发挥你的口才，说服烈焰人替你工作吧（"]
@@ -4199,8 +4512,10 @@
 	task.2383F5B86E9CC813.title: "了解"
 	task.2D039D4FD338670C.title: "Any #create:postboxes"
 	task.2D7C5032B2DB782B.title: "Any #create:seats"
+	task.2E4ECC817CDB0B97.title: "Any #railways:conductor_caps"
 	task.307DA1E2AF30324B.title: "祝你好运"
 	task.34B7AEA470FC5A44.title: "Any #functionalstorage:drawer"
+	task.36AD053126389F47.title: "了解"
 	task.374D2397A2390402.title: "Any #minecraft:boats"
 	task.37BCE350EA681E8D.title: "了解"
 	task.3A00F471DD3C2D42.title: "Any #waystones:warp_shards"
@@ -4217,11 +4532,13 @@
 	task.46ADE1FC839455D2.title: "了解"
 	task.472CFA504015F330.title: "Any #minecraft:anvil"
 	task.4782590CDE587ADF.title: "了解"
+	task.492763A46B32A606.title: "Any #create:seats"
 	task.49E1F067ECB8869A.title: "操控组件"
 	task.4A1236ACD9E0FD02.title: "了解"
 	task.4CA216E51B36075E.title: "Any #c:seeds"
 	task.4E2DBC93ED8CC203.title: "试试看"
 	task.517C7061A0D342F8.title: "Any #aeronautics:envelope"
+	task.519EDF006330D70B.title: "了解"
 	task.51DF89C9550D7999.title: "了解"
 	task.54F7747899613A42.title: "Any #waystones:waystones"
 	task.579CB4AE720FBB19.title: "了解"
@@ -4238,9 +4555,11 @@
 	task.6B114069C175BA52.title: "了解"
 	task.6BDEB58616B2C275.title: "Any #functionalstorage:drawer"
 	task.73B343BB5FA6B389.title: "了解"
+	task.75141D5025C2934E.title: "Any #create:tracks"
 	task.77C58C459DCCAE77.title: "Any #waystones:waystones"
 	task.78ED9F1D1B2227C2.title: "了解"
 	task.78FE36ACA2995F64.title: "试试看"
+	task.7A2B57F2EC84CD4B.title: "Any #create:postboxes"
 	task.7BDE4329B9531D79.title: "Any #minecraft:wool"
 	task.7FD9BAA3ADC41042.title: "了解"
 	task.7FE66367198A0FB4.title: "了解"

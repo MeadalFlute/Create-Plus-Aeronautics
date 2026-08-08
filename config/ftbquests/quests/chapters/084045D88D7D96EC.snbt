@@ -436,14 +436,8 @@
 				type: "random"
 			}]
 			tasks: [{
-				icon: {
-					components: {
-						"ftbquests:icon": "fzzy_config:textures/gui/sprites/widget/action/alert_highlighted.png"
-					}
-					id: "ftbquests:custom_icon"
-				}
-				id: "595A31328BBEBA11"
-				type: "custom"
+				id: "519EDF006330D70B"
+				type: "checkmark"
 			}]
 			x: -2.5d
 			y: -3.0d
