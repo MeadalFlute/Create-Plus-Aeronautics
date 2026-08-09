@@ -42,14 +42,14 @@ assignees: ''
 
 ## 环境信息 | Environment
 
-| 项目 | 内容 | Item | Details |
-| --- | --- | --- | --- |
-| 整合包版本 |  | Modpack version |  |
-| Minecraft 版本 |  | Minecraft version |  |
-| NeoForge / Forge / Fabric 版本 |  | NeoForge / Forge / Fabric version |  |
-| 启动器 |  | Launcher |  |
-| Java 版本 |  | Java version |  |
-| 操作系统 |  | Operating system |  |
+| 项目 | Item | 内容Details |
+| --- | --- | --- |
+| 整合包版本 | Modpack version |  |
+| Minecraft 版本 | Minecraft version |  |
+| NeoForge版本 | NeoForge version |  |
+| 启动器 | Launcher |  |
+| Java 版本 | Java version |  |
+| 操作系统 | Operating system |  |
 
 ## 其他信息 | Additional Context
 
